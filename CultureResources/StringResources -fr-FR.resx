@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmRegistroUsuario.btoSalir" xml:space="preserve">
+    <value>&amp;Sortir</value>
+  </data>
+  <data name="frmRegistroUsuario.btoValidar" xml:space="preserve">
+    <value>&amp;Valider</value>
+  </data>
+  <data name="frmRegistroUsuario.lblClave" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="frmRegistroUsuario.lblIdioma" xml:space="preserve">
+    <value>Langage</value>
+  </data>
+  <data name="frmRegistroUsuario.lblTitulo" xml:space="preserve">
+    <value>Validation de l'utilisateur</value>
+  </data>
+  <data name="frmRegistroUsuario.lblUsuario" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="frmRegistroUsuario.messBienvenida" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="frmRegistroUsuario.messCambiarClave" xml:space="preserve">
+    <value>vous devez faire le changement de votre mot de passe</value>
+  </data>
+  <data name="frmRegistroUsuario.messCerrandoSistema" xml:space="preserve">
+    <value>Fermeture du système</value>
+  </data>
+  <data name="frmRegistroUsuario.messClaveInvalida" xml:space="preserve">
+    <value>Mot de passe invalide</value>
+  </data>
+  <data name="frmRegistroUsuario.messErrorValidacion" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmRegistroUsuario.messPedirClave" xml:space="preserve">
+    <value>Vous devez entrer un mot de passe utilisateur</value>
+  </data>
+  <data name="frmRegistroUsuario.messPedirUsuario" xml:space="preserve">
+    <value>Vous devez entrer un nom d'utilisateur</value>
+  </data>
+  <data name="frmRegistroUsuario.messSalidaSistema" xml:space="preserve">
+    <value>Sortie du système</value>
+  </data>
+  <data name="frmRegistroUsuario.messUsuarioBloqueado" xml:space="preserve">
+    <value>Utilisateur bloqué, vous devez contacter l'administrateur système</value>
+  </data>
+  <data name="frmRegistroUsuario.messValidacionCorrecta" xml:space="preserve">
+    <value>Validation correcte</value>
+  </data>
+  <data name="frmRegistroUsuario.messValidacionUsuario" xml:space="preserve">
+    <value>Validation de l'utilisateur</value>
+  </data>
+  <data name="frmRegistroUsuario.Text" xml:space="preserve">
+    <value>Contrôle d'accès au système MIT CORE</value>
+  </data>
+  <data name="frmRegistroUsuario.UsuarioInvalido" xml:space="preserve">
+    <value>Utilisateur invalide</value>
+  </data>
+  <data name="frmRegistroUsuario.lblOlvidoContrasena" xml:space="preserve">
+    <value>Vous avez oublié votre mot de passe?</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
+    <value>Admission</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAuditoria" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
+    <value>L'aide</value>
+  </data>
+  <data name="frmPrincipal.MenuStripHistorialOperaciones" xml:space="preserve">
+    <value>Histoire des opérations</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio-CambiarSesion" xml:space="preserve">
+    <value>Changement de session</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio-Salir" xml:space="preserve">
+    <value>Sortir</value>
+  </data>
+  <data name="frmPrincipal.MenuStripMantenimiento" xml:space="preserve">
+    <value>La maintenance</value>
+  </data>
+  <data name="frmPrincipal.MenuStripProcesos" xml:space="preserve">
+    <value>Les processus</value>
+  </data>
+  <data name="frmPrincipal.MenuStripReportes" xml:space="preserve">
+    <value>Les rapports</value>
+  </data>
+  <data name="frmPrincipal.MenuStripStatusEliminados" xml:space="preserve">
+    <value>Statut éliminé</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablas" xml:space="preserve">
+    <value>Des tableaux</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablasUsuarios" xml:space="preserve">
+    <value>Les utilisateurs</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablaUsuariosStatus" xml:space="preserve">
+    <value>Statut d'utilisateur</value>
+  </data>
+  <data name="frmPrincipal.MenuStripUsuariosEliminados" xml:space="preserve">
+    <value>Utilisateurs supprimés</value>
+  </data>
+  <data name="frmPrincipalInicio.CambiarSesion" xml:space="preserve">
+    <value>Changer de session</value>
+  </data>
+  <data name="frmPrincipalInicio.Salir" xml:space="preserve">
+    <value>Sortir</value>
+  </data>
+  <data name="frmPrincipalMantenimiento.EstatusEli" xml:space="preserve">
+    <value>Statut éliminé</value>
+  </data>
+  <data name="frmPrincipalMantenimiento.UsuariosEli" xml:space="preserve">
+    <value>Utilisateurs supprimés</value>
+  </data>
+  <data name="frmPrincipalTablas.TablaStatus" xml:space="preserve">
+    <value>Tableau des états</value>
+  </data>
+  <data name="frmPrincipalTablas.TablaUsuario" xml:space="preserve">
+    <value>Tableau des utilisateurs</value>
+  </data>
+  <data name="frmCambiarClave.btoAceptar" xml:space="preserve">
+    <value>Accepter</value>
+  </data>
+  <data name="frmCambiarClave.btoCancelar" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="frmCambiarClave.lblConfirmarContraseña" xml:space="preserve">
+    <value>Confirmer mot de passe:</value>
+  </data>
+  <data name="frmCambiarClave.lblContraseña" xml:space="preserve">
+    <value>Mot de passe:</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaActualizada" xml:space="preserve">
+    <value>Mot de passe mis à jour avec succès</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaEnBlanco" xml:space="preserve">
+    <value>Les champs ne peuvent pas être vides</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñasIguales" xml:space="preserve">
+    <value>Les mots de passe doivent être les mêmes</value>
+  </data>
+  <data name="frmCambiarClave.messPreguntasenBlanco" xml:space="preserve">
+    <value>Vous devez répondre à la question</value>
+  </data>
+  <data name="frmCambiarClave.messValidaciondeContraseña" xml:space="preserve">
+    <value>Le mot de passe doit être différent du mot de passe actuel</value>
+  </data>
+  <data name="frmCambiarClave.Titulo" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñaActualizada" xml:space="preserve">
+    <value>Validation des champs</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñaEnBlanco" xml:space="preserve">
+    <value>Validation des champs</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñasIguales" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmCambiarClave.TituloValidaciondeContraseña" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoAgregar" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoCancelar" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoEliminar" xml:space="preserve">
+    <value>Enlever</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lblCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lvCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
+    <value>Des questions</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messEliminarPregunta" xml:space="preserve">
+    <value>Vous voulez supprimer la question sélectionnée</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messEliminarPreguntaEnBlanco" xml:space="preserve">
+    <value>Vous devez entrer une question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messPreguntaEnBlanco" xml:space="preserve">
+    <value>Vous devez entrer une question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messPreguntaRegistrada" xml:space="preserve">
+    <value>Question enregistrée avec succès</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TITULO" xml:space="preserve">
+    <value>Questions de sécurité</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.tituloEliminarPregunta" xml:space="preserve">
+    <value>Validation Elimination</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TituloEliminarPreguntaEnBlanco" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TituloPreguntaEnBlanco" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TituloPreguntaRegistrada" xml:space="preserve">
+    <value>Validation de l'inscription</value>
+  </data>
+  <data name="frmValidarClaveVieja.btoCancelar" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="frmValidarClaveVieja.btoValidar" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblContraseña" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblIngreseClaveActual" xml:space="preserve">
+    <value>Pour votre sécurité, entrez la clé actuelle</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveEnBlanco" xml:space="preserve">
+    <value>Vous devez entrer votre mot de passe actuel</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveInvalida" xml:space="preserve">
+    <value>Mot de passe invalide</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveValida" xml:space="preserve">
+    <value>Mot de passe correct</value>
+  </data>
+  <data name="frmValidarClaveVieja.messMaximoDeIntentos" xml:space="preserve">
+    <value>Épuisé les 3 tentatives autorisées, vous devez contacter l'administrateur système</value>
+  </data>
+  <data name="frmValidarClaveVieja.messUsuarioBloqueado" xml:space="preserve">
+    <value>Utilisateur bloqué, contactez l'administrateur pour accéder au système.</value>
+  </data>
+  <data name="frmValidarClaveVieja.tituloClaveEnBlanco" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloFormulario" xml:space="preserve">
+    <value>Valider le mot de passe actuel</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloMaximoDeIntentos" xml:space="preserve">
+    <value>Erreur de validation</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloUsuarioBloqueado" xml:space="preserve">
+    <value>La validation</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloValidacionClaveActual" xml:space="preserve">
+    <value>Valider le mot de passe actuel</value>
+  </data>
+</root>

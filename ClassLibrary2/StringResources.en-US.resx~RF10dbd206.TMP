@@ -1,0 +1,1653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="agregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Almacen" xml:space="preserve">
+    <value>Warehouse:</value>
+  </data>
+  <data name="Almacenes" xml:space="preserve">
+    <value>Warehouses</value>
+  </data>
+  <data name="Almacenes1" xml:space="preserve">
+    <value>Warehouses</value>
+  </data>
+  <data name="Articulos" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="ArticulosCompuestos" xml:space="preserve">
+    <value>Articles Composites</value>
+  </data>
+  <data name="Atributos" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="Ayuda" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="btnBuscar.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnBuscar.Text1" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnSalir.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnSalir.Text1" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="btoAceptar.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="btoAceptar.Text1" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="btoAgregar" xml:space="preserve">
+    <value>F5 Add</value>
+  </data>
+  <data name="btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btoBuscar.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btoBuscar.Text1" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btoDescartar" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="btoEditar" xml:space="preserve">
+    <value>F6 Edit</value>
+  </data>
+  <data name="btoEliminar" xml:space="preserve">
+    <value>F8 Remove</value>
+  </data>
+  <data name="BtoEliminarTodo.Text" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="BtoEliminarTodo.Text1" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="btoGuardar" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="btoRestaurar" xml:space="preserve">
+    <value>F5  Restore</value>
+  </data>
+  <data name="btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoSalir.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoSalir.Text1" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoSalir.Text11" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoSalir.Text2" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btoValidar" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="CambiarClave" xml:space="preserve">
+    <value>You must make the change of your password</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CedulaDeProducto" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="CedulasDeProduccion" xml:space="preserve">
+    <value>Production Certificates</value>
+  </data>
+  <data name="CierredeOrden" xml:space="preserve">
+    <value>Order Closure</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="Codigo.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Codigo.Text1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CodigoAsociado" xml:space="preserve">
+    <value>Associated Code</value>
+  </data>
+  <data name="ConfiguraciondeIVA" xml:space="preserve">
+    <value>VAT settings</value>
+  </data>
+  <data name="Contacto" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="ControldeMaquinas" xml:space="preserve">
+    <value>Machine Control</value>
+  </data>
+  <data name="Controles" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="CostoEstandar" xml:space="preserve">
+    <value>Standard cost</value>
+  </data>
+  <data name="DBActualizacionExitosa" xml:space="preserve">
+    <value>Successful Update</value>
+  </data>
+  <data name="DBContraseñaActualizada" xml:space="preserve">
+    <value>Password Updated</value>
+  </data>
+  <data name="DBEliminacionexitosa" xml:space="preserve">
+    <value>Successful Elimination</value>
+  </data>
+  <data name="DBRegistroexitoso" xml:space="preserve">
+    <value>Successful registration</value>
+  </data>
+  <data name="DBRestauracionExitosa" xml:space="preserve">
+    <value>Successful Restoration</value>
+  </data>
+  <data name="DBUsuarioRegistrado" xml:space="preserve">
+    <value>User is already Registered</value>
+  </data>
+  <data name="DebeIngresarUnCodigo" xml:space="preserve">
+    <value>You must enter a code</value>
+  </data>
+  <data name="Descartar" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="descripcion.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="descripcion.Text1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DeseaEliminarLaSucursal" xml:space="preserve">
+    <value>Do you want to delete the branch:</value>
+  </data>
+  <data name="DetallesDeUsuario" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="Devoluciones" xml:space="preserve">
+    <value>Returns</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="editar" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ElCampoDescripcion_NoPuede_EstarVacio" xml:space="preserve">
+    <value>The Description field cannot be empty</value>
+  </data>
+  <data name="ElCodigoesAutogeneradoporELsistema" xml:space="preserve">
+    <value>The code is self-generated
+ by the system. </value>
+  </data>
+  <data name="ElEstadoEstaAsociadoaUsuarios" xml:space="preserve">
+    <value>The State cannot be deleted because it is associated with existing users</value>
+  </data>
+  <data name="ElEstadoNoSePuede_EliminarPorqueEstaAsociado_aUsuariosExistentes" xml:space="preserve">
+    <value>The State cannot be deleted because it is associated with existing users</value>
+  </data>
+  <data name="ElEstadoNoSePuede_liminarPorqueEsta_AsociadoaUsuariosEnMantenimiento" xml:space="preserve">
+    <value>The State cannot be deleted because it is associated with users in maintenance</value>
+  </data>
+  <data name="Eliminar" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>&amp;Company</value>
+  </data>
+  <data name="Empresa1" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Empresa2" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="EntregasParciales" xml:space="preserve">
+    <value>Partial deliveries</value>
+  </data>
+  <data name="ErrordeValidacion" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="ErrorDeValidacion1" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="EstatusDeMaquina" xml:space="preserve">
+    <value>Machine Status</value>
+  </data>
+  <data name="Facturas" xml:space="preserve">
+    <value>Bills</value>
+  </data>
+  <data name="FacturasdeCompra" xml:space="preserve">
+    <value>Purchase invoices</value>
+  </data>
+  <data name="FacturasdeVentas" xml:space="preserve">
+    <value>Sales Invoices</value>
+  </data>
+  <data name="FAX" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FechaCreacion" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="frmAlmacenes.TituloPanel" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="frmAtributo.EliminarAtributo" xml:space="preserve">
+    <value>Do you want to remove the Attribute</value>
+  </data>
+  <data name="frmAtributo.EliminarEstatusMaquina" xml:space="preserve">
+    <value>Do you want to delete Status</value>
+  </data>
+  <data name="frmAtributos" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="frmCambiarClave.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmCambiarClave.btoCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmCambiarClave.lblConfirmarContraseña" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="frmCambiarClave.lblContraseña" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="frmCambiarClave.messContraseña123" xml:space="preserve">
+    <value>The new password must be different from the current and startup password</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaActualizada" xml:space="preserve">
+    <value>Password Updated with Success</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaActualizadaconExito" xml:space="preserve">
+    <value>Password Updated with Success</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaEnBlanco" xml:space="preserve">
+    <value>Fields can not be blank</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñasIguales" xml:space="preserve">
+    <value>Passwords Must Be Equal</value>
+  </data>
+  <data name="frmCambiarClave.messPreguntasenBlanco" xml:space="preserve">
+    <value>You must answer the question</value>
+  </data>
+  <data name="frmCambiarClave.messUstedPresionoCancel" xml:space="preserve">
+    <value>You press cancel</value>
+  </data>
+  <data name="frmCambiarClave.messValidaciondeContraseña" xml:space="preserve">
+    <value>The password must be different from the current password</value>
+  </data>
+  <data name="frmCambiarClave.Titulo" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñaActualizada" xml:space="preserve">
+    <value>Validation of fields</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñaEnBlanco" xml:space="preserve">
+    <value>Validation of fields</value>
+  </data>
+  <data name="frmCambiarClave.TituloContraseñasIguales" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmCambiarClave.TituloValidaciondeContraseña" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmCambiarRespuestas.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmCambiarRespuestas.btoCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmCambiarRespuestas.lblIngreseRespuesta" xml:space="preserve">
+    <value>Enter your new Reply</value>
+  </data>
+  <data name="frmCambiarRespuestas.lblSelelccionesPreguntas" xml:space="preserve">
+    <value>Select the Question</value>
+  </data>
+  <data name="frmCambiarRespuestas.lblTitulo" xml:space="preserve">
+    <value>Modification of responses</value>
+  </data>
+  <data name="frmCambiarRespuestas.messRespuestaenBlanco" xml:space="preserve">
+    <value>You must enter a response</value>
+  </data>
+  <data name="frmCambiarRespuestas.messRespuestaModificada" xml:space="preserve">
+    <value>Your answer has been modified</value>
+  </data>
+  <data name="frmCambiarRespuestas.tituloValidacionDeCambio" xml:space="preserve">
+    <value>Validation of change</value>
+  </data>
+  <data name="frmEmpresa-Sucursal.EmpresaSucursal" xml:space="preserve">
+    <value>Company-Branch</value>
+  </data>
+  <data name="frmEmpresa-Sucursal.lblRol" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="frmEmpresa-Sucursal.lblSeleccioneEmpresa" xml:space="preserve">
+    <value>Select the Company:</value>
+  </data>
+  <data name="frmEmpresa-Surcusal.lblNoHaySucursal" xml:space="preserve">
+    <value>does not have
+Associated Branches</value>
+  </data>
+  <data name="frmEmpresa-Surcusal.lblSeleccioneSucursal" xml:space="preserve">
+    <value>Select Associated Branch:</value>
+  </data>
+  <data name="frmEmpresa.ExistenCamposVacios" xml:space="preserve">
+    <value>There are empty fields</value>
+  </data>
+  <data name="frmEmpresa.lblNombreCorto" xml:space="preserve">
+    <value>Short name:</value>
+  </data>
+  <data name="frmEmpresa.TabPropiedadesEmpresa" xml:space="preserve">
+    <value>Company Properties</value>
+  </data>
+  <data name="frmEmpresa.Titulo" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="frmEmpresa.TituloPanel" xml:space="preserve">
+    <value>Add / Search Companies</value>
+  </data>
+  <data name="frmEmpresa_Sucursal.Titulo" xml:space="preserve">
+    <value>Company-Branch</value>
+  </data>
+  <data name="frmEstatusMaquina" xml:space="preserve">
+    <value>Machine Status</value>
+  </data>
+  <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
+    <value>Do you want to delete</value>
+  </data>
+  <data name="frmFallaMaquina.msjCamposVacios.mt" xml:space="preserve">
+    <value>There are empty fields</value>
+  </data>
+  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
+    <value>Successful update</value>
+  </data>
+  <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
+    <value>Machine failure</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.btoCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.lblIngreseNombre" xml:space="preserve">
+    <value>Enter User Name</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messDebeIntroducirSuRespuesta" xml:space="preserve">
+    <value>You must enter your answer</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messElUsuarioNoExiste" xml:space="preserve">
+    <value>The username does not exist</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messNombreEnBlanco" xml:space="preserve">
+    <value>The username can not be blank</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messRespuestaErrada" xml:space="preserve">
+    <value>Your answer does not match the information stored in the database</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messValidacionExitosa" xml:space="preserve">
+    <value>Successful User Validation</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.TituloErrorDeValidacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.TituloFormulario" xml:space="preserve">
+    <value>User Name Validation</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.Titulopanel" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.TituloValidacionDeCampos" xml:space="preserve">
+    <value>Validation of fields</value>
+  </data>
+  <data name="frmMaquina.EliminarMaquina" xml:space="preserve">
+    <value>You want to remove the Machine</value>
+  </data>
+  <data name="FrmMaquinas" xml:space="preserve">
+    <value>Machines</value>
+  </data>
+  <data name="frmMonedas.CodIso" xml:space="preserve">
+    <value>ISO code</value>
+  </data>
+  <data name="frmMonedas.EliminaMon" xml:space="preserve">
+    <value>Do you want to delete the selected Currencies?</value>
+  </data>
+  <data name="frmMonedas.lblTitulo" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="frmMonedas.lblTitulo1" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="frmMonedas.lblTitulo2" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="frmMonedas.Monedas" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="frmMonedas.Nosepuederealizarbusqueda" xml:space="preserve">
+    <value>Cannot search with Code and Description at the same time, use only one of these fields</value>
+  </data>
+  <data name="frmMonedas.Simbolo" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="frmMonedas.tituloPanel" xml:space="preserve">
+    <value>Currency List</value>
+  </data>
+  <data name="frmPerfilEmpleados.msj" xml:space="preserve">
+    <value>This code should not have
+special characters or spaces.</value>
+  </data>
+  <data name="frmPerfilesEmpleados.Titulo" xml:space="preserve">
+    <value>Employee Profiles</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoAgregar" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.btoEliminar" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lblCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lvCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messDebeIngresarUnaPregunta" xml:space="preserve">
+    <value>You must enter a question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messEliminarPregunta" xml:space="preserve">
+    <value>Do you want to delete the selected question</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messPreguntaRegistrada" xml:space="preserve">
+    <value>Registered Question with Success</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TITULO" xml:space="preserve">
+    <value>Security questions</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.tituloEliminarPregunta" xml:space="preserve">
+    <value>Elimination validation</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TituloErrorDeValidacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TituloPreguntaRegistrada" xml:space="preserve">
+    <value>Registry validation</value>
+  </data>
+  <data name="frmPrincipal.btoSucursales/Almacenes" xml:space="preserve">
+    <value>Branches / Warehouses</value>
+  </data>
+  <data name="frmPrincipal.Inventario" xml:space="preserve">
+    <value>&amp;Inventory</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
+    <value>&amp;Administration</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="frmPrincipal.MenuStripCambiarRespuestas" xml:space="preserve">
+    <value>Change Answers</value>
+  </data>
+  <data name="frmPrincipal.MenuStripHistorialOperaciones" xml:space="preserve">
+    <value>Operations history</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio-CambiarSesion" xml:space="preserve">
+    <value>Change of Session</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio-Salir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="frmPrincipal.MenuStripMantenimiento" xml:space="preserve">
+    <value>&amp;Maintenance</value>
+  </data>
+  <data name="frmPrincipal.MenuStripMantenimiento1" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="frmPrincipal.MenuStripProcesos" xml:space="preserve">
+    <value>&amp;Processes</value>
+  </data>
+  <data name="frmPrincipal.MenuStripProcesos1" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="frmPrincipal.MenuStripReportes" xml:space="preserve">
+    <value>&amp;Reports</value>
+  </data>
+  <data name="frmPrincipal.MenuStripReportes1" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="frmPrincipal.MenuStripStatusEliminados" xml:space="preserve">
+    <value>Removed status</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablas" xml:space="preserve">
+    <value>&amp;Tables</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablas1" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablasUsuarios" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablaUsuariosStatus" xml:space="preserve">
+    <value>User Status</value>
+  </data>
+  <data name="frmPrincipal.MenuStripUsuariosEliminados" xml:space="preserve">
+    <value>Deleted Users</value>
+  </data>
+  <data name="frmPrincipalInicio.CambiarSesion" xml:space="preserve">
+    <value>&amp;Change Session</value>
+  </data>
+  <data name="frmPrincipalInicio.CambiarSesion1" xml:space="preserve">
+    <value>Change Session</value>
+  </data>
+  <data name="frmPrincipalInicio.Salir" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="frmPrincipalInicio.Salir1" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmPrincipalMantenimiento.EstatusEli" xml:space="preserve">
+    <value>Removed status</value>
+  </data>
+  <data name="frmPrincipalMantenimiento.UsuariosEli" xml:space="preserve">
+    <value>Deleted Users</value>
+  </data>
+  <data name="frmPrincipalTablas.TablaStatus" xml:space="preserve">
+    <value>Table of states</value>
+  </data>
+  <data name="frmPrincipalTablas.TablaUsuario" xml:space="preserve">
+    <value>Users Table</value>
+  </data>
+  <data name="frmRegistroUsuario.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmRegistroUsuario.btoValidar" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="frmRegistroUsuario.lblClave" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="frmRegistroUsuario.lblIdioma" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="frmRegistroUsuario.lblOlvidoContrasena" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="frmRegistroUsuario.lblTitulo" xml:space="preserve">
+    <value>User validation</value>
+  </data>
+  <data name="frmRegistroUsuario.lblUsuario" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="frmRegistroUsuario.messBienvenida" xml:space="preserve">
+    <value>You are welcome</value>
+  </data>
+  <data name="frmRegistroUsuario.messCerrandoSistema" xml:space="preserve">
+    <value>Closing the system</value>
+  </data>
+  <data name="frmRegistroUsuario.messClaveInvalida" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="frmRegistroUsuario.messErrorValidacion" xml:space="preserve">
+    <value>Validation failed</value>
+  </data>
+  <data name="frmRegistroUsuario.messPedirClave" xml:space="preserve">
+    <value>You must enter a user password</value>
+  </data>
+  <data name="frmRegistroUsuario.messPedirUsuario" xml:space="preserve">
+    <value>You must enter a User Name</value>
+  </data>
+  <data name="frmRegistroUsuario.messSalidaSistema" xml:space="preserve">
+    <value>System output</value>
+  </data>
+  <data name="frmRegistroUsuario.messUsuarioBloqueado" xml:space="preserve">
+    <value>User blocked, you must contact the system administrator</value>
+  </data>
+  <data name="frmRegistroUsuario.messValidacionCorrecta" xml:space="preserve">
+    <value>Correct Validation</value>
+  </data>
+  <data name="frmRegistroUsuario.messValidacionUsuario" xml:space="preserve">
+    <value>User validation</value>
+  </data>
+  <data name="frmRegistroUsuario.Text" xml:space="preserve">
+    <value>Access Control to the MIT CORE System</value>
+  </data>
+  <data name="frmRegistroUsuario.UsuarioInvalido" xml:space="preserve">
+    <value>Invalid User</value>
+  </data>
+  <data name="frmRegistroUsuario_messCambiarClave" xml:space="preserve">
+    <value>You must make the password change</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoAsociarAlmacenes" xml:space="preserve">
+    <value>Associate Warehouses</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoBuscar" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoDescartar" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoEliminar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoGuardar" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoSalir" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblAlmacenesAsociados" xml:space="preserve">
+    <value>Associated Warehouses</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblCodigo" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblInformacionGeneral" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblNombre" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblNombreCorto" xml:space="preserve">
+    <value>Short name:</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblResponsable" xml:space="preserve">
+    <value>Responsible:</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblSelecionarEmpresa" xml:space="preserve">
+    <value>Select Company:</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblTitulo" xml:space="preserve">
+    <value>Branch Associations and Warehouses</value>
+  </data>
+  <data name="frmRelacionSucAlm.lstvAlmacen" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="frmRelacionSucAlm.lstvCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmRelacionSucAlm.lstvDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjEliminacionExitosa.mt" xml:space="preserve">
+    <value>Successful Elimination</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjEliminarAlmacenes" xml:space="preserve">
+    <value>Do you want to delete the selected stores?</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjEliminarAlmacenes.mt" xml:space="preserve">
+    <value>Do you want to delete the selected Stores?</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjErrorValidacion.mc" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjNoPoseeAlmacen" xml:space="preserve">
+    <value>It does not have Associated Warehouses</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjRegistroExitoso.mt" xml:space="preserve">
+    <value>Successful registration</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjSinAlmacen.mt" xml:space="preserve">
+    <value>You have not selected any Warehouse for</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjSinAlmacenesAsociados" xml:space="preserve">
+    <value>It has no Associated Warehouses</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjSinSucursalesAsociados" xml:space="preserve">
+    <value>It does not have Associated Branches</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjValidacionEliminacion.mc" xml:space="preserve">
+    <value>Elimination Validation</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjValidacionRegistro.mc" xml:space="preserve">
+    <value>Registration Validation</value>
+  </data>
+  <data name="frmRelacionSucAlm.mssElimRelacion" xml:space="preserve">
+    <value>Do you want to delete the selected Warehouses?</value>
+  </data>
+  <data name="frmStaEliminados.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmStaEliminados.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmStaEliminados.btoEliminarTodo" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="frmStaEliminados.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmStaEliminados.lblCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmStaEliminados.lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmStaEliminados.messDeseaEliminarUser" xml:space="preserve">
+    <value>Do you want to permanently Delete the User</value>
+  </data>
+  <data name="frmStaEliminados.messNoSeEncontroInfo" xml:space="preserve">
+    <value>No information was found with the supplied data, enter a valid account</value>
+  </data>
+  <data name="frmStaEliminados.messNoSePuedeRealizarBusqueda" xml:space="preserve">
+    <value>You can not search by Name and User, you must indicate only one of these fields</value>
+  </data>
+  <data name="frmStaEliminados.TituloError_de_Validacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmStaEliminados.TituloFORMUALRIO" xml:space="preserve">
+    <value>Deleted Status</value>
+  </data>
+  <data name="frmStaEliminados.TituloPanel" xml:space="preserve">
+    <value>Deleted States</value>
+  </data>
+  <data name="frmStaEliminados.TituloValidacionEliminacion" xml:space="preserve">
+    <value>Elimination validation</value>
+  </data>
+  <data name="frmStaUsuarios.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmStaUsuarios.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmStaUsuarios.lblCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmStaUsuarios.lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmStaUsuarios.lblMensaje" xml:space="preserve">
+    <value>The code is self-generated by the system.</value>
+  </data>
+  <data name="frmStaUsuarios.lblTituloPanel" xml:space="preserve">
+    <value>User Member Table</value>
+  </data>
+  <data name="frmStaUsuarios.messAgregarDescripcion-Codigo" xml:space="preserve">
+    <value>You must enter a description for the new code</value>
+  </data>
+  <data name="frmStaUsuarios.messDeseaEliminarStatus" xml:space="preserve">
+    <value>Do you want to Delete the Status</value>
+  </data>
+  <data name="frmStaUsuarios.messNoSeEncontroCuenta" xml:space="preserve">
+    <value>No information was found with the supplied data, enter a valid account</value>
+  </data>
+  <data name="frmStaUsuarios.messNoSePuedeRealizarLaBusqueda" xml:space="preserve">
+    <value>The search can not be carried out by Code and description, it must indicate only one of these fields</value>
+  </data>
+  <data name="frmStaUsuarios.TituloErrordeValidacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmStaUsuarios.TituloFormulario" xml:space="preserve">
+    <value>Status of Users</value>
+  </data>
+  <data name="frmStaUsuarios.TituloValidacionDeEliminacion" xml:space="preserve">
+    <value>Elimination validation</value>
+  </data>
+  <data name="frmStaUsuarios.TituloValidacionDeRegistro" xml:space="preserve">
+    <value>Registration Validation</value>
+  </data>
+  <data name="frmSucursales.NoHayMonedas" xml:space="preserve">
+    <value>There are no Associated Currencies</value>
+  </data>
+  <data name="frmSucursales.titulo" xml:space="preserve">
+    <value>Branch offices</value>
+  </data>
+  <data name="frmSucursales.titulopanel" xml:space="preserve">
+    <value>Add / Search Branches</value>
+  </data>
+  <data name="frmTbEmpresa.Titulo" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="frmTbFallaMaquina.Titulo" xml:space="preserve">
+    <value>Machine Failure Chart</value>
+  </data>
+  <data name="frmTbPerfilesEmpleados.Titulo" xml:space="preserve">
+    <value>Table of employee profiles</value>
+  </data>
+  <data name="frmTbStatus.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmTbStatus.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmTbStatus.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmTbStatus.lblCodigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="frmTbStatus.lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmTbStatus.messNoSePuedeRealizaBusqueda" xml:space="preserve">
+    <value>The search can not be carried out by Code and description, it must indicate only one of these fields</value>
+  </data>
+  <data name="frmTbStatus.NoSeEncontroInformacion" xml:space="preserve">
+    <value>No information was found with the supplied data.</value>
+  </data>
+  <data name="frmTbStatus.tituloErrorValidacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmTbStatus.TituloFormulario" xml:space="preserve">
+    <value>Status Table</value>
+  </data>
+  <data name="frmTbStatus.TituloPanel" xml:space="preserve">
+    <value>Table of Status</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.lblNombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.lblUsuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.messNoSeEncontroDatos" xml:space="preserve">
+    <value>No information was found with the supplied data, enter a valid account</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.messNoSePuedeRealizarBusqueda" xml:space="preserve">
+    <value>You can not search by Name and User, you must indicate only one of these fields</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.TituloNoSeEncontroDatos" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmTbUsuarioPersonalizada.TituloNoSePuedeRealizarBusqueda" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmTbUsuariosPeronalizada.TituloFormulario" xml:space="preserve">
+    <value>Users Table</value>
+  </data>
+  <data name="frmTbUsuariosPeronalizada.TituloPanel" xml:space="preserve">
+    <value>Users Table</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.lblNombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.lblUsuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDebeIngresarnombre" xml:space="preserve">
+    <value>You must enter a Name</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDebeingresarUnNombre" xml:space="preserve">
+    <value>You must enter a User or name to perform the search</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDebeIngresarUsuario" xml:space="preserve">
+    <value>You must enter a User name</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDeseaEliminarUsuario" xml:space="preserve">
+    <value>Do you want to Remove the User</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messNoSeEncontroUsuario" xml:space="preserve">
+    <value>No information was found with the supplied data, enter a valid account</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messNoSePuedeRealizarBusqueda" xml:space="preserve">
+    <value>You can not search by Name and User, you must indicate only one of these fields</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.TituloErrorValidacion" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.TituloFormulario" xml:space="preserve">
+    <value>Search / Add Users</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
+    <value>Update Validation</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.tituloValidacionDeEliminacion" xml:space="preserve">
+    <value>Elimination validation</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.tituloValidacionDeRegistro" xml:space="preserve">
+    <value>Registry validation</value>
+  </data>
+  <data name="frmUsuariosEliminados.btoAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="frmUsuariosEliminados.btoBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmUsuariosEliminados.btoEliminarTodo" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="frmUsuariosEliminados.btoSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="frmUsuariosEliminados.lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmUsuariosEliminados.lblNombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="frmUsuariosEliminados.lblUsuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="frmUsuariosEliminados.messDeseaEliminarTODOSlosUsuarios" xml:space="preserve">
+    <value>Do you want to permanently delete all users?</value>
+  </data>
+  <data name="frmUsuariosEliminados.messDeseaEliminarUsuario" xml:space="preserve">
+    <value>Do you want to permanently Delete the User</value>
+  </data>
+  <data name="frmUsuariosEliminados.messNoSeEncontroInfo" xml:space="preserve">
+    <value>No information was found with the supplied data, enter a valid account</value>
+  </data>
+  <data name="frmUsuariosEliminados.messNoSePuedeRealizarBusqueda" xml:space="preserve">
+    <value>You can not search by Name and User, you must indicate only one of these fields</value>
+  </data>
+  <data name="frmUsuariosEliminados.TituloUsariosEliminados" xml:space="preserve">
+    <value>Deleted Users</value>
+  </data>
+  <data name="frmUsuariosEliminados.tituloValidacionDeEliminacion" xml:space="preserve">
+    <value>Elimination validation</value>
+  </data>
+  <data name="frmValidarClaveVieja.btoCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmValidarClaveVieja.btoValidar" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblContraseña" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblIngreseClaveActual" xml:space="preserve">
+    <value>For your security, Enter the Current Password</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveEnBlanco" xml:space="preserve">
+    <value>You must enter your current user password</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveInvalida" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveValida" xml:space="preserve">
+    <value>Correct Password</value>
+  </data>
+  <data name="frmValidarClaveVieja.messMaximoDeIntentos" xml:space="preserve">
+    <value>Exhausted the 3 attempts allowed, you should contact the system administrator</value>
+  </data>
+  <data name="frmValidarClaveVieja.messUsuarioBloqueado" xml:space="preserve">
+    <value>Blocked user contact the administrator to access the system</value>
+  </data>
+  <data name="frmValidarClaveVieja.tituloClaveEnBlanco" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloFormulario" xml:space="preserve">
+    <value>Validate Current Password</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloMaximoDeIntentos" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloUsuarioBloqueado" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloValidacionClaveActual" xml:space="preserve">
+    <value>Validate Current Password</value>
+  </data>
+  <data name="GastosDeFabricacion" xml:space="preserve">
+    <value>Manufacturing expenses</value>
+  </data>
+  <data name="Herramientas" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Informaciongeneral" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="lblCodigo.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblCodigo.Text1" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="lblDescripcion.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblDescripcion.Text1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblDescripcion.Text11" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblDescripcion.Text2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblNombe1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblNombe1.Text1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblNombre.Text1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblTituloPanel.Text" xml:space="preserve">
+    <value>States Eliminated</value>
+  </data>
+  <data name="lblTituloPanel.Text1" xml:space="preserve">
+    <value>User Table</value>
+  </data>
+  <data name="lblTituloPanel.Text11" xml:space="preserve">
+    <value>User Table</value>
+  </data>
+  <data name="lblTituloPanel.Text2" xml:space="preserve">
+    <value>States Eliminated</value>
+  </data>
+  <data name="lblUsuario.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblUsuario.Text1" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblUsuario1.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblUsuario1.Text1" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Lotes" xml:space="preserve">
+    <value>Lots</value>
+  </data>
+  <data name="MaquinaConFallas" xml:space="preserve">
+    <value>Machine With Faults</value>
+  </data>
+  <data name="MaquinaConFallas1" xml:space="preserve">
+    <value>Machine With Faults</value>
+  </data>
+  <data name="MaquinaDeFabricacion" xml:space="preserve">
+    <value>Manufacturing Machine</value>
+  </data>
+  <data name="Maquinas" xml:space="preserve">
+    <value>Machines</value>
+  </data>
+  <data name="MITCOREPRODUCCION" xml:space="preserve">
+    <value>MIT CORE PRODUCTION</value>
+  </data>
+  <data name="moneda" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Multimoneda" xml:space="preserve">
+    <value>Multi-currency</value>
+  </data>
+  <data name="NIT" xml:space="preserve">
+    <value>NIT</value>
+  </data>
+  <data name="No se encontraron Registros con los datos suministrados" xml:space="preserve">
+    <value>No records were found with the data provided</value>
+  </data>
+  <data name="No se puede realizar la busqueda con todos los campos llenos" xml:space="preserve">
+    <value>Cannot search with all fields filled</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="NoSeEncontroInformacion" xml:space="preserve">
+    <value>No information was found with the Data Provided</value>
+  </data>
+  <data name="Orden de Produccion" xml:space="preserve">
+    <value>Production order</value>
+  </data>
+  <data name="Pagweb" xml:space="preserve">
+    <value>Web page</value>
+  </data>
+  <data name="PerfilesdeEmpleados" xml:space="preserve">
+    <value>Employee Profiles</value>
+  </data>
+  <data name="PerfilesdeEmpleados1" xml:space="preserve">
+    <value>Employee Profiles</value>
+  </data>
+  <data name="Precios" xml:space="preserve">
+    <value>Prices</value>
+  </data>
+  <data name="preguntaSeguridad.1" xml:space="preserve">
+    <value>What is your favorite color?</value>
+  </data>
+  <data name="preguntaSeguridad.2" xml:space="preserve">
+    <value>What is the name of your first pet?</value>
+  </data>
+  <data name="preguntaSeguridad.3" xml:space="preserve">
+    <value>What is your birthplace?</value>
+  </data>
+  <data name="preguntaSeguridad.4" xml:space="preserve">
+    <value>What is your mother's name?</value>
+  </data>
+  <data name="PrevisionDeVentas" xml:space="preserve">
+    <value>Sales Forecast</value>
+  </data>
+  <data name="Procedencias" xml:space="preserve">
+    <value>Provenance</value>
+  </data>
+  <data name="Produccion" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="ProductosTerminados" xml:space="preserve">
+    <value>Finished products</value>
+  </data>
+  <data name="ProgramaciondeProduccion" xml:space="preserve">
+    <value>Production scheduling</value>
+  </data>
+  <data name="Propiedades" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="PropiedadesdeAlmacen" xml:space="preserve">
+    <value>Warehouse Properties</value>
+  </data>
+  <data name="PropiedadesdeStatus" xml:space="preserve">
+    <value>Property Status</value>
+  </data>
+  <data name="PropiedadesdeSucursal" xml:space="preserve">
+    <value>Branch Properties</value>
+  </data>
+  <data name="PropiedadesdeUsuario" xml:space="preserve">
+    <value>User Properties</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="RegistroExistente" xml:space="preserve">
+    <value>A register with this code already exists.</value>
+  </data>
+  <data name="Requisiciones" xml:space="preserve">
+    <value>Requisitions</value>
+  </data>
+  <data name="Responsable" xml:space="preserve">
+    <value>Responsable:</value>
+  </data>
+  <data name="Restaurar" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="RIF" xml:space="preserve">
+    <value>RIF</value>
+  </data>
+  <data name="Rol" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="SeleccionarEmpresa" xml:space="preserve">
+    <value>Select Company:</value>
+  </data>
+  <data name="SeleccionelasMonedas" xml:space="preserve">
+    <value>Select the Currencies</value>
+  </data>
+  <data name="SeleccioneSucursalAsociada" xml:space="preserve">
+    <value>Select Associated Branch:</value>
+  </data>
+  <data name="sobreNosotros" xml:space="preserve">
+    <value>About us </value>
+  </data>
+  <data name="Soporte" xml:space="preserve">
+    <value>Online support </value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SubCategoria" xml:space="preserve">
+    <value>Subcategory</value>
+  </data>
+  <data name="Sucursal" xml:space="preserve">
+    <value>Branch office:</value>
+  </data>
+  <data name="Sucursales" xml:space="preserve">
+    <value>Branch offices</value>
+  </data>
+  <data name="Sucursales1" xml:space="preserve">
+    <value>Branch offices</value>
+  </data>
+  <data name="SucusalesAlmacenes" xml:space="preserve">
+    <value>Branches / Entrepôts</value>
+  </data>
+  <data name="Sueldo" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>User Detail</value>
+  </data>
+  <data name="tabPage1.Text1" xml:space="preserve">
+    <value>User Detail</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>User Properties</value>
+  </data>
+  <data name="tabPage2.Text1" xml:space="preserve">
+    <value>User Properties</value>
+  </data>
+  <data name="Tarea" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="Telefonos" xml:space="preserve">
+    <value>Phones:</value>
+  </data>
+  <data name="toolStripBtoAgregar.Text" xml:space="preserve">
+    <value>F5 Add</value>
+  </data>
+  <data name="toolStripBtoAgregar.Text1" xml:space="preserve">
+    <value>F5 Add</value>
+  </data>
+  <data name="toolStripBtoAgregar.ToolTipText" xml:space="preserve">
+    <value>F5 Add</value>
+  </data>
+  <data name="toolStripBtoAgregar.ToolTipText1" xml:space="preserve">
+    <value>F5 Add</value>
+  </data>
+  <data name="toolStripBtoDescartar.Text" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="toolStripBtoDescartar.Text1" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="toolStripBtoDescartar.ToolTipText" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="toolStripBtoDescartar.ToolTipText1" xml:space="preserve">
+    <value>F9 Discard</value>
+  </data>
+  <data name="toolStripBtoEditar.Text" xml:space="preserve">
+    <value>F6 Edit</value>
+  </data>
+  <data name="toolStripBtoEditar.Text1" xml:space="preserve">
+    <value>F6 Edit</value>
+  </data>
+  <data name="toolStripBtoEditar.ToolTipText" xml:space="preserve">
+    <value>F6 Edit</value>
+  </data>
+  <data name="toolStripBtoEditar.ToolTipText1" xml:space="preserve">
+    <value>F6 Edit</value>
+  </data>
+  <data name="toolStripBtoEliminar.Text" xml:space="preserve">
+    <value>F8 Remove</value>
+  </data>
+  <data name="toolStripBtoEliminar.Text1" xml:space="preserve">
+    <value>F8 Remove</value>
+  </data>
+  <data name="toolStripBtoEliminar.ToolTipText" xml:space="preserve">
+    <value>F8 Remove</value>
+  </data>
+  <data name="toolStripBtoEliminar.ToolTipText1" xml:space="preserve">
+    <value>F8 Remove</value>
+  </data>
+  <data name="toolStripBtoGuardar.Text" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="toolStripBtoGuardar.Text1" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="toolStripBtoGuardar.ToolTipText" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="toolStripBtoGuardar.ToolTipText1" xml:space="preserve">
+    <value>F7 Save</value>
+  </data>
+  <data name="UbicacionReportes" xml:space="preserve">
+    <value>Location of Reports</value>
+  </data>
+  <data name="UbicacionRespaldos" xml:space="preserve">
+    <value>Backup Location</value>
+  </data>
+  <data name="UnidadDeMedida" xml:space="preserve">
+    <value>Unit of measurement</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="ValidacionExitosa" xml:space="preserve">
+    <value>Successful Validation</value>
+  </data>
+  <data name="VentasyProduccion" xml:space="preserve">
+    <value>Sales and Production</value>
+  </data>
+  <data name="YaExisteElRegistro" xml:space="preserve">
+    <value>A record with this Code already exists</value>
+  </data>
+  <data name="Actual" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="AlmacenesAsociados" xml:space="preserve">
+    <value>Associated Warehouses:</value>
+  </data>
+  <data name="Articulodospuntos" xml:space="preserve">
+    <value>Articles:</value>
+  </data>
+  <data name="AsociarAlmacen" xml:space="preserve">
+    <value>Associate Warehouse</value>
+  </data>
+  <data name="AsociarProveedor" xml:space="preserve">
+    <value>Associate Supplier</value>
+  </data>
+  <data name="Cant.deProveedoresAsociados:" xml:space="preserve">
+    <value>Number of Associated Providers:</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CodigodosPuntos" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="Comprometidos" xml:space="preserve">
+    <value>Committed</value>
+  </data>
+  <data name="ConfigurarDescuento:" xml:space="preserve">
+    <value>Set Discount:</value>
+  </data>
+  <data name="ConImpuesto" xml:space="preserve">
+    <value>With tax</value>
+  </data>
+  <data name="Costo" xml:space="preserve">
+    <value>cost</value>
+  </data>
+  <data name="CostoProveedor" xml:space="preserve">
+    <value>Supplier Cost:</value>
+  </data>
+  <data name="CostosDeITEM" xml:space="preserve">
+    <value>ITEM costs</value>
+  </data>
+  <data name="CostoUnitario" xml:space="preserve">
+    <value>Unit cost</value>
+  </data>
+  <data name="CostoyPrecio" xml:space="preserve">
+    <value>Costs and Prices</value>
+  </data>
+  <data name="DefinicióndeStocks" xml:space="preserve">
+    <value>Stock Definition:</value>
+  </data>
+  <data name="DescripcionSubCatg" xml:space="preserve">
+    <value>Sub-Category Description</value>
+  </data>
+  <data name="DeseaEliminaCategoria" xml:space="preserve">
+    <value>Do you want to delete category</value>
+  </data>
+  <data name="DiasdeGarantia" xml:space="preserve">
+    <value>Warranty Days:</value>
+  </data>
+  <data name="Disponible" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="EstatusdeArtículo" xml:space="preserve">
+    <value>Article Status:</value>
+  </data>
+  <data name="garantia" xml:space="preserve">
+    <value>Warranty</value>
+  </data>
+  <data name="IVAcompra" xml:space="preserve">
+    <value>VAT Purchase:</value>
+  </data>
+  <data name="IvaVenta" xml:space="preserve">
+    <value>Sales VAT:</value>
+  </data>
+  <data name="Maxima" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Medida" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="Minima" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="Modelo" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="PorAdquirir" xml:space="preserve">
+    <value>To acquire</value>
+  </data>
+  <data name="PorDespachar" xml:space="preserve">
+    <value>To dispatch</value>
+  </data>
+  <data name="PreciodeVenta:" xml:space="preserve">
+    <value>Sale price:</value>
+  </data>
+  <data name="PrecioMaximo" xml:space="preserve">
+    <value>Maximum price</value>
+  </data>
+  <data name="PrecioMayor" xml:space="preserve">
+    <value>Higher Price</value>
+  </data>
+  <data name="PrecioMinimo" xml:space="preserve">
+    <value>Minimal price</value>
+  </data>
+  <data name="PrecioOferta" xml:space="preserve">
+    <value>Offer Price</value>
+  </data>
+  <data name="Precios1" xml:space="preserve">
+    <value>Prices</value>
+  </data>
+  <data name="Procedencia" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="ProcedenciadelArticulo" xml:space="preserve">
+    <value>Origin of the Article:</value>
+  </data>
+  <data name="RedondearPreciosconImpuestos" xml:space="preserve">
+    <value>Round Prices with Taxes</value>
+  </data>
+  <data name="SeleccioneElMetodoDeCosto" xml:space="preserve">
+    <value>Select the Cost Method</value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="SinImpuesto" xml:space="preserve">
+    <value>Tax free</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="SubCategoria1" xml:space="preserve">
+    <value>Subcategory</value>
+  </data>
+  <data name="TipodeRedondeo" xml:space="preserve">
+    <value>Rounding Type:</value>
+  </data>
+  <data name="TituloArticulos" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="TituloArticulosCompuestos" xml:space="preserve">
+    <value>Compound Items</value>
+  </data>
+  <data name="Tomar%utilidad" xml:space="preserve">
+    <value>Take% utility of the Department.</value>
+  </data>
+  <data name="UltimaCantidadComprada" xml:space="preserve">
+    <value>Last Amount Purchased</value>
+  </data>
+  <data name="UltimaFechadeCompra" xml:space="preserve">
+    <value>Last Purchase Date</value>
+  </data>
+  <data name="Unidad" xml:space="preserve">
+    <value>Unity</value>
+  </data>
+  <data name="UnidaddeMedida1" xml:space="preserve">
+    <value>Unit of measurement</value>
+  </data>
+  <data name="CuadritoAlmacenes" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="CuadritoEstatusMaquina" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="CuadritoListaMoneda" xml:space="preserve">
+    <value>CL</value>
+  </data>
+  <data name="frmGastosFabrica" xml:space="preserve">
+    <value>Factory charges</value>
+  </data>
+  <data name="frmTbGastosFabrica" xml:space="preserve">
+    <value>Table of factory expenses</value>
+  </data>
+  <data name="GastosDeFabricacion1" xml:space="preserve">
+    <value>Manufacturing expenses</value>
+  </data>
+  <data name="frmProcedencia" xml:space="preserve">
+    <value>Provenance</value>
+  </data>
+  <data name="frmTbProcedencia" xml:space="preserve">
+    <value>Table source</value>
+  </data>
+</root>

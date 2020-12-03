@@ -1,0 +1,676 @@
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources -fr-FR.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 18 2019 5-12pm\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ja-JA.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\bin\Debug\ja-JP\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ja-JP.resources
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\ClassLibrary2\obj\Debug\ja-JP\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\ja-JP\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ja-JP.resources
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\ja-JP\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\ja-JP\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ja-JP.resources
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\ja-JP\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 11102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual 280120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\ClassLibrary2\obj\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\CultureResources.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.pdb
+D:\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\CultureResources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\CultureResources.pdb
+D:\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\fr-FR\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\en-US\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\bin\Debug\ru-RU\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csprojAssemblyReference.cache
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.resources
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.fr-FR.resources
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.en-US.resources
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.StringResources.ru-RU.resources
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csproj.GenerateResource.cache
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CurtureResources.csproj.CoreCompileInputs.cache
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\fr-FR\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\en-US\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\ru-RU\CultureResources.resources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.dll
+D:\MITProduccion2020Valerie\ClassLibrary2\obj\Debug\CultureResources.pdb

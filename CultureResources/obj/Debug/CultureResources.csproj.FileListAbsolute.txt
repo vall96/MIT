@@ -1,0 +1,38 @@
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CultureResources\obj\Debug\CultureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\CultureResources.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csproj.GenerateResource.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\en-US\CultureResources.resources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.pdb
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\CultureResources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\CultureResources.pdb
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\bin\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csprojAssemblyReference.cache
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources -fr-FR.resources
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.dfg.resources
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources.resources
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources.en-US.resources
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.StringResources.ru-RU.resources
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csproj.GenerateResource.cache
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.csproj.CoreCompileInputs.cache
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\en-US\CultureResources.resources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\ru-RU\CultureResources.resources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.dll
+C:\PROYECTO 04072019 16.29\PROYECTO 040719\CultureResources\obj\Debug\CultureResources.pdb

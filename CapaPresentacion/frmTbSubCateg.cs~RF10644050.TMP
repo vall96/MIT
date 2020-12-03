@@ -1,0 +1,133 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using CapaLogicaNegocios;
+
+namespace CapaPresentacion
+{
+    public partial class frmTbSubCateg : Form
+    {
+        public frmTbSubCateg()
+        {
+            InitializeComponent();
+            CargarSubCatg();
+            CargarCatg();
+        }
+        ListViewItem lvrow;
+        clsEmpresa M = new clsEmpresa();
+        public delegate void pasar(string[,] dato);
+        public event pasar pasado;
+        public string[,] datos = new string[1, 4];
+        DataTable dt = new DataTable();
+        DataTable dtc = new DataTable();
+        private void cargarlsv()
+        {
+            this.lsvSubCatg.Items.Clear();
+            if (frmArticulos.formActivo == "activo")
+            {               
+                this.cboCategoria.Text = frmArticulos.categoria;                
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    if (dt.Rows[i]["SubCat_Catg"].ToString()==frmArticulos.codCategoria)
+                    {
+                        lvrow = new ListViewItem(dt.Rows[i]["SubCat_Id"].ToString());
+                        lvrow.SubItems.Add(dt.Rows[i]["SubCat_Desc"].ToString());                       
+                        this.lsvSubCatg.Items.Add(lvrow);
+                    }
+                }
+                    
+            }
+            else
+            {
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    if (cboCodCategoria.Text== dt.Rows[i]["SubCat_Catg"].ToString())
+                    {
+                        lvrow = new ListViewItem(dt.Rows[i]["SubCat_Id"].ToString());
+                        lvrow.SubItems.Add(dt.Rows[i]["SubCat_Desc"].ToString());
+                        this.lsvSubCatg.Items.Add(lvrow);
+                    }
+                        
+                }
+            }
+                
+        }
+
+        private void cargarCbo()
+        {
+            this.cboCategoria.Items.Clear();
+            this.cboCodCategoria.Items.Clear();
+            for (int i = 0; i < dtc.Rows.Count; i++)
+            {
+                cboCategoria.Items.Add(dtc.Rows[i]["cat_Desc"].ToString());
+                cboCodCategoria.Items.Add(dtc.Rows[i]["cat_Id"].ToString());
+              //  cboCategoria.SelectedIndex = 0;
+            }
+        }
+        private void CargarSubCatg()
+        {
+            dt = M.ListadoSubCategoria(frmPrincipal.nombreBD);
+        }
+        private void CargarCatg()
+        {
+            dtc = M.ListadoCategoria(frmPrincipal.nombreBD);
+        }
+        private void datosSeleccionados()
+        {
+            if (lsvSubCatg.SelectedItems.Count > 0)
+            {
+                datos[0, 0] = lsvSubCatg.SelectedItems[0].Text.ToString().Trim();
+                datos[0, 1] = lsvSubCatg.SelectedItems[0].SubItems[1].Text.ToString().Trim();
+                datos[0, 2] = cboCategoria.Text;
+                pasado(datos);
+                this.Hide();
+            }
+        }
+        private void btoSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmTbSubCateg_Load(object sender, EventArgs e)
+        {
+            if (frmArticulos.formActivo != "activo")
+            {
+                this.cboCategoria.Enabled = true;
+                cargarCbo();                
+            }
+            else if (frmArticulos.formActivo == "activo")
+            {
+                cargarCbo();
+                cargarlsv();
+                this.cboCategoria.Enabled = false;
+            }
+                
+        }
+
+        private void lsvSubCatg_DoubleClick(object sender, EventArgs e)
+        {
+            datosSeleccionados();
+        }
+
+        private void btoAceptar_Click(object sender, EventArgs e)
+        {
+            datosSeleccionados();
+        }
+
+        private void cboCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (frmArticulos.formActivo != "activo")
+            {
+                this.cboCodCategoria.SelectedIndex = this.cboCategoria.SelectedIndex;
+                cargarlsv();
+            }
+                
+        }
+    }
+}

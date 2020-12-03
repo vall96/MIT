@@ -1,0 +1,14 @@
+DateTime fechaVto = DateTime.Now;
+        private void frmNETR_Load(object sender, EventArgs e)
+        {
+            this.Location = new System.Drawing.Point(0, 0);
+            dTpFechaDesde.Value = new DateTime((int)fechaVto.Year, (int)fechaVto.Month, 01);
+            dTpFechaHasta.Value = new DateTime((int)fechaVto.Year, (int)fechaVto.Month, DateTime.DaysInMonth(fechaVto.Year, fechaVto.Month));
+            
+            // dTpFechaHasta.Value= DateTime.Now;
+           // FuncionBuscar();
+            //  fechaVto = fechaVto.AddDays(DateTime.DaysInMonth(fechaVto.Year, fechaVto.Month));
+
+            // dTpFechaDesde= dTpFechaDesde.
+           
+        }

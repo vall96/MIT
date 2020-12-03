@@ -1,0 +1,321 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using CapaLogicaNegocios;
+//using CultureResources;
+
+
+namespace CapaPresentacion
+{
+    public partial class frmPrincipal : Form
+    {   
+
+        public frmPrincipal()
+        {
+            InitializeComponent();
+        }
+
+        private void frmPrincipal_Shown(object sender, EventArgs e)
+        {
+            this.toolStrip1.Visible = false;
+        }
+
+        public FrmTbUsuarios venTbUsuarios;
+        public frmStaUsuario ventbStatus;
+        string ventnapruebaU;
+        string ventnapruebaS;
+        int num_ventanas;
+        string actvFor;
+        public frmPrincipal venPrincipal;
+
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            accionesBotones("FrmTbUsuarios", "inicio");
+            accionesFormularios("FrmTbUsuarios", "inicial");
+            ventnapruebaU = "open";
+
+/***********************************RUTINA QUE VERIFICA SI EL FORMULARIO ESTA EN MEMORIA**************
+ *****************************SI ES ASI, LO MUESTRA SINO LO ABRE**************************************/
+     /*       Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is FrmTbUsuarios);
+            if (frm != null)
+            {
+                //si la instancia existe la pongo en primer plano
+                frm.BringToFront();
+                return;
+            }
+            //sino existe la instancia se crea una nueva
+            frm = new FrmTbUsuarios();
+            frm.Show();*/
+ //****************************************************************************************************     
+        }
+                
+        private void usuariosStatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frmS = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmStaUsuario);
+            if (frmS != null)
+            {
+                //si la instancia existe la pongo en primer plano
+                frmS.BringToFront();
+                return;
+            }
+            //sino existe la instancia se crea una nueva
+            frmS = new frmStaUsuario();
+            frmS.Show();
+            
+            accionesBotones("FrmTbSatatus", "inicio");
+    
+
+        }
+
+        private void toolStripBtoSalir_Click(object sender, EventArgs e)
+        {
+
+            actvFor = "FrmTbUsuarios";
+            cerrarVentanas(actvFor, "cerrar");
+
+         /*   if (num_ventanas==0)
+            {
+                this.toolStrip1.Visible = false;
+            }*/
+
+    /*       if(ventnapruebaU== "open")
+                {
+                cerrarVentanas("FrmTbUsuarios", "cerrar");
+                ventnapruebaU = "cerrado";
+                }
+            if (ventnapruebaS == "open")
+            {
+                cerrarVentanas("FrmTbSatatus", "cerrar");
+                ventnapruebaS = "cerrado";
+            }
+            this.toolStrip1.Visible = false;*/
+        }
+        
+        public void formulariosactivos (string formulario)
+        {
+            switch(formulario)
+            {
+                case "FrmTbUsuarios":
+                    actvFor = "FrmTbUsuarios";
+
+                break;
+
+                case "FrmTbSatatus":
+                    actvFor = "FrmTbSatatus";
+                break;
+            }
+
+               
+        }
+        public void accionesFormularios(string formulario, string estado)
+        {
+           switch (formulario)
+            {
+                case "FrmTbUsuarios":
+                    if (estado == "inicial")
+                    {
+                        venTbUsuarios = new FrmTbUsuarios();
+                        venTbUsuarios.MdiParent = this;
+                        venTbUsuarios.Show();
+                        num_ventanas++;
+                    }
+                    else
+                    {
+                        if (estado == "cerrar")
+                        {
+                            
+                            venTbUsuarios.Close();
+                            num_ventanas--;
+                        }
+                    }
+                                   
+
+                    //default:
+                    break;
+
+                case "FrmTbSatatus":
+                    if (estado == "inicial")
+                    {
+                        ventbStatus = new frmStaUsuario();
+                        ventbStatus.MdiParent = this;
+                        ventbStatus.Show();
+                        num_ventanas++;
+                    }
+                    else
+                    {
+                        if (estado == "cerrar")
+                        {
+
+                            ventbStatus.Close();
+                            num_ventanas--;
+                        }
+                    }
+
+                    break;
+
+
+            }
+        }
+
+        public void cerrarVentanas (string formulario, string estado)
+        {
+            switch (formulario)
+            {
+                case "FrmTbUsuarios":
+                    if (estado=="cerrar")
+                    {
+                        venTbUsuarios = new FrmTbUsuarios();
+                        venTbUsuarios.MdiParent = this;
+                        venTbUsuarios.Close();
+                    }
+                    break;
+                case "FrmTbSatatus":
+                    {
+                        if (estado == "cerrar")
+                        {
+                            ventbStatus.Close();
+                        }
+                    }
+                    break;
+            }
+
+        }
+        public void accionesBotones (string formulario, string estado)
+        {
+            switch (estado)
+
+            { 
+               case "inicio":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = true;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = false;
+                    this.toolStripBtoCancelar.Enabled = false;
+                    this.toolStripBtoBuscar.Enabled = true;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;
+                    //ojo boton de tabla-usuario desabilitar
+                 // this.usuariosToolStripMenuItem.Enabled = false;               
+               break;
+
+               case "agregar":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = false;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = true;
+                    this.toolStripBtoCancelar.Enabled = true;
+                    this.toolStripBtoBuscar.Enabled = false;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;
+                    break;
+
+
+                case "buscar":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = false;
+                    this.toolStripBtoEditar.Enabled = true;
+                    this.toolStripBtoGuardar.Enabled = false;
+                    this.toolStripBtoCancelar.Enabled = true;
+                    this.toolStripBtoBuscar.Enabled = false;
+                    this.toolStripBtoEliminar.Enabled = true;
+                    this.toolStripBtoSalir.Enabled = true;                    
+                    break;
+
+                case "editar":
+
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = false;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = true;
+                    this.toolStripBtoCancelar.Enabled = true;
+                    this.toolStripBtoBuscar.Enabled = false;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;
+                    
+                    break;
+
+                case "cancelar":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = false;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = true;
+                    this.toolStripBtoCancelar.Enabled = true;
+                    this.toolStripBtoBuscar.Enabled = false;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;                    
+                    break;
+
+                case "guardar":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = true;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = false;
+                    this.toolStripBtoCancelar.Enabled = false;
+                    this.toolStripBtoBuscar.Enabled = true;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;
+                    break;
+
+                case "eliminar":
+                    this.toolStrip1.Visible = true;
+                    this.toolStripBtoAgregar.Enabled = true;
+                    this.toolStripBtoEditar.Enabled = false;
+                    this.toolStripBtoGuardar.Enabled = false;
+                    this.toolStripBtoCancelar.Enabled = false;
+                    this.toolStripBtoBuscar.Enabled = true;
+                    this.toolStripBtoEliminar.Enabled = false;
+                    this.toolStripBtoSalir.Enabled = true;
+                    break;
+
+            }
+        }
+
+        private void toolStripBtoAgregar_Click(object sender, EventArgs e)
+        {
+            accionesBotones("FrmTbUsuarios", "agregar");
+        }
+
+        private void toolStripBtoBuscar_Click(object sender, EventArgs e)
+        {
+            
+             accionesBotones("FrmTbUsuarios", "buscar");
+            
+        }
+
+        private void toolStripBtoEditar_Click(object sender, EventArgs e)
+        {
+            accionesBotones("FrmTbUsuarios", "editar");
+        }
+
+        private void toolStripBtoCancelar_Click(object sender, EventArgs e)
+        {
+            accionesBotones("FrmTbUsuarios", "cancelar");
+        }
+
+        private void toolStripBtoGuardar_Click(object sender, EventArgs e)
+        {
+            accionesBotones("FrmTbUsuarios", "guardar");
+        }
+
+        private void toolStripBtoEliminar_Click(object sender, EventArgs e)
+        {
+            accionesBotones("FrmTbUsuarios", "eliminar");
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gracias por usar el Sistema", "Saliendo del Sistemas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
+        }
+    }
+}

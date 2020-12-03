@@ -1,0 +1,553 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Globalization;
+using CapaLogicaNegocios;
+
+
+namespace CapaPresentacion
+{
+    public partial class frmArticulos : Form
+    {
+        public frmArticulos()
+        {
+            InitializeComponent();
+            ColumnaCostos();
+            cargarcboUnidades();
+            FuncionInicio();
+            CargarProcedencia();
+        }
+        public static string estado = "",formActivo,codCategoria,categoria;
+        clsEmpresa M = new clsEmpresa();
+        frmTbCategoria ventTbCategoria;
+        frmTbSubCateg venTbSucCatg;
+        DataTable dtm = new DataTable();
+        DataTable dtp = new DataTable();
+        Boolean error;
+        frmTbArticulos ventTbArticulos;
+        frmTbProveedores ventTbProvedores;
+        Decimal valor, disponible;
+        int cont=0;
+        private void ColumnaCostos()
+        {
+            dGvCostos.Rows.Add("Costo Proveedor",0,0.00);
+            dGvCostos.Rows.Add("Otros Costos", 0.00, 0.00);
+            dGvCostos.Rows.Add("Costo Calculado", 0.00, 0.00);
+            dGvCostos.Rows.Add("Ultimo Costo", 0.00, 0.00);
+            dGvCostos.Rows.Add("Costo Promedio", 0.00, 0.00);
+            DataGridViewComboBoxColumn cboCol= dGvCostos.Columns["Otros Costos"] as DataGridViewComboBoxColumn;
+            //cboColMedida.DataSource =
+            //****************************
+            dGvPrecios.Rows.Add("Maximo", 0.00, 0.00);
+            dGvPrecios.Rows.Add("Oferta", 0.00, 0.00);
+            dGvPrecios.Rows.Add("Mayor", 0.00, 0.00);
+            dGvPrecios.Rows.Add("Minimo", 0.00, 0.00);
+
+            //*********************
+            dGvStock.Rows.Add("Stock", 0, 0.00);
+            dGvStock.Rows.Add("Dias de inventario", 0.00, 0.00);
+            dGvStock.Rows.Add("Tiempo de Despacho", 0.00, 0.00);
+            dGvStock.Rows.Add("Punto de Pedido", 0.00, 0.00);
+            dGvStock.Rows.Add("Punto de Reorden", 0.00, 0.00);
+
+            dGvStock2.Rows.Add(0, 0, 0, 0, 0, 0);
+
+        }
+        private void frmArticulos_Load(object sender, EventArgs e)
+        {
+            this.Location = new System.Drawing.Point(0, 0);
+        }
+        private void FuncionInicio()
+        {
+            this.btnPuntos.Enabled = true;
+            this.toolStripBtoEditar.Enabled = false;
+            this.toolStripBtoEliminar.Enabled = false;
+            this.toolStripBtoGuardar.Enabled = false;
+            this.toolStripBtoDescartar.Enabled = false;
+            this.toolStripBtoAgregar.Enabled = true;
+            this.btoBuscar.Enabled = true;
+            //------------------------
+            txtMoneda.Enabled = false;
+            txtmonedaSim.Enabled = false;
+            txtmonedaSim.Text = frmEmpresaSucursursal.simboloMoneda;
+            txtMoneda.Text = frmEmpresaSucursursal.moneda;
+
+            //----gridview-------------
+            dGvCostos.Columns[0].ReadOnly = true;
+            dGvPrecios.Columns[0].ReadOnly = true;
+            dGvStock.Columns[0].ReadOnly = true;
+            dGvCostos.Enabled = false;
+            dGvPrecios.Enabled = false;
+            dGvStock.Enabled = false;
+            dGvStock2.Enabled = false;
+            dGvStock2.Columns[0].ReadOnly = true;
+            dGvStock2.Columns[1].ReadOnly = true;
+            dGvStock2.Columns[5].ReadOnly = true;
+
+            //--------------------------
+            txtCod.Enabled = false;
+            lblMensaje.Visible = false;
+            txtNom.Enabled = false;
+            txtModelo.Enabled = false;
+            cboUnidad.Enabled = false;
+            txtSerial.Enabled = false;
+            txtMedida.Enabled = false;
+            txtDias.Enabled = false;
+            txtCategoria.Enabled = false;
+            txtSubCatg.Enabled = false;
+
+            btoLinea.Enabled = false;
+            btoSubLinea.Enabled = false;
+
+            txtCostoProve.Enabled = false;
+            cboIvaComp.Enabled = false;
+            cboIvaVenta.Enabled = false;
+            cboProc.Enabled = false;
+
+            cboPrecioVent.Enabled = false;
+            cboTipoRed.Enabled = false;
+            cboMetodoCosto.Enabled = false;
+            rbtoPreImpuesto.Enabled = false;
+            rbtoUtilidad.Enabled = false;
+            btoDescu.Enabled = false;
+            btoProveedor.Enabled = false;
+            formActivo = "";
+        }
+
+        private void LimpiarCajas()
+        {
+            this.btnPuntos.Enabled = true;
+            this.toolStripBtoEditar.Enabled = false;
+            this.toolStripBtoEliminar.Enabled = false;
+            this.toolStripBtoGuardar.Enabled = false;
+            this.toolStripBtoDescartar.Enabled = false;
+            this.toolStripBtoAgregar.Enabled = true;
+            this.btoBuscar.Enabled = true;
+            //----gridview-------------
+
+            dGvCostos.Rows.Clear();
+            dGvPrecios.Rows.Clear();
+            dGvStock.Rows.Clear();           
+            dGvStock2.Rows.Clear();
+            ColumnaCostos();
+            //------------------------           
+            txtNom.Clear();
+            txtModelo.Clear();
+            txtSerial.Clear();
+            txtMedida.Clear();
+            txtDias.Clear();
+            txtCategoria.Clear();
+            txtSubCatg.Clear();
+            txtCostoProve.Clear();
+            txtCodigo.Clear();
+            txtNombre.Clear();
+            txtCod.Clear();
+            rbtoPreImpuesto.Checked = false;
+            rbtoUtilidad.Checked = false;
+            cboUnidad.SelectedItem=null;
+            cboProc.SelectedItem = null;
+            cboIvaComp.SelectedItem = null;
+            cboIvaVenta.SelectedItem = null;
+            cboUnidad.SelectedItem = null;
+        }
+        private void FuncionAgregar()
+        {
+            this.btnPuntos.Enabled = false;
+            estado = "agregar";
+            this.toolStripBtoAgregar.Enabled = false;
+            this.toolStripBtoDescartar.Enabled = true;
+            this.toolStripBtoEditar.Enabled = false;
+            this.toolStripBtoGuardar.Enabled = true;
+            this.toolStripBtoEliminar.Enabled = false;
+            this.btoBuscar.Enabled = true;
+            //----gridview-------------
+            dGvCostos.Columns[0].ReadOnly = true;
+            dGvPrecios.Columns[0].ReadOnly = true;
+            dGvStock.Columns[0].ReadOnly = true;
+            dGvCostos.Enabled = true;
+            dGvPrecios.Enabled = true;
+            dGvStock.Enabled = true;
+            dGvStock2.Enabled = true;
+            //--------------------------
+            txtCodigo.Enabled = false;
+            txtNombre.Enabled = false;
+            txtCod.Enabled = false; 
+            lblMensaje.Visible = true;
+            txtNom.Enabled = true;
+            txtModelo.Enabled = true;
+            cboUnidad.Enabled = true;
+            txtSerial.Enabled = true;
+            txtMedida.Enabled = true;
+            txtDias.Enabled = true;
+            txtCategoria.Enabled = false;
+            txtSubCatg.Enabled = false;
+
+            btoLinea.Enabled = true;
+          //  btoSubLinea.Enabled = true;
+
+            txtCostoProve.Enabled = true;
+            cboIvaComp.Enabled = true;
+            cboIvaVenta.Enabled = true;
+            cboProc.Enabled = true;
+          
+            cboPrecioVent.Enabled = true;
+            cboTipoRed.Enabled = true;
+            cboMetodoCosto.Enabled = true;
+            rbtoPreImpuesto.Enabled = true;
+            rbtoUtilidad.Enabled = true;
+            btoDescu.Enabled = true;
+            btoProveedor.Enabled = true;
+            btoSubLinea.Enabled = false;
+            //----------------------------
+            cboUnidad.SelectedItem = 0;
+            cboIvaVenta.SelectedIndex = 0;
+            cboIvaComp.SelectedIndex = 0;
+            cboProc.SelectedIndex = 0;
+            cboUnidad.SelectedIndex = 0;
+            //----------------------
+            this.txtNom.Focus();
+        }
+        private void cargarcboUnidades()
+        {
+            this.cboUnidad.Items.Clear();
+            DataTable dt = new DataTable();
+            dt = M.ListadoUnidades(frmPrincipal.nombreBD);
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                cboCodUnidad.Items.Add(dt.Rows[i]["Uni_Id"].ToString());
+                cboUnidad.Items.Add(dt.Rows[i]["Uni_Desc"].ToString());                
+            }
+        }
+
+        private void CargarProcedencia()
+        {
+            dtp = M.ListadoProcedencia(frmPrincipal.nombreBD);
+            for (int i = 0; i < dtp.Rows.Count; i++)
+            {
+                cboProc.Items.Add(dtp.Rows[i]["Proc_Desc"].ToString());
+                //cboUnidad.Items.Add(dtp.Rows[i]["Uni_Desc"].ToString());
+            }
+
+
+        }
+
+
+        private void FuncionGuardar()
+        {
+            string msj = "";
+            ValidarCajas();
+            if (error==false)
+            {
+                M.m_emprNomb = txtNom.Text.ToString().Trim();
+                M.m_Serial=txtSerial.Text.ToString().Trim();
+                M.m_Cat = Int32.Parse(txtCodCatg.Text.ToString().Trim());
+                M.m_CogSubCat = Int32.Parse(txtCodSCatg.Text.ToString().Trim());
+                M.m_CodUnidad = Int32.Parse(cboCodUnidad.Text.ToString().Trim());
+                //ME QUEDE AQUI PARA CARGAR LOS ARTICULOS******
+                M.m_medida = txtMedida.Text;
+                M.m_garantia = txtDias.Text;
+                M.m_Procedencia = cboProc.Text;
+                M.m_modelo = txtModelo.Text;
+                msj= M.RegistrarArtuculos(frmPrincipal.nombreBD);
+                MessageBox.Show(msj, "Validacion de registro",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+                LimpiarCajas();
+            }
+        }
+        private void ValidarCajas()
+        {
+            error = false;
+            errPv.Clear();
+            //----tab 1---------
+            if (txtNom.Text == "")
+            {
+                errPv.SetError(txtNom, "Item Vacío");
+                error = true;
+            }
+            if (txtDias.Text == "")
+            {
+                errPv.SetError(txtDias, "Item Vacío");
+                error = true;
+            }
+
+            if (txtModelo.Text == "")
+            {
+                errPv.SetError(txtModelo, "Item Vacío");
+                error = true;
+            }
+            if (txtSerial.Text == "")
+            {
+                errPv.SetError(txtSerial, "Item Vacío");
+                error = true;
+            }
+            if (txtMedida.Text == "")
+            {
+                errPv.SetError(txtMedida, "Item Vacío");
+                error = true;
+            }
+            if (txtCategoria.Text == "")
+            {
+                errPv.SetError(txtCategoria, "Item Vacío");
+                error = true;
+            }
+            if (txtSubCatg.Text == "")
+            {
+                errPv.SetError(txtSubCatg, "Item Vacío");
+                error = true;
+            }
+            
+            if (txtCostoProve.Text == "")
+            {
+                errPv.SetError(txtCostoProve, "Item Vacío");
+                error = true;
+            }
+           
+        }
+
+        private void cargar_MonedasAsociadasSuc()       //monedas asociadas por sucursal
+        {
+            dtm = M.Listado_monedas();
+            
+        }
+        private void btoSalir_Click(object sender, EventArgs e)
+        {
+            formActivo = "";
+            this.Close();
+        }
+
+        private void toolStripBtoAgregar_Click(object sender, EventArgs e)
+        {
+            FuncionAgregar();
+        }
+
+        private void cboUnidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.cboCodUnidad.SelectedIndex = this.cboUnidad.SelectedIndex;
+            this.dGvStock2.Rows[0].Cells[0].Value = this.cboUnidad.Text;
+        }
+
+        private void btnPuntos_Click(object sender, EventArgs e)
+        {
+            ventTbArticulos = new frmTbArticulos();
+            ventTbArticulos.pasado += new frmTbArticulos.pasar(ejecutar);
+            ventTbArticulos.Show();
+        }
+
+        public void ejecutar(string[,] dato)
+        {            
+            this.toolStripBtoEditar.Enabled = true;
+            this.toolStripBtoEliminar.Enabled = true;
+            this.toolStripBtoAgregar.Enabled = false;
+            this.toolStripBtoDescartar.Enabled = true;
+            this.btoBuscar.Enabled = false;            
+            txtCodigo.Text = dato[0, 0];
+            txtCod.Text = dato[0, 0];
+            txtNom.Text= dato[0, 1];
+            txtNombre.Text = dato[0, 1];
+            txtDias.Text = dato[0, 2];
+            txtModelo.Text = dato[0, 3];
+            cboUnidad.Text = dato[0, 4];
+            cboCodUnidad.Text = dato[0, 5];
+            txtMedida.Text = dato[0, 6];
+            txtCategoria.Text = dato[0, 7];
+            txtSubCatg.Text = dato[0, 8];
+            cboProc.Text = dato[0, 9];
+            txtSerial.Text= dato[0, 10];
+            this.btoSubLinea.Enabled = false;
+        }
+
+        private void btoLinea_Click(object sender, EventArgs e)
+        {
+            ventTbCategoria = new frmTbCategoria();
+            ventTbCategoria.pasado += new frmTbCategoria.pasar(ejecutarCag);
+            ventTbCategoria.ShowDialog();
+        }
+
+        public void ejecutarCag(string[,] dato)
+        {
+            txtCodCatg.Text = dato[0, 0];
+            txtCategoria.Text = dato[0, 1];
+        }
+
+        private void btoSubLinea_Click(object sender, EventArgs e)
+        {
+            formActivo = "activo";
+            venTbSucCatg = new frmTbSubCateg();
+            venTbSucCatg.pasado += new frmTbSubCateg.pasar(ejecutarSub);
+            venTbSucCatg.ShowDialog();
+        }
+
+        private void txtCodCatg_TextChanged(object sender, EventArgs e)
+        {
+            codCategoria = txtCodCatg.Text;
+        }
+
+        private void txtLinea_TextChanged(object sender, EventArgs e)
+        {
+            categoria = txtCategoria.Text;
+            if (txtCategoria.Text!="" || txtCategoria.Text != null)
+            {
+                btoSubLinea.Enabled = true;
+            }
+            else
+            {
+                btoSubLinea.Enabled = false;
+            }
+        }
+
+        private void frmArticulos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formActivo = "";
+        }
+
+        private void btoProveedor_Click(object sender, EventArgs e)
+        {
+            ventTbProvedores = new frmTbProveedores();
+            ventTbProvedores.pasado += new frmTbProveedores.pasar(ejecutar);
+            ventTbProvedores.ShowDialog();
+        }
+
+        private void dGvStock_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            if (e.Control is TextBox)
+            {
+                TextBox tb = e.Control as TextBox;
+                tb.KeyPress += new KeyPressEventHandler(tb_KeyPress);
+            }
+        }
+        void tb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar)))
+
+            {
+
+                if (e.KeyChar != '\b') //allow the backspace key
+
+                {
+                    e.Handled = true;
+                }
+
+            }
+        }
+        private void txtMedida_TextChanged(object sender, EventArgs e)
+        {
+            this.dGvStock2.Rows[0].Cells[1].Value = txtMedida.Text;
+            this.dGvStock2.Rows[0].Cells[5].Value = txtMedida.Text;           
+        }
+
+        private void dGvStock2_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            if (e.Control is TextBox)
+            {
+                TextBox tb = e.Control as TextBox;
+                tb.KeyPress += new KeyPressEventHandler(tbc_KeyPress);
+            }
+        }
+        void tbc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar)))
+
+            {
+
+                if (e.KeyChar != '\b') //allow the backspace key
+
+                {
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void txtMedida_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validarNumeros(e);
+        }
+
+        void validarNumeros(KeyPressEventArgs e)
+        {
+            string numero = txtMedida.Text;
+            Boolean valor;
+            CultureInfo cc = System.Threading.Thread.CurrentThread.CurrentCulture;
+            //if (e.KeyChar >= 48 && e.KeyChar <= 57)
+            //{
+            //    e.Handled = false;
+            //}
+            //else if (e.KeyChar == 8)
+            //{
+            //    e.Handled = false;
+            //}
+            //else if (e.KeyChar == 13)
+            //{
+            //    e.Handled = false;
+            //}
+            if (char.IsNumber(e.KeyChar) ||
+                e.KeyChar.ToString() == cc.NumberFormat.NumberDecimalSeparator 
+                || e.KeyChar == 8 )
+            {
+                e.Handled = false;
+            }
+            else if (e.KeyChar == 46)
+            {
+                valor = numero.Contains(e.KeyChar);
+                if (valor==false)
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                }               
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void dGvStock2_CellValidated(object sender, DataGridViewCellEventArgs e)
+        {
+            Decimal valor2;
+            if (dGvStock2.Columns[e.ColumnIndex].Name == "Comprometidos" || dGvStock2.Columns[e.ColumnIndex].Name == "PorDespachar")
+            {
+               valor = Decimal.Parse(dGvStock2.Rows[0].Cells[2].Value.ToString());
+               valor2= Decimal.Parse(dGvStock2.Rows[0].Cells[4].Value.ToString());
+               disponible = Decimal.Parse(dGvStock2.Rows[0].Cells[1].Value.ToString());
+               valor2 = valor + valor2;
+               
+               if (valor2<disponible)
+               {
+                    disponible = disponible - valor2;
+                    dGvStock2.Rows[0].Cells[5].Value = disponible;
+               }
+               else
+                {
+                    //pendiente
+                }
+
+            }
+        }
+
+        private void toolStripBtoGuardar_Click(object sender, EventArgs e)
+        {
+            FuncionGuardar();
+        }
+
+        public void ejecutarSub(string[,] dato)
+        {
+            txtCodSCatg.Text = dato[0, 0];
+            txtSubCatg.Text = dato[0, 1];
+        }
+
+        private void toolStripBtoDescartar_Click(object sender, EventArgs e)
+        {
+            LimpiarCajas();
+            FuncionInicio();
+        }
+    }
+}

@@ -1,0 +1,169 @@
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+D:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+D:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+D:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+D:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+D:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+D:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+D:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+F:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+F:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+F:\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+F:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+F:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+F:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+F:\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb

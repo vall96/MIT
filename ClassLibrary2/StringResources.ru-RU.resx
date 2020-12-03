@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="10Decimales" xml:space="preserve">
+    <value>10 десятичных знака</value>
+  </data>
+  <data name="1Decimal" xml:space="preserve">
+    <value>1 десятичный</value>
+  </data>
+  <data name="2Decimales" xml:space="preserve">
+    <value>2 десятичных знака</value>
+  </data>
+  <data name="3Decimales" xml:space="preserve">
+    <value>3 десятичных знака</value>
+  </data>
+  <data name="4Decimales" xml:space="preserve">
+    <value>4 десятичных знака</value>
+  </data>
+  <data name="5Decimales" xml:space="preserve">
+    <value>5 десятичных знака</value>
+  </data>
+  <data name="6Decimales" xml:space="preserve">
+    <value>6 десятичных знака</value>
+  </data>
+  <data name="7Decimales" xml:space="preserve">
+    <value>7 десятичных знака</value>
+  </data>
+  <data name="8Decimales" xml:space="preserve">
+    <value>8 десятичных знака</value>
+  </data>
+  <data name="9Decimales" xml:space="preserve">
+    <value>9 десятичных знака</value>
+  </data>
+  <data name="Actual" xml:space="preserve">
+    <value>ток</value>
+  </data>
+  <data name="agregar" xml:space="preserve">
+    <value>добавлять</value>
+  </data>
+  <data name="AgregarComentario" xml:space="preserve">
+    <value>Добавить комментарий:</value>
+  </data>
+  <data name="Almacen" xml:space="preserve">
+    <value>Хранение:</value>
+  </data>
+  <data name="Almacenes" xml:space="preserve">
+    <value>склады</value>
+  </data>
+  <data name="AlmacenesAsociados" xml:space="preserve">
+    <value>Связанные склады:</value>
+  </data>
+  <data name="Articulo" xml:space="preserve">
+    <value>статья</value>
+  </data>
+  <data name="Articulodospuntos" xml:space="preserve">
+    <value>статьи:</value>
+  </data>
+  <data name="Articulos" xml:space="preserve">
+    <value>статьи</value>
+  </data>
+  <data name="ArticulosCompuestos" xml:space="preserve">
+    <value>Составные элементы</value>
+  </data>
+  <data name="ArticulosdeProduccion" xml:space="preserve">
+    <value>Производственные статьи</value>
+  </data>
+  <data name="AsociarAlmacen" xml:space="preserve">
+    <value>Ассоциированный склад</value>
+  </data>
+  <data name="AsociarArticulos" xml:space="preserve">
+    <value>Ассоциированные статьи</value>
+  </data>
+  <data name="AsociarItem" xml:space="preserve">
+    <value>Вы должны связать хотя бы один элемент в таблицах</value>
+  </data>
+  <data name="AsociarProveedor" xml:space="preserve">
+    <value>Ассоциированный поставщик</value>
+  </data>
+  <data name="AsociarTareas" xml:space="preserve">
+    <value>Вы должны связать хотя бы одну задачу</value>
+  </data>
+  <data name="Atributos" xml:space="preserve">
+    <value>атрибуты</value>
+  </data>
+  <data name="Ayuda" xml:space="preserve">
+    <value>помощь</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>поиск</value>
+  </data>
+  <data name="btnSalir" xml:space="preserve">
+    <value>выход</value>
+  </data>
+  <data name="btoAceptar" xml:space="preserve">
+    <value>принимать</value>
+  </data>
+  <data name="btoAgregar" xml:space="preserve">
+    <value>Ф5 добавлять</value>
+  </data>
+  <data name="btoCancelar" xml:space="preserve">
+    <value>отменить</value>
+  </data>
+  <data name="btoDescartar" xml:space="preserve">
+    <value>Ф9 отбрасывать</value>
+  </data>
+  <data name="btoEditar" xml:space="preserve">
+    <value>Ф6 редактировать</value>
+  </data>
+  <data name="btoEliminar" xml:space="preserve">
+    <value>Ф8 удаление</value>
+  </data>
+  <data name="BtoEliminarTodo.Text" xml:space="preserve">
+    <value>Удалить все</value>
+  </data>
+  <data name="btoGuardar" xml:space="preserve">
+    <value>Ф7 экономить</value>
+  </data>
+  <data name="btoRestaurar" xml:space="preserve">
+    <value>Ф5 восстановление</value>
+  </data>
+  <data name="btoValidar" xml:space="preserve">
+    <value>утверждать</value>
+  </data>
+  <data name="CambiarClave" xml:space="preserve">
+    <value>Вы должны изменить пароль</value>
+  </data>
+  <data name="Cant.deProveedoresAsociados:" xml:space="preserve">
+    <value>Количество ассоциированных провайдеров:</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>количество</value>
+  </data>
+  <data name="CantidadDeArticulos" xml:space="preserve">
+    <value>Количество предметов</value>
+  </data>
+  <data name="CantidadDisponible" xml:space="preserve">
+    <value>Доступное количество</value>
+  </data>
+  <data name="CantidadMaxima" xml:space="preserve">
+    <value>Максимальное количество</value>
+  </data>
+  <data name="CantidadMinima" xml:space="preserve">
+    <value>Минимальное количество</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>категория</value>
+  </data>
+  <data name="CedulaDeProducto" xml:space="preserve">
+    <value>Идентификатор продукта</value>
+  </data>
+  <data name="CedulasDeProduccion" xml:space="preserve">
+    <value>Производственные сертификаты</value>
+  </data>
+  <data name="CierredeOrden" xml:space="preserve">
+    <value>Закрытие заказа</value>
+  </data>
+  <data name="Ciudad" xml:space="preserve">
+    <value>город:</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>код:</value>
+  </data>
+  <data name="CodigoAsociado" xml:space="preserve">
+    <value>Ассоциированный код</value>
+  </data>
+  <data name="CodigoAutogenerado" xml:space="preserve">
+    <value>Код сам генерируется системой</value>
+  </data>
+  <data name="CodigodosPuntos" xml:space="preserve">
+    <value>код:</value>
+  </data>
+  <data name="CodigoModulo" xml:space="preserve">
+    <value>Код модуля</value>
+  </data>
+  <data name="Coma" xml:space="preserve">
+    <value>точка(,)</value>
+  </data>
+  <data name="Comprometidos" xml:space="preserve">
+    <value>привержен</value>
+  </data>
+  <data name="ConfiguraciondeIVA" xml:space="preserve">
+    <value>Настройки НДС</value>
+  </data>
+  <data name="ConfiguracionNumero" xml:space="preserve">
+    <value>Настройки десятичного числа</value>
+  </data>
+  <data name="ConfigurarDescuento:" xml:space="preserve">
+    <value>Установить скидку:</value>
+  </data>
+  <data name="ConImpuesto" xml:space="preserve">
+    <value>С налогом</value>
+  </data>
+  <data name="Contacto" xml:space="preserve">
+    <value>обращайтесь:</value>
+  </data>
+  <data name="ContraseñaActualizada" xml:space="preserve">
+    <value>Пароль успешно обновлен</value>
+  </data>
+  <data name="ControldeMaquinas" xml:space="preserve">
+    <value>Управление машиной</value>
+  </data>
+  <data name="Controles" xml:space="preserve">
+    <value>управления</value>
+  </data>
+  <data name="Costo" xml:space="preserve">
+    <value>стоимость</value>
+  </data>
+  <data name="CostoEstandar" xml:space="preserve">
+    <value>Стандартная стоимость</value>
+  </data>
+  <data name="CostoProveedor" xml:space="preserve">
+    <value>Стоимость поставщика:</value>
+  </data>
+  <data name="CostosDeITEM" xml:space="preserve">
+    <value>ПУНКТ расходы</value>
+  </data>
+  <data name="CostoUnitario" xml:space="preserve">
+    <value>Стоимость единицы</value>
+  </data>
+  <data name="CostoyPrecio" xml:space="preserve">
+    <value>Расходы и цены</value>
+  </data>
+  <data name="Credito" xml:space="preserve">
+    <value>кредит:</value>
+  </data>
+  <data name="DBActualizacionExitosa" xml:space="preserve">
+    <value>Успешное обновление</value>
+  </data>
+  <data name="DBContraseñaActualizada" xml:space="preserve">
+    <value>Пароль обновлен</value>
+  </data>
+  <data name="DBEliminacionexitosa" xml:space="preserve">
+    <value>Успешная ликвидация</value>
+  </data>
+  <data name="DBRegistroexitoso" xml:space="preserve">
+    <value>Успешная регистрация</value>
+  </data>
+  <data name="DBRestauracionExitosa" xml:space="preserve">
+    <value>Успешное восстановление</value>
+  </data>
+  <data name="DBUsuarioRegistrado" xml:space="preserve">
+    <value>Пользователь уже зарегистрирован</value>
+  </data>
+  <data name="Debe especificar el tipo de duracion" xml:space="preserve">
+    <value>Вы должны указать тип продолжительности</value>
+  </data>
+  <data name="DebeIngresarUnCodigo" xml:space="preserve">
+    <value>Вы должны ввести код</value>
+  </data>
+  <data name="DecimalesConfigurar" xml:space="preserve">
+    <value>Количество десятичных знаков для настройки</value>
+  </data>
+  <data name="DefiniciondeTareas" xml:space="preserve">
+    <value>Определение задачи</value>
+  </data>
+  <data name="DefinicióndeStocks" xml:space="preserve">
+    <value>Определение запасов:</value>
+  </data>
+  <data name="Descartar" xml:space="preserve">
+    <value>отбрасывать</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="DescripcionSubCatg" xml:space="preserve">
+    <value>Описание подкатегории</value>
+  </data>
+  <data name="DeseaEliminaCategoria" xml:space="preserve">
+    <value>Вы хотите удалить категорию</value>
+  </data>
+  <data name="DeseaEliminarCeduladeProducto" xml:space="preserve">
+    <value>Вы хотите удалить идентификатор продукта</value>
+  </data>
+  <data name="DeseaEliminarLaSucursal" xml:space="preserve">
+    <value>Вы хотите удалить ветку:</value>
+  </data>
+  <data name="Deseaeliminarunidades" xml:space="preserve">
+    <value>Вы хотите удалить единицы</value>
+  </data>
+  <data name="DetallesDeUsuario" xml:space="preserve">
+    <value>Данные пользователя</value>
+  </data>
+  <data name="Devoluciones" xml:space="preserve">
+    <value>Возвращает</value>
+  </data>
+  <data name="Dias" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="Dias1" xml:space="preserve">
+    <value>дней:</value>
+  </data>
+  <data name="DiasdeGarantia" xml:space="preserve">
+    <value>Дни гарантии:</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>адрес:</value>
+  </data>
+  <data name="Disponible" xml:space="preserve">
+    <value>доступный</value>
+  </data>
+  <data name="Duracion" xml:space="preserve">
+    <value>продолжительность</value>
+  </data>
+  <data name="DuracionDiasHoras" xml:space="preserve">
+    <value>Дни / Часы</value>
+  </data>
+  <data name="editar" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="ElCampoDescripcion_NoPuede_EstarVacio" xml:space="preserve">
+    <value>Поле Описание не может быть пустым</value>
+  </data>
+  <data name="ElEstadoEstaAsociadoaUsuarios" xml:space="preserve">
+    <value>Состояние нельзя удалить, поскольку оно связано с существующими </value>
+  </data>
+  <data name="ElEstadoNoSePuede_liminarPorqueEsta_AsociadoaUsuariosEnMantenimiento" xml:space="preserve">
+    <value>Состояние нельзя удалить, поскольку оно связано с пользователями в обслуживании</value>
+  </data>
+  <data name="Eliminar" xml:space="preserve">
+    <value>удаление</value>
+  </data>
+  <data name="EliminarSubcategioria" xml:space="preserve">
+    <value>Вы хотите удалить подкатегорию?</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>удаление</value>
+  </data>
+  <data name="Inicio.Empresa" xml:space="preserve">
+    <value>компании</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>компания</value>
+  </data>
+  <data name="Empresas" xml:space="preserve">
+    <value>компании</value>
+  </data>
+  <data name="EntregasParciales" xml:space="preserve">
+    <value>Частичные поставки</value>
+  </data>
+  <data name="ErrordeValidacion" xml:space="preserve">
+    <value>электронная почта</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Состояние:</value>
+  </data>
+  <data name="EstadosEliminados" xml:space="preserve">
+    <value>Удаленные состояния</value>
+  </data>
+  <data name="EstatusdeArtículo" xml:space="preserve">
+    <value>Статус статьи:</value>
+  </data>
+  <data name="EstatusDeMaquina" xml:space="preserve">
+    <value>Статус машины</value>
+  </data>
+  <data name="EstatusdeUsuario" xml:space="preserve">
+    <value>Статус пользователя</value>
+  </data>
+  <data name="EstatusEliminados" xml:space="preserve">
+    <value>Исключенный статус</value>
+  </data>
+  <data name="ExistenCamposVacios" xml:space="preserve">
+    <value>Есть пустые поля</value>
+  </data>
+  <data name="Facturas" xml:space="preserve">
+    <value>счета-фактуры</value>
+  </data>
+  <data name="FacturasdeCompra" xml:space="preserve">
+    <value>Счета на покупку</value>
+  </data>
+  <data name="FacturasdeVentas" xml:space="preserve">
+    <value>Счета продаж</value>
+  </data>
+  <data name="FAX" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="fecha" xml:space="preserve">
+    <value>дата</value>
+  </data>
+  <data name="Fecha1" xml:space="preserve">
+    <value>дата:</value>
+  </data>
+  <data name="FechaCreacion" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="FechaRegistro" xml:space="preserve">
+    <value>Дата регистрации:</value>
+  </data>
+  <data name="frmAtributo.EliminarAtributo" xml:space="preserve">
+    <value>Вы хотите удалить атрибут</value>
+  </data>
+  <data name="frmAtributo.EliminarEstatusMaquina" xml:space="preserve">
+    <value>Вы хотите удалить статус</value>
+  </data>
+  <data name="frmCambiarClave.lblConfirmarContraseña" xml:space="preserve">
+    <value>Подтвердите пароль:</value>
+  </data>
+  <data name="frmCambiarClave.lblContraseña" xml:space="preserve">
+    <value>пароль:</value>
+  </data>
+  <data name="frmCambiarClave.messContraseña123" xml:space="preserve">
+    <value>Новый пароль должен отличаться от текущего и начального пароля</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñaEnBlanco" xml:space="preserve">
+    <value>Поля не могут быть пустыми</value>
+  </data>
+  <data name="frmCambiarClave.messContraseñasIguales" xml:space="preserve">
+    <value>Пароли должны быть одинаковыми</value>
+  </data>
+  <data name="frmCambiarClave.messPreguntasenBlanco" xml:space="preserve">
+    <value>Вы должны ответить на вопрос</value>
+  </data>
+  <data name="frmCambiarClave.messUstedPresionoCancel" xml:space="preserve">
+    <value>вы нажимаете отменить</value>
+  </data>
+  <data name="frmCambiarClave.messValidaciondeContraseña" xml:space="preserve">
+    <value>Пароль должен отличаться от текущего пароля</value>
+  </data>
+  <data name="frmCambiarClave.Titulo" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="frmCambiarRespuestas.lblSelelccionesPreguntas" xml:space="preserve">
+    <value>Выберите вопрос</value>
+  </data>
+  <data name="frmCambiarRespuestas.lblTitulo" xml:space="preserve">
+    <value>Модификация ответов</value>
+  </data>
+  <data name="frmCambiarRespuestas.messRespuestaModificada" xml:space="preserve">
+    <value>Ваш ответ был изменен</value>
+  </data>
+  <data name="frmCambiarRespuestas.tituloValidacionDeCambio" xml:space="preserve">
+    <value>Изменить проверку</value>
+  </data>
+  <data name="frmConfiguracionDecimal.Titulo" xml:space="preserve">
+    <value>Десятичная конфигурация</value>
+  </data>
+  <data name="frmEmpresa-Sucursal.lblSeleccioneEmpresa" xml:space="preserve">
+    <value>Выберите компанию:</value>
+  </data>
+  <data name="frmEmpresa-Surcusal.lblSeleccioneSucursal" xml:space="preserve">
+    <value>Выберите связанную ветвь:</value>
+  </data>
+  <data name="frmEmpresa.TabPropiedadesEmpresa" xml:space="preserve">
+    <value>Свойства компании</value>
+  </data>
+  <data name="frmEmpresa.TituloPanel" xml:space="preserve">
+    <value>Добавить / Поиск компаний</value>
+  </data>
+  <data name="frmEmpresa_Sucursal" xml:space="preserve">
+    <value>Таблица компаний</value>
+  </data>
+  <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
+    <value>Вы хотите удалить</value>
+  </data>
+  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
+    <value>Успешное обновление</value>
+  </data>
+  <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
+    <value>Сбой машины</value>
+  </data>
+  <data name="frmGastosFabrica" xml:space="preserve">
+    <value>Заводские сборы</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.lblIngreseNombre" xml:space="preserve">
+    <value>Введите имя пользователя</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messElUsuarioNoExiste" xml:space="preserve">
+    <value>Имя пользователя не существует</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messNombreEnBlanco" xml:space="preserve">
+    <value>Имя пользователя не может быть пустым</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messRespuestaErrada" xml:space="preserve">
+    <value>Ваш ответ не соответствует информации, хранящейся в базе данных</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.messValidacionExitosa" xml:space="preserve">
+    <value>Успешная проверка пользователя</value>
+  </data>
+  <data name="frmIngreseNombreUsuario.TituloFormulario" xml:space="preserve">
+    <value>Проверка имени пользователя</value>
+  </data>
+  <data name="frmMaquina.EliminarMaquina" xml:space="preserve">
+    <value>Вы хотите удалить Машину</value>
+  </data>
+  <data name="frmMonedas.CodIso" xml:space="preserve">
+    <value>ISO код</value>
+  </data>
+  <data name="frmMonedas.EliminaMon" xml:space="preserve">
+    <value>Хотите удалить выбранные валюты?</value>
+  </data>
+  <data name="frmMonedas.Monedas" xml:space="preserve">
+    <value>Компания-филиал</value>
+  </data>
+  <data name="frmMonedas.Simbolo" xml:space="preserve">
+    <value>знак</value>
+  </data>
+  <data name="frmMonedas.tituloPanel" xml:space="preserve">
+    <value>Список валют</value>
+  </data>
+  <data name="frmPerfilEmpleados.msj" xml:space="preserve">
+    <value>Этот код не должен иметь
+специальные символы или пробелы.</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+    <value>вопрос</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
+    <value>вопрошающий</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messDebeIngresarUnaPregunta" xml:space="preserve">
+    <value>Вы должны ввести вопрос</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messEliminarPregunta" xml:space="preserve">
+    <value>Вы хотите удалить выбранный вопрос</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.messPreguntaRegistrada" xml:space="preserve">
+    <value>Зарегистрированный вопрос с успехом</value>
+  </data>
+  <data name="frmPreguntasDeSeguridad.TITULO" xml:space="preserve">
+    <value>Вопросы безопасности</value>
+  </data>
+  <data name="frmPrincipal.Inventario" xml:space="preserve">
+    <value>И инвентарь</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
+    <value>администрация</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
+    <value>администрация</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
+    <value>помощь</value>
+  </data>
+  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
+    <value>помощь</value>
+  </data>
+  <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="frmPrincipal.MenuStripCambiarRespuestas" xml:space="preserve">
+    <value>Изменить ответы</value>
+  </data>
+  <data name="frmPrincipal.MenuStripHistorialOperaciones" xml:space="preserve">
+    <value>История операций</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio" xml:space="preserve">
+    <value>инициирование</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio-CambiarSesion" xml:space="preserve">
+    <value>Изменить сессию</value>
+  </data>
+  <data name="frmPrincipal.MenuStripInicio1" xml:space="preserve">
+    <value>инициирование</value>
+  </data>
+  <data name="frmPrincipal.MenuStripMantenimiento" xml:space="preserve">
+    <value>обслуживание</value>
+  </data>
+  <data name="frmPrincipal.MenuStripMantenimiento1" xml:space="preserve">
+    <value>обслуживание</value>
+  </data>
+  <data name="frmPrincipal.MenuStripProcesos" xml:space="preserve">
+    <value>процессы</value>
+  </data>
+  <data name="frmPrincipal.MenuStripProcesos1" xml:space="preserve">
+    <value>процессы</value>
+  </data>
+  <data name="frmPrincipal.MenuStripReportes" xml:space="preserve">
+    <value>отчеты</value>
+  </data>
+  <data name="frmPrincipal.MenuStripReportes1" xml:space="preserve">
+    <value>отчеты</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablas" xml:space="preserve">
+    <value>рисовать</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablas1" xml:space="preserve">
+    <value>рисовать</value>
+  </data>
+  <data name="frmPrincipal.MenuStripTablasUsuarios" xml:space="preserve">
+    <value>пользователи</value>
+  </data>
+  <data name="frmPrincipalInicio.CambiarSesion" xml:space="preserve">
+    <value>&amp;Изменить сессию</value>
+  </data>
+  <data name="frmPrincipalInicio.CambiarSesion1" xml:space="preserve">
+    <value>Изменить сессию</value>
+  </data>
+  <data name="frmPrincipalInicio.Salir" xml:space="preserve">
+    <value>&amp;выход</value>
+  </data>
+  <data name="frmPropiedadesSistema.Titulo" xml:space="preserve">
+    <value>Свойства системы</value>
+  </data>
+  <data name="frmRegistroUsuario.lblClave" xml:space="preserve">
+    <value>ключ:</value>
+  </data>
+  <data name="frmRegistroUsuario.lblIdioma" xml:space="preserve">
+    <value>язык:</value>
+  </data>
+  <data name="frmRegistroUsuario.lblOlvidoContrasena" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="frmRegistroUsuario.lblUsuario" xml:space="preserve">
+    <value>пользователь:</value>
+  </data>
+  <data name="frmRegistroUsuario.messBienvenida" xml:space="preserve">
+    <value>добро пожаловать</value>
+  </data>
+  <data name="frmRegistroUsuario.messCerrandoSistema" xml:space="preserve">
+    <value>Закрытие системы</value>
+  </data>
+  <data name="frmRegistroUsuario.messClaveInvalida" xml:space="preserve">
+    <value>Неверный пароль</value>
+  </data>
+  <data name="frmRegistroUsuario.messPedirClave" xml:space="preserve">
+    <value>Вы должны ввести пароль пользователя</value>
+  </data>
+  <data name="frmRegistroUsuario.messSalidaSistema" xml:space="preserve">
+    <value>Выход системы</value>
+  </data>
+  <data name="frmRegistroUsuario.messValidacionCorrecta" xml:space="preserve">
+    <value>Правильная проверка</value>
+  </data>
+  <data name="frmRegistroUsuario.Text" xml:space="preserve">
+    <value>Контроль доступа к системе MIT CORE</value>
+  </data>
+  <data name="frmRegistroUsuario.UsuarioInvalido" xml:space="preserve">
+    <value>Неверный пользователь</value>
+  </data>
+  <data name="frmRelacionSucAlm.btoAsociarAlmacenes" xml:space="preserve">
+    <value>Ассоциированные Склады</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblAlmacenesAsociados" xml:space="preserve">
+    <value>Ассоциированные Склады</value>
+  </data>
+  <data name="frmRelacionSucAlm.lblTitulo" xml:space="preserve">
+    <value>Отраслевые ассоциации и склады</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjEliminarAlmacenes" xml:space="preserve">
+    <value>Вы хотите удалить выбранные магазины?</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjEliminarAlmacenes.mt" xml:space="preserve">
+    <value>Вы хотите удалить выбранные магазины?</value>
+  </data>
+  <data name="frmRelacionSucAlm.msjSinAlmacen.mt" xml:space="preserve">
+    <value>Вы не выбрали ни одного склада для</value>
+  </data>
+  <data name="frmRelacionSucAlm.mssElimRelacion" xml:space="preserve">
+    <value>Вы хотите удалить выбранные склады?</value>
+  </data>
+  <data name="frmStaEliminados.messDeseaEliminarUser" xml:space="preserve">
+    <value>Вы хотите навсегда удалить пользователя</value>
+  </data>
+  <data name="frmStaEliminados.TituloFORMUALRIO" xml:space="preserve">
+    <value>Статус удален</value>
+  </data>
+  <data name="frmStaUsuarios.lblTituloPanel" xml:space="preserve">
+    <value>Таблица пользователей</value>
+  </data>
+  <data name="frmStaUsuarios.messAgregarDescripcion-Codigo" xml:space="preserve">
+    <value>Вы должны ввести описание для нового кода</value>
+  </data>
+  <data name="frmStaUsuarios.messDeseaEliminarStatus" xml:space="preserve">
+    <value>Вы хотите удалить статус</value>
+  </data>
+  <data name="frmSucursales.NoHayMonedas" xml:space="preserve">
+    <value>Нет связанных валют</value>
+  </data>
+  <data name="frmSucursales.titulopanel" xml:space="preserve">
+    <value>Добавить / Поиск филиалов</value>
+  </data>
+  <data name="frmTbFallaMaquina.Titulo" xml:space="preserve">
+    <value>Диаграмма неисправностей машины</value>
+  </data>
+  <data name="frmTbGastosFabrica" xml:space="preserve">
+    <value>Таблица заводских расходов</value>
+  </data>
+  <data name="frmTbPerfilesEmpleados.Titulo" xml:space="preserve">
+    <value>Таблица профилей сотрудников</value>
+  </data>
+  <data name="frmTbProcedencia" xml:space="preserve">
+    <value>Исходная таблица</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDebeIngresarnombre" xml:space="preserve">
+    <value>Вы должны ввести имя</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDebeingresarUnNombre" xml:space="preserve">
+    <value>Вы должны ввести пользователя или имя, чтобы выполнить поиск</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.messDeseaEliminarUsuario" xml:space="preserve">
+    <value>Вы хотите удалить пользователя</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.TituloFormulario" xml:space="preserve">
+    <value>Поиск / Добавление пользователей</value>
+  </data>
+  <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
+    <value>Обновление проверки</value>
+  </data>
+  <data name="frmUsuarioPruebaEstilo_cboAdministracion" xml:space="preserve">
+    <value>производство</value>
+  </data>
+  <data name="frmUsuarioPruebaEstilo_cboContabilidad" xml:space="preserve">
+    <value>учет</value>
+  </data>
+  <data name="frmUsuariosEliminados.messDeseaEliminarTODOSlosUsuarios" xml:space="preserve">
+    <value>Вы хотите навсегда удалить пользователей?</value>
+  </data>
+  <data name="frmUsuariosEliminados.messDeseaEliminarUsuario" xml:space="preserve">
+    <value>Вы хотите навсегда удалить пользователя</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblContraseña" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="frmValidarClaveVieja.lblIngreseClaveActual" xml:space="preserve">
+    <value>Для вашей безопасности введите текущий ключ</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveEnBlanco" xml:space="preserve">
+    <value>Вы должны ввести свой текущий пароль пользователя</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveInvalida" xml:space="preserve">
+    <value>Неверный пароль</value>
+  </data>
+  <data name="frmValidarClaveVieja.messClaveValida" xml:space="preserve">
+    <value>Правильный пароль</value>
+  </data>
+  <data name="frmValidarClaveVieja.messMaximoDeIntentos" xml:space="preserve">
+    <value>Исчерпаны 3 разрешенных попытки, необходимо обратиться к системному администратору</value>
+  </data>
+  <data name="frmValidarClaveVieja.TituloUsuarioBloqueado" xml:space="preserve">
+    <value>проверка достоверности</value>
+  </data>
+  <data name="garantia" xml:space="preserve">
+    <value>гарантия</value>
+  </data>
+  <data name="GastosDeFabricacion" xml:space="preserve">
+    <value>Затраты на производство</value>
+  </data>
+  <data name="Herramientas" xml:space="preserve">
+    <value>инструменты</value>
+  </data>
+  <data name="Horas" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="Informaciongeneral" xml:space="preserve">
+    <value>Общая информация</value>
+  </data>
+  <data name="IngresarNombreDeUsuario" xml:space="preserve">
+    <value>Вы должны ввести имя пользователя</value>
+  </data>
+  <data name="IntroducirRespuesta" xml:space="preserve">
+    <value>Вы должны ввести ответ</value>
+  </data>
+  <data name="IVAcompra" xml:space="preserve">
+    <value>Покупка НДС:</value>
+  </data>
+  <data name="IvaVenta" xml:space="preserve">
+    <value>НДС с продаж:</value>
+  </data>
+  <data name="lblDescripcion.Text" xml:space="preserve">
+    <value>описание</value>
+  </data>
+  <data name="lblNombeDosPuntos" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="Limite" xml:space="preserve">
+    <value>предел:</value>
+  </data>
+  <data name="Lotes" xml:space="preserve">
+    <value>много</value>
+  </data>
+  <data name="MaquinaConFallas" xml:space="preserve">
+    <value>Машина с ошибками</value>
+  </data>
+  <data name="MaquinaDeFabricacion" xml:space="preserve">
+    <value>Машина для производства</value>
+  </data>
+  <data name="Maquinas" xml:space="preserve">
+    <value>машины</value>
+  </data>
+  <data name="Maxima" xml:space="preserve">
+    <value>максима</value>
+  </data>
+  <data name="Medida" xml:space="preserve">
+    <value>измерение</value>
+  </data>
+  <data name="Minima" xml:space="preserve">
+    <value>низкий</value>
+  </data>
+  <data name="MITCOREPRODUCCION" xml:space="preserve">
+    <value>MIT CORE ПРОИЗВОДСТВО</value>
+  </data>
+  <data name="Modelo" xml:space="preserve">
+    <value>модель</value>
+  </data>
+  <data name="Modulo" xml:space="preserve">
+    <value>модуль</value>
+  </data>
+  <data name="moneda" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="msjAsociarArticulos" xml:space="preserve">
+    <value>Должны ассоциировать элементы</value>
+  </data>
+  <data name="msjAsociarMaquinas" xml:space="preserve">
+    <value>Должны ассоциировать машины</value>
+  </data>
+  <data name="msjEliminarItems" xml:space="preserve">
+    <value>Вы хотите удалить выбранные элементы</value>
+  </data>
+  <data name="msjEliminarTarea" xml:space="preserve">
+    <value>Вы не можете удалить задачу</value>
+  </data>
+  <data name="msjRegistroAsociados" xml:space="preserve">
+    <value>потому что она имеет связанные записи</value>
+  </data>
+  <data name="Multimoneda" xml:space="preserve">
+    <value>мультивалютный</value>
+  </data>
+  <data name="Municipio" xml:space="preserve">
+    <value>муниципалитет:</value>
+  </data>
+  <data name="NIT" xml:space="preserve">
+    <value>NIT</value>
+  </data>
+  <data name="No se puede realizar la busqueda con todos los campos llenos" xml:space="preserve">
+    <value>Невозможно выполнить поиск, если все поля заполнены</value>
+  </data>
+  <data name="Nohaysucursal" xml:space="preserve">
+    <value>Нет ветки</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>название:</value>
+  </data>
+  <data name="NoPoseeAlmacenAsociado" xml:space="preserve">
+    <value>Не имеет ассоциированных складов</value>
+  </data>
+  <data name="NoSeEncontroInformacion" xml:space="preserve">
+    <value>По предоставленным данным информация не найдена</value>
+  </data>
+  <data name="NumeroDecimal" xml:space="preserve">
+    <value>Установить количество десятичных знаков</value>
+  </data>
+  <data name="OpcionesGenerales" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="Orden de Produccion" xml:space="preserve">
+    <value>Производственный заказ</value>
+  </data>
+  <data name="OtrasPropiedades" xml:space="preserve">
+    <value>Другие свойства:</value>
+  </data>
+  <data name="Pagweb" xml:space="preserve">
+    <value>Веб-страница</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Страна:</value>
+  </data>
+  <data name="PerfilesdeEmpleados" xml:space="preserve">
+    <value>Профили сотрудников</value>
+  </data>
+  <data name="PersonaJuridica" xml:space="preserve">
+    <value>Тип юридического лица:</value>
+  </data>
+  <data name="PorAdquirir" xml:space="preserve">
+    <value>Приобрести</value>
+  </data>
+  <data name="PorDespachar" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="PreciodeVenta:" xml:space="preserve">
+    <value>Цена продажи:</value>
+  </data>
+  <data name="PrecioMaximo" xml:space="preserve">
+    <value>Максимальная цена</value>
+  </data>
+  <data name="PrecioMayor" xml:space="preserve">
+    <value>Более высокая цена</value>
+  </data>
+  <data name="PrecioMinimo" xml:space="preserve">
+    <value>Минимальная цена</value>
+  </data>
+  <data name="PrecioOferta" xml:space="preserve">
+    <value>Предложить цену</value>
+  </data>
+  <data name="Precios" xml:space="preserve">
+    <value>цены</value>
+  </data>
+  <data name="preguntaSeguridad.1" xml:space="preserve">
+    <value>Какой твой любимый цвет?</value>
+  </data>
+  <data name="preguntaSeguridad.2" xml:space="preserve">
+    <value>Как зовут вашего первого питомца?</value>
+  </data>
+  <data name="preguntaSeguridad.3" xml:space="preserve">
+    <value>Где вы родились?</value>
+  </data>
+  <data name="preguntaSeguridad.4" xml:space="preserve">
+    <value>Как зовут твою маму?</value>
+  </data>
+  <data name="PrevisionDeVentas" xml:space="preserve">
+    <value>Прогноз продаж</value>
+  </data>
+  <data name="Procedencia" xml:space="preserve">
+    <value>источник</value>
+  </data>
+  <data name="ProcedenciadelArticulo" xml:space="preserve">
+    <value>Происхождение статьи:</value>
+  </data>
+  <data name="Procedencias" xml:space="preserve">
+    <value>источник</value>
+  </data>
+  <data name="Produccion" xml:space="preserve">
+    <value>производство</value>
+  </data>
+  <data name="Producto" xml:space="preserve">
+    <value>продукт</value>
+  </data>
+  <data name="ProductosTerminados" xml:space="preserve">
+    <value>Готовая продукция</value>
+  </data>
+  <data name="ProgramaciondeProduccion" xml:space="preserve">
+    <value>График производства</value>
+  </data>
+  <data name="Propiedades" xml:space="preserve">
+    <value>свойства</value>
+  </data>
+  <data name="PropiedadesdeAlmacen" xml:space="preserve">
+    <value>Складская недвижимость</value>
+  </data>
+  <data name="PropiedadesdeStatus" xml:space="preserve">
+    <value>Статус недвижимости</value>
+  </data>
+  <data name="PropiedadesdeSucursal" xml:space="preserve">
+    <value>Свойства филиала</value>
+  </data>
+  <data name="PropiedadesdeUsuario" xml:space="preserve">
+    <value>Свойства пользователя</value>
+  </data>
+  <data name="proveedor" xml:space="preserve">
+    <value>поставщик:</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>провайдеры</value>
+  </data>
+  <data name="Punto" xml:space="preserve">
+    <value>точка (.)</value>
+  </data>
+  <data name="RedondearPreciosconImpuestos" xml:space="preserve">
+    <value>Круглые цены с налогами</value>
+  </data>
+  <data name="Referencia" xml:space="preserve">
+    <value>ссылка:</value>
+  </data>
+  <data name="Requisiciones" xml:space="preserve">
+    <value>поборы</value>
+  </data>
+  <data name="Responsable" xml:space="preserve">
+    <value>ответственность:</value>
+  </data>
+  <data name="Restaurar" xml:space="preserve">
+    <value>восстановление</value>
+  </data>
+  <data name="RIF" xml:space="preserve">
+    <value>РИФ</value>
+  </data>
+  <data name="Rol" xml:space="preserve">
+    <value>роль:</value>
+  </data>
+  <data name="SeleccionarEmpresa" xml:space="preserve">
+    <value>Выберите компанию:</value>
+  </data>
+  <data name="SeleccioneElMetodoDeCosto" xml:space="preserve">
+    <value>Выберите метод стоимости</value>
+  </data>
+  <data name="SeleccionelasMonedas" xml:space="preserve">
+    <value>Выберите валюты</value>
+  </data>
+  <data name="SeleccioneSucursalAsociada" xml:space="preserve">
+    <value>Выберите связанную ветвь:</value>
+  </data>
+  <data name="Serial" xml:space="preserve">
+    <value>последовательный</value>
+  </data>
+  <data name="SinImpuesto" xml:space="preserve">
+    <value>Нет налога</value>
+  </data>
+  <data name="SinSucursalesAsociados" xml:space="preserve">
+    <value>У него нет связанных ветвей</value>
+  </data>
+  <data name="sobreNosotros" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Soporte" xml:space="preserve">
+    <value>Онлайн поддержка</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>статус</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>акции</value>
+  </data>
+  <data name="SubCategoria" xml:space="preserve">
+    <value>подкатегория</value>
+  </data>
+  <data name="Sucursal" xml:space="preserve">
+    <value>отрасль:</value>
+  </data>
+  <data name="Sucursales" xml:space="preserve">
+    <value>ветви</value>
+  </data>
+  <data name="SucusalesAlmacenes" xml:space="preserve">
+    <value>Филиалы / Склады</value>
+  </data>
+  <data name="Sueldo" xml:space="preserve">
+    <value>Зарплата</value>
+  </data>
+  <data name="TablaStatus" xml:space="preserve">
+    <value>Таблица состояний</value>
+  </data>
+  <data name="TablaUsuario" xml:space="preserve">
+    <value>Таблица пользователей</value>
+  </data>
+  <data name="Tarea" xml:space="preserve">
+    <value>задача</value>
+  </data>
+  <data name="Telefonos" xml:space="preserve">
+    <value>телефон:</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>Стиль тестирования пользователей</value>
+  </data>
+  <data name="TiempoDeMaquina" xml:space="preserve">
+    <value>Время машины</value>
+  </data>
+  <data name="TiempoTotal" xml:space="preserve">
+    <value>Общее время</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>тип:</value>
+  </data>
+  <data name="TipodeRedondeo" xml:space="preserve">
+    <value>Тип округления:</value>
+  </data>
+  <data name="Tomar%utilidad" xml:space="preserve">
+    <value>Возьмите% полезности отдела.</value>
+  </data>
+  <data name="UbicacionReportes" xml:space="preserve">
+    <value>Расположение отчетов</value>
+  </data>
+  <data name="UbicacionRespaldos" xml:space="preserve">
+    <value>Местоположение резервной копии</value>
+  </data>
+  <data name="UltimaCantidadComprada" xml:space="preserve">
+    <value>Последняя сумма покупки</value>
+  </data>
+  <data name="UltimaFechadeCompra" xml:space="preserve">
+    <value>Дата последней покупки</value>
+  </data>
+  <data name="Unidad" xml:space="preserve">
+    <value>блок</value>
+  </data>
+  <data name="UnidadAsociada" xml:space="preserve">
+    <value>Ассоциированный блок</value>
+  </data>
+  <data name="UnidadDeMedida" xml:space="preserve">
+    <value>Единица измерения</value>
+  </data>
+  <data name="UnidadDeMedidaDeTiempo" xml:space="preserve">
+    <value>Единица измерения времени</value>
+  </data>
+  <data name="Unidades" xml:space="preserve">
+    <value>единицы</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>пользователь:</value>
+  </data>
+  <data name="UsuarioBloqueado" xml:space="preserve">
+    <value>Заблокированный пользователь, обратитесь к администратору для доступа к системе</value>
+  </data>
+  <data name="UsuariosEliminados" xml:space="preserve">
+    <value>Удаленные пользователи</value>
+  </data>
+  <data name="ValidacionClaveActual" xml:space="preserve">
+    <value>Проверить текущий пароль</value>
+  </data>
+  <data name="ValidaciondeRegistro" xml:space="preserve">
+    <value>Проверка реестра</value>
+  </data>
+  <data name="ValidacionExitosa" xml:space="preserve">
+    <value>Успешная проверка</value>
+  </data>
+  <data name="Validacióndecampos" xml:space="preserve">
+    <value>Проверка полей</value>
+  </data>
+  <data name="ValidacióndeEliminación" xml:space="preserve">
+    <value>Подтверждение ликвидации</value>
+  </data>
+  <data name="ValidaciónDeUsuario" xml:space="preserve">
+    <value>Проверка пользователя</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>значение</value>
+  </data>
+  <data name="VentasyProduccion" xml:space="preserve">
+    <value>Продажи и Производство</value>
+  </data>
+  <data name="YaExisteElRegistro" xml:space="preserve">
+    <value>с этим кодом уже есть запись</value>
+  </data>
+  <data name="NoSePuedeEliminarCedulaPro" xml:space="preserve">
+    <value>Невозможно удалить идентификатор</value>
+  </data>
+  <data name="Inventario" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="MovimientoDeInventario" xml:space="preserve">
+    <value>Движение инвентаря</value>
+  </data>
+  <data name="ProcesoInv" xml:space="preserve">
+    <value>Процесс</value>
+  </data>
+  <data name="TipoDeMovimiento" xml:space="preserve">
+    <value>Тип движения</value>
+  </data>
+  <data name="Desde" xml:space="preserve">
+    <value>поскольку</value>
+  </data>
+  <data name="Hasta" xml:space="preserve">
+    <value>До</value>
+  </data>
+</root>

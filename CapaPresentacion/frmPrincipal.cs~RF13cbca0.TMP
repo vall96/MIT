@@ -1,0 +1,543 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using System.Security.Cryptography;
+using CultureResources;
+using CapaLogicaNegocios;
+
+
+//using CultureResources;
+
+
+namespace CapaPresentacion
+{
+    public partial class frmPrincipal : Form
+    {
+
+        public string[,] formulariosactivos = new string[2, 4];     //se va a controlar que se abrab 4 
+
+        //ventanas, (4 filas), alli tengo el nombre del fomulario y el estado)
+        public string usuarioRegistro = "", tipoPais = "", mensajeText, mensajeCaption;
+        public int numform = 0, formX, formY, maxform = 4;
+        public frmPrincipal(string user, string idioma)
+        {
+            InitializeComponent();
+            usuarioRegistro = user;
+            tipoPais = idioma;
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
+            AplicarIdioma();
+        }
+
+        private void AplicarIdioma()
+        {
+            this.inicioToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripInicio;
+            this.tablasToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripTablas;         
+            this.procesosToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripProcesos;
+            this.administracionToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripReportes;
+            this.mantenimientoToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripMantenimiento;
+            this.auditoriaToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripAuditoria;
+            this.ayudaToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripAyuda;
+
+        }
+        private void frmPrincipal_Shown(object sender, EventArgs e)
+        {
+
+            this.toolbarTablas.Visible = false;
+            this.toolStripInicio.Visible = false;
+            this.toolStripMantenimiento.Visible = false;
+            //if(estadoInicial=="abrir")
+            //{
+            //    this.toolbarTablas.Visible = false;
+            //    this.toolStripInicio.Visible = false;
+            //}
+            //else if (estadoInicial == "reabrir")
+            //{
+            //    this.toolbarTablas.Visible = true;
+            //    this.toolStripInicio.Visible = false;
+            //}
+        }
+        int txtblanco = 0;
+        public FrmTbUsuarios venTbUsuarios;
+        public frmStaUsuario ventbStatus;
+        public frmRegristroUsuario venRegistro;
+        public frmUsuarioPruebaEstilo venPruebaEstilo;
+        public string actvFor,valido;
+        string estadoInicial = "abrir", estadoFormActivo;
+        public frmPrincipal venPrincipal;
+        public static string activoForm,esatadoaActiveForm;
+        public string estadoPrueba;   
+
+        public frmUsuariosElimi venTbUsuariosElim;
+       // public FrmTbUsuarios venTbUsuarios = new FrmTbUsuarios();
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            accionesFormularios("FrmTbUsuarios", "inicial");
+            control_formulariosActivos("abrir", "FrmTbUsuarios", "inicio");
+  
+
+        }
+                
+        private void usuariosStatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {                
+            accionesFormularios("FrmTbStatus", "inicial");
+            control_formulariosActivos("abrir", "FrmTbStatus", "inicio");            
+        }
+
+        private void toolStripBtoSalir_Click(object sender, EventArgs e)
+        {
+         
+            accionesFormularios(actvFor, "salir");
+            control_formulariosActivos("cerrar", actvFor, "");
+         //   this.toolStrip1.Visible = false;
+        }
+        
+        public static void formActivo (string formulario, string estado)
+        {
+          
+            activoForm = formulario;
+            esatadoaActiveForm = estado;
+            
+
+        }
+        public void formularios (string formulario)
+        {
+            switch(formulario)
+            {
+                case "FrmTbUsuarios":
+                    actvFor = "FrmTbUsuarios";
+
+                break;
+
+                case "FrmTbStatus":
+                    actvFor = "FrmTbStatus";
+                break;
+            }
+
+               
+        }
+        public void accionesFormularios(string formulario, string estado)
+        {
+           switch (formulario)
+            {
+        
+
+                case "FrmTbUsuariosPrueba":
+                    if (estado == "inicial")
+                    {
+                        venPruebaEstilo= new frmUsuarioPruebaEstilo();                      
+                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmUsuarioPruebaEstilo);
+                        if (frm != null)
+                        {
+                            frm.BringToFront();
+                            return;
+                        }
+                        else
+                        {
+                            venPruebaEstilo.MdiParent = this;
+                            venPruebaEstilo.Show();                            
+                        }
+
+                    }
+                    else
+                    {
+                        //ventbStatus.cambiarEstado(estado);
+
+                    }
+                    break;
+
+                case "FrmTbStatus":
+                    if (estado == "inicial")
+                    {
+                        ventbStatus = new frmStaUsuario();
+                        Form frm2 = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmStaUsuario);
+                        if (frm2 != null)
+                        {
+
+
+                            frm2.BringToFront();
+                            return;
+                        }
+                        else
+                        {
+                            ventbStatus.MdiParent = this;
+                            ventbStatus.Show();
+                        }
+
+
+                    }
+                    else
+                    {
+                        //ventbStatus.cambiarEstado(estado);
+
+                    }
+                    break;
+
+                   
+            }
+        }
+
+        public void control_formulariosActivos(string accion, string formulario, string estado)
+        
+        {
+            switch (accion)
+            {
+                case "abrir":
+                    formulariosactivos[0, numform] = formulario;            //ojo matriz [columna,fila], entonce se coloco columna=x, y fila=y
+                    formulariosactivos[1, numform] = estado;
+                    numform++;
+                    //desabilitar el boton para evvitar que abra la misma ventana varias veces
+                    desabilitarOpcionMenu(formulario);
+                    actvFor = formulario;
+                    estadoFormActivo = estado;
+                    accionesBotones(actvFor, estado, "");
+                //    habilitarOpcionMenu(formulario);
+                 //   actvFor = "";
+                //    estadoFormActivo = "";
+                break;
+
+                case "cerrar":
+                    if (numform==1)
+                    {
+                        formulariosactivos[0, 0] = "";
+                        formulariosactivos[1, 0] = "";
+                        numform = 0;
+                     //   habilitarOpcionMenu(formulario);
+                        activoForm = "";
+                        estadoFormActivo = "";
+                        
+                    }
+                    //Else me quede aquiiiiiiiiii, cuaando hay mas de un formulario activo 
+                    else
+                    {
+                        formX = 0; formY = 0;
+                        while (formY < numform)
+                        { 
+                            if (formulariosactivos[formX, formY] == formulario)
+                            {
+                                formulariosactivos[formX, formY] = "";
+                                formulariosactivos[formX + 1, formY] = "";
+                                numform--;
+                            }
+                            else
+                            {
+                                formY++;
+                            }
+
+                        }
+                      //  habilitarOpcionMenu(formulario);
+                        actvFor = formulariosactivos[formX, numform - 1];
+                        estadoFormActivo = formulariosactivos[formX + 1, numform - 1];
+                        accionesBotones(actvFor, estadoFormActivo, "");
+                        
+
+                    }
+                    habilitarOpcionMenu(formulario);
+
+                    //if (numform==0)
+                    //{
+                    //    this.toolbarTablas.Visible = false;
+                    //}
+                    //else
+                    //{
+                    //    this.toolbarTablas.Visible = true;
+                    //}
+
+                break;
+            }
+
+        }
+
+        private void activarFormulario (string formulario)
+        {
+            switch (formulario)
+            {
+                case "FrmTbUsuarios":
+                    venTbUsuarios.Activate();
+                    break;
+                case "FrmTbStatus":
+                    ventbStatus.Activate();
+                    break;
+                case "FrmTbUsuariosPrueba":
+                    venPruebaEstilo.Activate();
+                    break;
+
+                default:
+                    break;
+
+
+            }
+        }
+        public void habilitarOpcionMenu (string formulario)
+        {
+            switch (formulario)
+            {
+                //case "FrmTbUsuarios":
+                //    this.usuariosToolStripMenuItem.Enabled = true;                    
+                //break;
+
+                //case "FrmTbStatus":
+                //    this.usuariosStatusToolStripMenuItem.Enabled = true;
+                //break;
+
+                //case "FrmTbUsuaEliminados":
+                //    this.toolStripusuariosEliminados.Enabled = true;
+                //    break;
+                case "FrmTbUsuariosPrueba":
+                    estadoInicial = "reabrir";
+                    //this.Hide();
+                    this.toolStripBtoPrueba.Enabled = true;
+                    this.toolStripBtnEstatus.Enabled = false;
+                    this.toolbarTablas.Refresh();
+                    //this.toolStripBtoPrueba.Refresh();
+                    this.Refresh();
+                   // this.Show();
+                    //Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmPrincipal);
+                    //if(frm !=null)
+                    //{
+
+                    //    frm.BringToFront();
+                    //    return;
+                    //}
+                    //this.Show();
+                    break;
+            }
+        }
+        public void desabilitarOpcionMenu (string formulario)
+        {
+            switch (formulario)
+            {
+                //case "FrmTbUsuarios":
+                //this.usuariosToolStripMenuItem.Enabled = false;
+                //break;
+
+                //case "FrmTbStatus":
+                //this.usuariosStatusToolStripMenuItem.Enabled = false;
+                //break;
+
+                //case "FrmTbUsuaEliminados":
+                //    this.toolStripusuariosEliminados.Enabled = false;
+                //break;
+                case "FrmTbUsuariosPrueba":
+                    this.toolStripBtoPrueba.Enabled = false;
+                    break;
+
+            }
+                
+        }
+
+
+
+        public void accionesBotones(string formulario, string estado, string usuaValido)
+        {
+            //switch(formulario)
+            //{
+            //    case "FrmTbUsuarios":                 
+            //    valido = venTbUsuarios.usuaValido;
+            //    //   break;
+
+            //        //case "FrmTbStatus":
+            //        //    valido = ventbStatus.usuaValido;
+            //        ////    txtblanco = ventbStatus.textBlanco;
+            //        // break;
+
+            //        //case "frmUsuariosElimi":
+            //        //    valido = venTbUsuariosElim.u
+
+            //            break;
+            //}
+
+            switch (estado)
+            
+
+            { 
+
+
+               case "inicio":
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = true;
+                 //   this.toolStripBtoEstatus.Enabled = false;
+                   
+                    //ojo boton de tabla-usuario desabilitar
+                 // this.usuariosToolStripMenuItem.Enabled = false;               
+               break;
+
+               case "agregar":
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = false;
+                    this.toolStripBtnEstatus.Enabled = false;
+                 
+               break;
+
+
+                case "buscar":
+                    this.toolbarTablas.Visible = true;
+                    this.toolbarTablas.Enabled=true;
+                    this.toolStripbtoUsuarios.Enabled = false;
+                //    this.toolStripBtoEditar.Enabled = true;
+                   
+
+
+                    if (estado == "buscar")
+                        
+                    {
+                      //  usuaValido = "usuario valido";
+                        valido = usuaValido;
+                        if (valido == "usuario valido")
+                        {
+                            
+                            this.toolStripBtnEstatus.Enabled = true;
+                        }
+                        else
+                        {
+                            
+                            this.toolStripBtnEstatus.Enabled = false;
+                        }
+                    }
+
+                    break;
+
+                case "editar":
+
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = false;
+                    this.toolStripBtnEstatus.Enabled = false;
+                   
+                break;
+
+                case "cancelar":
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = true;
+                    this.toolStripBtnEstatus.Enabled = false;
+                  
+                    break;
+
+                  
+               case "guardar":
+                    //if (txtblanco !=1)
+                    //{ 
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = true;
+                    this.toolStripBtnEstatus.Enabled = false;
+                   
+                    //}
+
+                break;              
+        
+                case "eliminar":
+                    this.toolbarTablas.Visible = true;
+                    this.toolStripbtoUsuarios.Enabled = true;
+                    this.toolStripBtnEstatus.Enabled = false;
+               
+                break;
+            }       
+
+        }
+
+        private void toolStripBtoAgregar_Click(object sender, EventArgs e)
+        {
+            accionesFormularios(actvFor, "agregar");
+            accionesBotones(actvFor, "agregar","");
+        }
+
+        private void usuariosPruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //accionesFormularios("FrmTbUsuariosPrueba", "inicial");
+            //control_formulariosActivos("abrir", "FrmTbUsuarios", "inicio");
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void tablasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.toolbarTablas.Visible = true;
+            this.toolbarTablas.Enabled = true;
+            this.toolStripInicio.Visible = false;
+        }
+
+        private void toolStripBtnSalir_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
+            mensajeText = StringResources.frmRegistroUsuario_messCerrandoSistema;
+            mensajeCaption = StringResources.frmRegistroUsuario_messErrorValidacion;
+
+            MessageBox.Show(mensajeText, mensajeCaption, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.ExitThread();
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.toolbarTablas.Visible = false;
+            this.toolStripInicio.Visible = true;
+        }
+
+        private void toolStripBtoPrueba_Click(object sender, EventArgs e)
+        {
+           accionesFormularios("FrmTbUsuariosPrueba", "inicial");
+          // control_formulariosActivos("abrir", "FrmTbUsuariosPrueba", "inicio");
+        }         
+              
+        private void toolStripBtoBuscar_Click(object sender, EventArgs e)
+        {
+             accionesFormularios(actvFor,"buscar");
+          //   accionesBotones(actvFor, "buscar", "");            
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            this.toolbarTablas.Visible = false;
+        }
+
+        private void usuariosEliminadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            accionesFormularios("FrmTbUsuaEliminados", "inicial");
+            control_formulariosActivos("abrir", "FrmTbUsuaEliminados", "inicio");
+        }
+            
+
+        private void toolStripBtoEditar_Click(object sender, EventArgs e)
+        {
+            accionesFormularios("FrmTbStatus", "inicial");
+        }
+
+        private void toolStripBtoCancelar_Click(object sender, EventArgs e)
+        {
+            accionesFormularios(actvFor, "cancelar");
+            accionesBotones(actvFor, "cancelar", "");
+        }
+
+        private void toolStripBtoGuardar_Click(object sender, EventArgs e)
+        {
+            accionesFormularios(actvFor, "guardar");
+            accionesBotones(actvFor, "guardar", "");
+        }
+
+        private void toolStripBtoEliminar_Click(object sender, EventArgs e)
+        {
+            accionesFormularios(actvFor, "eliminar");
+            accionesBotones(actvFor, "eliminar", "");
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
+            mensajeText = StringResources.frmRegistroUsuario_messCerrandoSistema;
+            mensajeCaption = StringResources.frmRegistroUsuario_messErrorValidacion;
+
+            MessageBox.Show(mensajeText, mensajeCaption, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.ExitThread();
+        }
+
+       
+    }
+}

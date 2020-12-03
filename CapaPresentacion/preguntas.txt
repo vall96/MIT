@@ -1,0 +1,23 @@
+ public void Preguntas()
+        {
+            string pregunta = "";
+            int num_preguntas;
+            DataTable DT = new DataTable();
+            DT = user.ListadoPreguntas();
+            
+            num_preguntas = DT.Rows.Count;
+
+            for (int i = 0; i < num_preguntas; i++)
+            {
+                pregunta = DT.Rows[i]["pr_pregunta"].ToString();
+                string respuesta = Microsoft.VisualBasic.Interaction.
+                       InputBox(pregunta, "Preguntas de Seguridad", "", 0, 0);
+
+                //ALMACENAR LAS RESPUESTAS EN LA BASE DE DATOS 
+
+                //MessageBox.Show("esto es una prueba  " + respuesta);
+
+            }
+        }
+
+https://www.youtube.com/watch?v=uhkvlWskv-M

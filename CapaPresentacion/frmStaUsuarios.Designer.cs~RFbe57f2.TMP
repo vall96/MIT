@@ -1,0 +1,477 @@
+﻿namespace CapaPresentacion
+{
+    partial class frmStaUsuario
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStaUsuario));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txtDescrip = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtCod = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripBtoAgregar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoEditar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoGuardar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoEliminar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoDescartar = new System.Windows.Forms.ToolStripButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnPuntos = new System.Windows.Forms.Button();
+            this.botBuscar = new System.Windows.Forms.Button();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btoSalir = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.tabControl.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.tabControl);
+            this.panel1.Controls.Add(this.toolStrip1);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.lblEstado);
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Location = new System.Drawing.Point(46, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(590, 517);
+            this.panel1.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.SystemColors.Control;
+            this.label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label9.Location = new System.Drawing.Point(-1, 135);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(589, 2);
+            this.label9.TabIndex = 41;
+            this.label9.Text = " ";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabControl
+            // 
+            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPage2);
+            this.tabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl.Location = new System.Drawing.Point(14, 250);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(549, 245);
+            this.tabControl.TabIndex = 40;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.txtDescrip);
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.txtCod);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(541, 216);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Estados ";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // txtDescrip
+            // 
+            this.txtDescrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescrip.Location = new System.Drawing.Point(119, 77);
+            this.txtDescrip.Name = "txtDescrip";
+            this.txtDescrip.Size = new System.Drawing.Size(350, 24);
+            this.txtDescrip.TabIndex = 33;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(16, 77);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 18);
+            this.label4.TabIndex = 32;
+            this.label4.Text = "Descripción:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(16, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 18);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Código:";
+            // 
+            // txtCod
+            // 
+            this.txtCod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCod.Location = new System.Drawing.Point(119, 32);
+            this.txtCod.Name = "txtCod";
+            this.txtCod.Size = new System.Drawing.Size(105, 24);
+            this.txtCod.TabIndex = 29;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(541, 216);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Propiedades de estados";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.AutoSize = false;
+            this.toolStrip1.BackColor = System.Drawing.Color.White;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripBtoAgregar,
+            this.toolStripSeparator1,
+            this.toolStripBtoEditar,
+            this.toolStripSeparator2,
+            this.toolStripBtoGuardar,
+            this.toolStripSeparator3,
+            this.toolStripBtoEliminar,
+            this.toolStripSeparator4,
+            this.toolStripBtoDescartar});
+            this.toolStrip1.Location = new System.Drawing.Point(14, 66);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(273, 61);
+            this.toolStrip1.TabIndex = 21;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripBtoAgregar
+            // 
+            this.toolStripBtoAgregar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtoAgregar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoAgregar.Image")));
+            this.toolStripBtoAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoAgregar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 2);
+            this.toolStripBtoAgregar.Name = "toolStripBtoAgregar";
+            this.toolStripBtoAgregar.Size = new System.Drawing.Size(44, 58);
+            this.toolStripBtoAgregar.Text = "Agregar";
+            this.toolStripBtoAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.toolStripSeparator1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 61);
+            // 
+            // toolStripBtoEditar
+            // 
+            this.toolStripBtoEditar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtoEditar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEditar.Image")));
+            this.toolStripBtoEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoEditar.Name = "toolStripBtoEditar";
+            this.toolStripBtoEditar.Size = new System.Drawing.Size(44, 58);
+            this.toolStripBtoEditar.Text = "Editar";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 61);
+            // 
+            // toolStripBtoGuardar
+            // 
+            this.toolStripBtoGuardar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtoGuardar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoGuardar.Image")));
+            this.toolStripBtoGuardar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoGuardar.Name = "toolStripBtoGuardar";
+            this.toolStripBtoGuardar.Size = new System.Drawing.Size(44, 58);
+            this.toolStripBtoGuardar.Text = "Guardar";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 61);
+            // 
+            // toolStripBtoEliminar
+            // 
+            this.toolStripBtoEliminar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtoEliminar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEliminar.Image")));
+            this.toolStripBtoEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoEliminar.Name = "toolStripBtoEliminar";
+            this.toolStripBtoEliminar.Size = new System.Drawing.Size(44, 58);
+            this.toolStripBtoEliminar.Text = "Eliminar";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 61);
+            // 
+            // toolStripBtoDescartar
+            // 
+            this.toolStripBtoDescartar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripBtoDescartar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoDescartar.Image")));
+            this.toolStripBtoDescartar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoDescartar.Name = "toolStripBtoDescartar";
+            this.toolStripBtoDescartar.Size = new System.Drawing.Size(44, 58);
+            this.toolStripBtoDescartar.Text = "Descartar";
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(159)))), ((int)(((byte)(81)))));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.Control;
+            this.label10.Location = new System.Drawing.Point(564, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(22, 31);
+            this.label10.TabIndex = 39;
+            this.label10.Text = " ";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(159)))), ((int)(((byte)(81)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(-4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 31);
+            this.label2.TabIndex = 37;
+            this.label2.Text = " E";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(586, 31);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Tabla de Estados de Usuario";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Location = new System.Drawing.Point(12, 60);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(275, 72);
+            this.panel4.TabIndex = 35;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(28, 164);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(56, 18);
+            this.lblEstado.TabIndex = 30;
+            this.lblEstado.Text = "Codigo";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.btnPuntos);
+            this.panel5.Controls.Add(this.botBuscar);
+            this.panel5.Controls.Add(this.lblDescripcion);
+            this.panel5.Controls.Add(this.txtDescripcion);
+            this.panel5.Controls.Add(this.txtEstado);
+            this.panel5.Location = new System.Drawing.Point(12, 149);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(551, 86);
+            this.panel5.TabIndex = 32;
+            // 
+            // btnPuntos
+            // 
+            this.btnPuntos.BackColor = System.Drawing.Color.White;
+            this.btnPuntos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F);
+            this.btnPuntos.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnPuntos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnPuntos.Location = new System.Drawing.Point(218, 12);
+            this.btnPuntos.Name = "btnPuntos";
+            this.btnPuntos.Size = new System.Drawing.Size(33, 24);
+            this.btnPuntos.TabIndex = 32;
+            this.btnPuntos.Text = "...\r\n   ";
+            this.btnPuntos.UseVisualStyleBackColor = false;
+            this.btnPuntos.Click += new System.EventHandler(this.btnPuntos_Click);
+            // 
+            // botBuscar
+            // 
+            this.botBuscar.BackColor = System.Drawing.Color.Teal;
+            this.botBuscar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.botBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botBuscar.ForeColor = System.Drawing.Color.White;
+            this.botBuscar.Location = new System.Drawing.Point(429, 10);
+            this.botBuscar.Name = "botBuscar";
+            this.botBuscar.Size = new System.Drawing.Size(75, 27);
+            this.botBuscar.TabIndex = 25;
+            this.botBuscar.Text = "Buscar";
+            this.botBuscar.UseVisualStyleBackColor = false;
+            this.botBuscar.Click += new System.EventHandler(this.botBuscar_Click);
+            // 
+            // lblDescripcion
+            // 
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescripcion.Location = new System.Drawing.Point(14, 52);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(87, 18);
+            this.lblDescripcion.TabIndex = 31;
+            this.lblDescripcion.Text = "Descripcion";
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.Location = new System.Drawing.Point(114, 49);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(296, 24);
+            this.txtDescripcion.TabIndex = 1;
+            this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEstado_KeyPress_1);
+            // 
+            // txtEstado
+            // 
+            this.txtEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstado.Location = new System.Drawing.Point(114, 13);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(114, 24);
+            this.txtEstado.TabIndex = 0;
+            this.txtEstado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(185, 551);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 30);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Aceptar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btoSalir
+            // 
+            this.btoSalir.BackColor = System.Drawing.Color.Teal;
+            this.btoSalir.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btoSalir.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btoSalir.Location = new System.Drawing.Point(351, 551);
+            this.btoSalir.Name = "btoSalir";
+            this.btoSalir.Size = new System.Drawing.Size(99, 30);
+            this.btoSalir.TabIndex = 5;
+            this.btoSalir.Text = "Salir";
+            this.btoSalir.UseVisualStyleBackColor = false;
+            // 
+            // frmStaUsuario
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(668, 588);
+            this.Controls.Add(this.btoSalir);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
+            this.Name = "frmStaUsuario";
+            this.Text = "Usuario Status";
+            this.Load += new System.EventHandler(this.frmStaUsuario_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tabControl.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripBtoAgregar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton toolStripBtoEditar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton toolStripBtoGuardar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton toolStripBtoEliminar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton toolStripBtoDescartar;
+        private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.TextBox txtEstado;
+        private System.Windows.Forms.TextBox txtDescripcion;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button botBuscar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btoSalir;
+        private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TextBox txtDescrip;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtCod;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnPuntos;
+    }
+}

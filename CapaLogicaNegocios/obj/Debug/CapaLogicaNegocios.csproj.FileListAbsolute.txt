@@ -1,0 +1,472 @@
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\source\repos\CapaPresentacion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\source\repos\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\RESPALDO 12062019 MIT CORE SARA Y BD\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO\RESPALDO 28062019 2.03\RESPALDO PROYECCCTO\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO 04072019 16.29\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 10 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 11 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 15 2019\PROYECTO 040719\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 19 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\PROYECTO JULIO 25 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\PROYECTO JULIO 26 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 30 07 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 01 Agosto 2019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE Agosto 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\MIT CORE 06 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 JULIO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT CORE 07 AGOSTO 2019\PROYECTO PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\RESPALDO 09092019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Documents\MIT PRODUCCION\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Music\MIT PRODUCCION Valerie\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Valerie 10102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\MIT PRODUCCION 11102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION Actualizado 15102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MIT PRODUCCION 16102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\MIT PRODUCCION 21102019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\RESPALDO MITPRODUCCION 12112019\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 021219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITPRODUCCION 131219\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL Y DEFINICION DE ACTIVIDADES\VALERIE RODRIGUEZ\ENTREGAS\ENERO\MITPRODUCCION 130120\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\CARPERTA PUBLICA\MITPRODUCCION 17012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion 300120\MITPRODUCCION 28012020\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Proyecto Actual Produccion\MITPRODUCCION\PROYECTO\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\Desktop\10032020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Produccion Agosto 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\Desktop\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\OneDrive\Escritorio\Produccion SEPTIEMBRE 2020\PROYECTO MIT Produccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\desarrollo2.IET\Documents\CONTROL DE ACTIVIDADES ENTREGADAS\VALERIE RODRIGUEZ\Septiembre\MITproduccion-master\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vallr\OneDrive\Escritorio\MITProduccion2020\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+D:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+F:\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
