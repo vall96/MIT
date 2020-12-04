@@ -60,6 +60,16 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.BtoEliminarInv = new System.Windows.Forms.Button();
             this.DgvMovDeInventario = new System.Windows.Forms.DataGridView();
+            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.cboCodTipoMov = new System.Windows.Forms.ComboBox();
             this.cboTipoMov = new System.Windows.Forms.ComboBox();
@@ -84,16 +94,7 @@
             this.txtCod = new System.Windows.Forms.TextBox();
             this.lblCod = new System.Windows.Forms.Label();
             this.lblMaquinas = new System.Windows.Forms.Label();
-            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.CBFiltarFechas = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tpgInfoGeneral.SuspendLayout();
@@ -121,7 +122,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1154, 623);
+            this.panel1.Size = new System.Drawing.Size(1014, 623);
             this.panel1.TabIndex = 7;
             // 
             // panel7
@@ -250,7 +251,7 @@
             this.btoSalir.ForeColor = System.Drawing.SystemColors.Control;
             this.btoSalir.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btoSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoSalir.Location = new System.Drawing.Point(870, 584);
+            this.btoSalir.Location = new System.Drawing.Point(900, 586);
             this.btoSalir.Name = "btoSalir";
             this.btoSalir.Size = new System.Drawing.Size(99, 30);
             this.btoSalir.TabIndex = 4;
@@ -263,7 +264,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label10.Location = new System.Drawing.Point(979, -2);
+            this.label10.Location = new System.Drawing.Point(991, -2);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 33);
             this.label10.TabIndex = 26;
@@ -277,7 +278,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(12, 114);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1126, 464);
+            this.panel2.Size = new System.Drawing.Size(987, 464);
             this.panel2.TabIndex = 2;
             this.panel2.Tag = "";
             // 
@@ -288,7 +289,7 @@
             this.tapInfoG.Location = new System.Drawing.Point(3, 90);
             this.tapInfoG.Name = "tapInfoG";
             this.tapInfoG.SelectedIndex = 0;
-            this.tapInfoG.Size = new System.Drawing.Size(1104, 360);
+            this.tapInfoG.Size = new System.Drawing.Size(974, 360);
             this.tapInfoG.TabIndex = 1;
             // 
             // tpInformacionGeneral
@@ -298,7 +299,7 @@
             this.tpInformacionGeneral.Location = new System.Drawing.Point(4, 27);
             this.tpInformacionGeneral.Name = "tpInformacionGeneral";
             this.tpInformacionGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tpInformacionGeneral.Size = new System.Drawing.Size(1096, 329);
+            this.tpInformacionGeneral.Size = new System.Drawing.Size(966, 329);
             this.tpInformacionGeneral.TabIndex = 0;
             this.tpInformacionGeneral.Text = "Informacion General";
             this.tpInformacionGeneral.UseVisualStyleBackColor = true;
@@ -322,7 +323,7 @@
             this.panel8.Controls.Add(this.DgvMovDeInventario);
             this.panel8.Location = new System.Drawing.Point(6, 19);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1069, 297);
+            this.panel8.Size = new System.Drawing.Size(946, 297);
             this.panel8.TabIndex = 40;
             // 
             // BtoEliminarInv
@@ -331,7 +332,7 @@
             this.BtoEliminarInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtoEliminarInv.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtoEliminarInv.Image = ((System.Drawing.Image)(resources.GetObject("BtoEliminarInv.Image")));
-            this.BtoEliminarInv.Location = new System.Drawing.Point(872, 265);
+            this.BtoEliminarInv.Location = new System.Drawing.Point(885, 265);
             this.BtoEliminarInv.Name = "BtoEliminarInv";
             this.BtoEliminarInv.Size = new System.Drawing.Size(45, 27);
             this.BtoEliminarInv.TabIndex = 45;
@@ -361,7 +362,7 @@
             this.DgvMovDeInventario.Name = "DgvMovDeInventario";
             this.DgvMovDeInventario.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.DgvMovDeInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvMovDeInventario.Size = new System.Drawing.Size(1010, 255);
+            this.DgvMovDeInventario.Size = new System.Drawing.Size(923, 255);
             this.DgvMovDeInventario.TabIndex = 8;
             this.DgvMovDeInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellClick);
             this.DgvMovDeInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellContentClick);
@@ -369,10 +370,104 @@
             this.DgvMovDeInventario.CurrentCellChanged += new System.EventHandler(this.DgvMovDeInventario_CurrentCellChanged);
             this.DgvMovDeInventario.Scroll += new System.Windows.Forms.ScrollEventHandler(this.DgvMovDeInventario_Scroll);
             // 
+            // ColCheck
+            // 
+            this.ColCheck.Frozen = true;
+            this.ColCheck.HeaderText = "";
+            this.ColCheck.Name = "ColCheck";
+            this.ColCheck.Visible = false;
+            this.ColCheck.Width = 20;
+            // 
+            // ColArticulos
+            // 
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ColArticulos.Frozen = true;
+            this.ColArticulos.HeaderText = "Articulos";
+            this.ColArticulos.Name = "ColArticulos";
+            this.ColArticulos.Width = 160;
+            // 
+            // ColBtnArt
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ColBtnArt.Frozen = true;
+            this.ColBtnArt.HeaderText = "";
+            this.ColBtnArt.Name = "ColBtnArt";
+            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnArt.Text = "...";
+            this.ColBtnArt.ToolTipText = "agg";
+            this.ColBtnArt.Width = 30;
+            // 
+            // ColFecha
+            // 
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ColFecha.HeaderText = "Fecha";
+            this.ColFecha.Name = "ColFecha";
+            this.ColFecha.Width = 95;
+            // 
+            // ColTipoMov
+            // 
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
+            this.ColTipoMov.Name = "ColTipoMov";
+            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ColTipoMov.Visible = false;
+            // 
+            // ColAlmacen
+            // 
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ColAlmacen.HeaderText = "Almacen";
+            this.ColAlmacen.Name = "ColAlmacen";
+            this.ColAlmacen.Width = 200;
+            // 
+            // ColBtnAlmacen
+            // 
+            this.ColBtnAlmacen.DataPropertyName = "...";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
+            this.ColBtnAlmacen.HeaderText = "";
+            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
+            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ColBtnAlmacen.Text = "...";
+            this.ColBtnAlmacen.ToolTipText = "Agg";
+            this.ColBtnAlmacen.Width = 30;
+            // 
+            // ColCantidad
+            // 
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
+            this.ColCantidad.HeaderText = "Cantidad";
+            this.ColCantidad.Name = "ColCantidad";
+            // 
+            // ColUnidad
+            // 
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
+            this.ColUnidad.HeaderText = "Unidad";
+            this.ColUnidad.Name = "ColUnidad";
+            // 
+            // ColCBOProceso
+            // 
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
+            this.ColCBOProceso.HeaderText = "Proceso";
+            this.ColCBOProceso.Name = "ColCBOProceso";
+            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColCBOProceso.Width = 150;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.CBFiltarFechas);
             this.panel3.Controls.Add(this.cboCodTipoMov);
             this.panel3.Controls.Add(this.cboTipoMov);
             this.panel3.Controls.Add(this.lblTipoMov);
@@ -384,14 +479,14 @@
             this.panel3.Controls.Add(this.lblFechaInicial);
             this.panel3.Location = new System.Drawing.Point(4, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(955, 69);
+            this.panel3.Size = new System.Drawing.Size(969, 69);
             this.panel3.TabIndex = 0;
             // 
             // cboCodTipoMov
             // 
             this.cboCodTipoMov.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCodTipoMov.FormattingEnabled = true;
-            this.cboCodTipoMov.Location = new System.Drawing.Point(806, 14);
+            this.cboCodTipoMov.Location = new System.Drawing.Point(808, 20);
             this.cboCodTipoMov.Name = "cboCodTipoMov";
             this.cboCodTipoMov.Size = new System.Drawing.Size(34, 27);
             this.cboCodTipoMov.TabIndex = 32;
@@ -401,7 +496,7 @@
             // 
             this.cboTipoMov.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipoMov.FormattingEnabled = true;
-            this.cboTipoMov.Location = new System.Drawing.Point(660, 14);
+            this.cboTipoMov.Location = new System.Drawing.Point(662, 20);
             this.cboTipoMov.Name = "cboTipoMov";
             this.cboTipoMov.Size = new System.Drawing.Size(140, 27);
             this.cboTipoMov.TabIndex = 31;
@@ -413,7 +508,7 @@
             this.lblTipoMov.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblTipoMov.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblTipoMov.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTipoMov.Location = new System.Drawing.Point(512, 20);
+            this.lblTipoMov.Location = new System.Drawing.Point(514, 23);
             this.lblTipoMov.Name = "lblTipoMov";
             this.lblTipoMov.Size = new System.Drawing.Size(142, 18);
             this.lblTipoMov.TabIndex = 30;
@@ -423,7 +518,7 @@
             // 
             this.dtpFinal.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFinal.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFinal.Location = new System.Drawing.Point(371, 14);
+            this.dtpFinal.Location = new System.Drawing.Point(373, 20);
             this.dtpFinal.Name = "dtpFinal";
             this.dtpFinal.Size = new System.Drawing.Size(117, 24);
             this.dtpFinal.TabIndex = 29;
@@ -434,7 +529,7 @@
             this.lblFechaFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblFechaFinal.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblFechaFinal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblFechaFinal.Location = new System.Drawing.Point(310, 17);
+            this.lblFechaFinal.Location = new System.Drawing.Point(312, 23);
             this.lblFechaFinal.Name = "lblFechaFinal";
             this.lblFechaFinal.Size = new System.Drawing.Size(51, 18);
             this.lblFechaFinal.TabIndex = 28;
@@ -444,7 +539,7 @@
             // 
             this.dtpInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpInicio.Location = new System.Drawing.Point(168, 14);
+            this.dtpInicio.Location = new System.Drawing.Point(170, 20);
             this.dtpInicio.Name = "dtpInicio";
             this.dtpInicio.Size = new System.Drawing.Size(117, 24);
             this.dtpInicio.TabIndex = 27;
@@ -466,7 +561,7 @@
             this.btoBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btoBuscar.ForeColor = System.Drawing.Color.White;
             this.btoBuscar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoBuscar.Location = new System.Drawing.Point(863, 14);
+            this.btoBuscar.Location = new System.Drawing.Point(865, 20);
             this.btoBuscar.Name = "btoBuscar";
             this.btoBuscar.Size = new System.Drawing.Size(75, 27);
             this.btoBuscar.TabIndex = 25;
@@ -480,7 +575,7 @@
             this.lblFechaInicial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblFechaInicial.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblFechaInicial.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblFechaInicial.Location = new System.Drawing.Point(107, 17);
+            this.lblFechaInicial.Location = new System.Drawing.Point(109, 23);
             this.lblFechaInicial.Name = "lblFechaInicial";
             this.lblFechaInicial.Size = new System.Drawing.Size(55, 18);
             this.lblFechaInicial.TabIndex = 0;
@@ -507,7 +602,7 @@
             this.lblTituloPanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblTituloPanel.Location = new System.Drawing.Point(0, 0);
             this.lblTituloPanel.Name = "lblTituloPanel";
-            this.lblTituloPanel.Size = new System.Drawing.Size(1150, 31);
+            this.lblTituloPanel.Size = new System.Drawing.Size(1010, 31);
             this.lblTituloPanel.TabIndex = 0;
             this.lblTituloPanel.Text = "Movimiento de Inventario";
             this.lblTituloPanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -629,98 +724,18 @@
             this.lblMaquinas.Size = new System.Drawing.Size(76, 18);
             this.lblMaquinas.TabIndex = 6;
             // 
-            // ColCheck
+            // CBFiltarFechas
             // 
-            this.ColCheck.Frozen = true;
-            this.ColCheck.HeaderText = "";
-            this.ColCheck.Name = "ColCheck";
-            this.ColCheck.Visible = false;
-            this.ColCheck.Width = 20;
-            // 
-            // ColArticulos
-            // 
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ColArticulos.Frozen = true;
-            this.ColArticulos.HeaderText = "Articulos";
-            this.ColArticulos.Name = "ColArticulos";
-            this.ColArticulos.Width = 160;
-            // 
-            // ColBtnArt
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ColBtnArt.Frozen = true;
-            this.ColBtnArt.HeaderText = "";
-            this.ColBtnArt.Name = "ColBtnArt";
-            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnArt.Text = "...";
-            this.ColBtnArt.ToolTipText = "agg";
-            this.ColBtnArt.Width = 30;
-            // 
-            // ColFecha
-            // 
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
-            this.ColFecha.HeaderText = "Fecha";
-            this.ColFecha.Name = "ColFecha";
-            this.ColFecha.Width = 95;
-            // 
-            // ColTipoMov
-            // 
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
-            this.ColTipoMov.Name = "ColTipoMov";
-            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ColTipoMov.Visible = false;
-            // 
-            // ColAlmacen
-            // 
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
-            this.ColAlmacen.HeaderText = "Almacen";
-            this.ColAlmacen.Name = "ColAlmacen";
-            this.ColAlmacen.Width = 200;
-            // 
-            // ColBtnAlmacen
-            // 
-            this.ColBtnAlmacen.DataPropertyName = "...";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
-            this.ColBtnAlmacen.HeaderText = "";
-            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
-            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ColBtnAlmacen.Text = "...";
-            this.ColBtnAlmacen.ToolTipText = "Agg";
-            this.ColBtnAlmacen.Width = 30;
-            // 
-            // ColCantidad
-            // 
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
-            this.ColCantidad.HeaderText = "Cantidad";
-            this.ColCantidad.Name = "ColCantidad";
-            // 
-            // ColUnidad
-            // 
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
-            this.ColUnidad.HeaderText = "Unidad";
-            this.ColUnidad.Name = "ColUnidad";
-            // 
-            // ColCBOProceso
-            // 
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
-            this.ColCBOProceso.HeaderText = "Proceso";
-            this.ColCBOProceso.Name = "ColCBOProceso";
-            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ColCBOProceso.Width = 150;
+            this.CBFiltarFechas.AutoSize = true;
+            this.CBFiltarFechas.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBFiltarFechas.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.CBFiltarFechas.Location = new System.Drawing.Point(112, -3);
+            this.CBFiltarFechas.Name = "CBFiltarFechas";
+            this.CBFiltarFechas.Size = new System.Drawing.Size(193, 23);
+            this.CBFiltarFechas.TabIndex = 33;
+            this.CBFiltarFechas.Text = "Filtrar por rango de Fechas";
+            this.CBFiltarFechas.UseVisualStyleBackColor = true;
+            this.CBFiltarFechas.CheckedChanged += new System.EventHandler(this.CBFiltarFechas_CheckedChanged);
             // 
             // MovDeInventario
             // 
@@ -728,7 +743,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.images__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1234, 641);
+            this.ClientSize = new System.Drawing.Size(1040, 641);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MovDeInventario";
@@ -811,5 +826,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColUnidad;
         private System.Windows.Forms.DataGridViewComboBoxColumn ColCBOProceso;
+        private System.Windows.Forms.CheckBox CBFiltarFechas;
     }
 }

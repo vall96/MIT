@@ -47,6 +47,7 @@ namespace CapaPresentacion
         public string tipoMov, proc; //Variable para almacenar Descripcion
         public string Codproc, codMov; //Variable para almacenar Codigo
         public string CodArt, art; //Variable para almacenar Codigo
+        string validacion;
         //
         bool dgvCheck = false; // variable para determinar el valor con el que se inicializa el checkbox
         bool IsEmptyCell = false; // si estta vacio
@@ -130,9 +131,9 @@ namespace CapaPresentacion
             {
                 for (int i = 0; i < Articulos.Rows.Count; i++)
                 {
-                    if (Articulos.Rows[i]["art_Id"].ToString().ToLower() == art.ToLower())
+                    if (Articulos.Rows[i]["art_Id"].ToString().ToLower() == CodArt.ToLower())
                     {
-                        id = Articulos.Rows[i]["art_Nom"].ToString();
+                        art = Articulos.Rows[i]["art_Nom"].ToString();
                         return;
                     }
                 }
@@ -385,12 +386,11 @@ namespace CapaPresentacion
                 EMP.codigo = cboCodTipoMov.Text;
                 DtInventario = EMP.Listado_InvTipoMovFiltro(frmPrincipal.nombreBD);
 
-                dtpInicio.CustomFormat = "";
-                dtpFinal.CustomFormat = "";
-
                 for (int i = 0; i < DtInventario.Rows.Count; i++)
                 {
                     unidadValidar = 0;
+                    CodArt = DtInventario.Rows[i]["Inv_CodArt"].ToString();
+                    CargarCodigoArticulos();
                     //
                     unidad = DtInventario.Rows[i]["Inv_Unidad"].ToString();
                     CargarCodigoUnidad();
@@ -400,9 +400,12 @@ namespace CapaPresentacion
                     //
                     Codproc = DtInventario.Rows[i]["Inv_Proceso"].ToString();
                     CargarCodProcesos();
-
+                    //
+                    //DateTime fechita = Convert.ToDateTime(DtInventario.Rows[i]["Inv_Fecha"].ToString());
+                    //fechita.ToShortDateString(); 
                     this.DgvMovDeInventario.Rows.Add(dgvCheck,
-                         DtInventario.Rows[i]["Inv_CodArt"].ToString(), "...",
+                         art, "...",
+                        // fechita,
                          DtInventario.Rows[i]["Inv_Fecha"].ToString(),
                          " ",
                          DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
@@ -425,6 +428,9 @@ namespace CapaPresentacion
                 {
                     unidadValidar = 0;
                     //
+                    CodArt = DtInventario.Rows[i]["Inv_CodArt"].ToString();
+                    CargarCodigoArticulos();
+                    //
                     unidad = dtFechasFil.Rows[i]["Inv_Unidad"].ToString();
                     CargarCodigoUnidad();
                     //
@@ -434,14 +440,17 @@ namespace CapaPresentacion
                     Codproc = dtFechasFil.Rows[i]["Inv_Proceso"].ToString();
                     CargarCodProcesos();
                     //
+                    //DateTime fechita = Convert.ToDateTime(DtInventario.Rows[i]["Inv_Fecha"].ToString());
+                    //fechita.ToShortDateString();
                     this.DgvMovDeInventario.Rows.Add(dgvCheck,
-                        dtFechasFil.Rows[i]["Inv_CodArt"].ToString(), "...",
-                        dtFechasFil.Rows[i]["Inv_Fecha"].ToString(),
-                        "",
-                        dtFechasFil.Rows[i]["Inv_Almacen"].ToString(), "...",
-                        dtFechasFil.Rows[i]["Inv_Cantidad"].ToString(),
-                        id,
-                        "");
+                         art, "...",
+                         //fechita,
+                         DtInventario.Rows[i]["Inv_Fecha"].ToString(),
+                         " ",
+                         DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
+                         DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
+                         id,
+                         " ");
                     DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
                     DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
                 }
@@ -484,12 +493,23 @@ namespace CapaPresentacion
             //
             if (e.ColumnIndex == 2)
             {
-                valido = "Mov-TbArticulos";
-                cont = DgvMovDeInventario.RowCount;
-                VentArticulos = new frmTbArticulos();
-                VentArticulos.dtRelArtic += new frmTbArticulos.relacion(CargarDatosArt);
-                VentArticulos.ShowDialog();
-                valido = "";
+                if (cboTipoMov.Text == "")
+                {
+                    mensajeText = "ESTE MENSAJE ES TEMPORAL Debe ingresar el tipo de movimiento para poder asociar articulos";
+                    mensajeCaption = StringResources.Validacióndecampos;
+                    MessageBox.Show(mensajeText, mensajeCaption,
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                else
+                {
+                    valido = "Mov-TbArticulos";
+                    cont = DgvMovDeInventario.RowCount;
+                    VentArticulos = new frmTbArticulos();
+                    VentArticulos.dtRelArtic += new frmTbArticulos.relacion(CargarDatosArt);
+                    VentArticulos.ShowDialog();
+                    valido = "";
+                }
             }
             //
             if (e.ColumnIndex == 3)
@@ -518,6 +538,8 @@ namespace CapaPresentacion
                         dtp.Location = new Point(_Rectangle.X, _Rectangle.Y);
                         DgvMovDeInventario.CommitEdit(DataGridViewDataErrorContexts.Commit);
                         dtp.CloseUp += new EventHandler(dtp_CloseUp);
+                        dtp.CustomFormat = "dd/MM/yyyy";
+
                     }
                 }
             }
@@ -600,23 +622,48 @@ namespace CapaPresentacion
             cboCodTipoMov.SelectedIndex = cboTipoMov.SelectedIndex;
             CargarTipoMov();
         }
-        public void CargarTipoMov()
-        {
-
-        }
         private void DgvMovDeInventario_Scroll(object sender, ScrollEventArgs e)
         {
             dtp.Visible = false;
         }
         private void dtp_TextChange(object sender, EventArgs e)
         {
-            DgvMovDeInventario.CurrentCell.Value = dtp.Text.ToString();
+            DgvMovDeInventario.CurrentCell.Value = dtp.Value;
         }
         void dtp_CloseUp(object sender, EventArgs e)
         {
             dtp.Visible = false;   //Volvemos a colocar en invisible el control
         }
+
+        private void CBFiltarFechas_CheckedChanged(object sender, EventArgs e)
+        {
+            if(CBFiltarFechas.Checked == true)
+            {
+                dtpFinal.Enabled = true;
+                dtpInicio.Enabled = true;
+                dtpFinal.Visible = true;
+                dtpInicio.Visible = true;
+                lblFechaFinal.Visible = true;
+                lblFechaInicial.Visible = true;
+
+            }
+            else if (CBFiltarFechas.Checked == false)
+            {
+                dtpFinal.Enabled = false;
+                dtpInicio.Enabled = false;
+                dtpFinal.Visible = false;
+                dtpInicio.Visible = false;
+                lblFechaFinal.Visible = false;
+                lblFechaInicial.Visible = false;
+
+            }
+        }
+
         //--------------------------------------------------------------------------------------------------------
+        public void CargarTipoMov()
+        {
+
+        }
         public void ValidadCampos()
         {
             DgvMovDeInventario.AllowUserToAddRows = false;
@@ -659,7 +706,13 @@ namespace CapaPresentacion
 
             DgvMovDeInventario.Enabled = false;
             DgvMovDeInventario.AllowUserToAddRows = false;
-          
+            //----------------------------------------------------------------
+            dtpFinal.Enabled = false;
+            dtpInicio.Enabled = false;
+            dtpFinal.Visible = false;
+            dtpInicio.Visible = false;
+            lblFechaFinal.Visible = false;
+            lblFechaInicial.Visible = false;
         }
         public void FuncionAgregar()
         {
@@ -686,49 +739,74 @@ namespace CapaPresentacion
 
             DgvMovDeInventario.AllowUserToAddRows = true;
         }
+        public void ValidarCampos()
+        {
+            if (cboTipoMov.Text == "")
+            {
+                validacion = "no";
+                Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
+                mensajeText = "MENSAJE TEMPORAL Debes agregar un tipo de movimiento para poder registrar";
+                mensajeCaption = StringResources.ErrordeValidacion;
+
+                MessageBox.Show(mensajeText, mensajeCaption,
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+            }
+            else
+            {
+                validacion = "si";
+            }
+        }
+       
         public void FuncionGuardar()
         {
             j = 0;
             ConstruccionDtInvent();
             DgvMovDeInventario.AllowUserToAddRows = false;
-
-            for (int i = 0; i < DgvMovDeInventario.Rows.Count; i++)
+            ValidarCampos();
+            if (validacion == "si")
             {
-                unidadValidar = 1;
-                art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
-                CargarCodigoArticulos();
-                //
-                unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
-                CargarCodigoUnidad();
-                //
-                //tipoMov = Convert.ToString(cboCodTipoMov.Text);
-               // CargarCodTipoMov();
-                //
-                proc = Convert.ToString(DgvMovDeInventario.Rows[i].Cells[9].Value);
-                CargarCodProcesos();
-                //
-                dtMInv.Rows.Add();
-                dtMInv.Rows[j]["Inv_CodArt"] = CodArt;
-                dtMInv.Rows[j]["Inv_Fecha"] = Convert.ToDateTime(DgvMovDeInventario.Rows[i].Cells[3].Value);
-              //  dtMInv.Rows[j]["Inv_TipoMov"] = tipoMov;
-                dtMInv.Rows[j]["Inv_Almacen"] = DgvMovDeInventario.Rows[i].Cells[5].Value;
-                dtMInv.Rows[j]["Inv_Cantidad"] = Convert.ToInt64(DgvMovDeInventario.Rows[i].Cells[7].Value);
-                dtMInv.Rows[j]["Inv_Unidad"] = id;
-                dtMInv.Rows[j]["Inv_Proceso"] = Codproc;
-                j++;
-            }
-            if (j != 0)
-            {
-                EMP.RegistrarMovInvetario(dtMInv, frmPrincipal.nombreBD);
-            }
 
-            Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
-            mensajeText = StringResources.DBRegistroexitoso;
-            mensajeCaption = StringResources.ValidaciondeRegistro;
+                for (int i = 0; i < DgvMovDeInventario.Rows.Count; i++)
+                {
+                    unidadValidar = 1;
+                    art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
+                    CargarCodigoArticulos();
+                    //
+                    unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
+                    CargarCodigoUnidad();
+                    //
 
-            MessageBox.Show(mensajeText, mensajeCaption,
-            MessageBoxButtons.OK,
-            MessageBoxIcon.Information);
+                    tipoMov = Convert.ToString(cboCodTipoMov.Text);
+
+                    // CargarCodTipoMov();
+                    //
+                    proc = Convert.ToString(DgvMovDeInventario.Rows[i].Cells[9].Value);
+                    CargarCodProcesos();
+                    //
+                    dtMInv.Rows.Add();
+                    dtMInv.Rows[j]["Inv_CodArt"] = CodArt;
+                    dtMInv.Rows[j]["Inv_Fecha"] = Convert.ToDateTime(DgvMovDeInventario.Rows[i].Cells[3].Value);
+                    dtMInv.Rows[j]["Inv_TipoMov"] = tipoMov;
+                    dtMInv.Rows[j]["Inv_Almacen"] = DgvMovDeInventario.Rows[i].Cells[5].Value;
+                    dtMInv.Rows[j]["Inv_Cantidad"] = Convert.ToInt64(DgvMovDeInventario.Rows[i].Cells[7].Value);
+                    dtMInv.Rows[j]["Inv_Unidad"] = id;
+                    dtMInv.Rows[j]["Inv_Proceso"] = Codproc;
+                    j++;
+                }
+                if (j != 0)
+                {
+                    EMP.RegistrarMovInvetario(dtMInv, frmPrincipal.nombreBD);
+                }
+
+                Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
+                mensajeText = StringResources.DBRegistroexitoso;
+                mensajeCaption = StringResources.ValidaciondeRegistro;
+
+                MessageBox.Show(mensajeText, mensajeCaption,
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
+            }
         }
         public void FuncionEditar()
         {
@@ -839,7 +917,7 @@ namespace CapaPresentacion
             //
             this.lblTipoMov.Text = StringResources.TipoDeMovimiento;
             this.lblFechaInicial.Text = StringResources.Desde;
-            this.lblFechaInicial.Text = StringResources.Hasta;
+            this.lblFechaFinal.Text = StringResources.Hasta;
             this.btoBuscar.Text = StringResources.btnBuscar;
             //
             this.tpgInfoGeneral.Text = StringResources.Informaciongeneral;

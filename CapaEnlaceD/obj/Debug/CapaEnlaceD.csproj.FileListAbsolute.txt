@@ -167,3 +167,10 @@ C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaE
 C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
 C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
 C:\Users\vrodriguez\Desktop\MITProduccion2020Valerie\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaEnlaceD\obj\Debug\CapaEnlaceD.pdb
