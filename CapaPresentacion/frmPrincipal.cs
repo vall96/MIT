@@ -1298,14 +1298,14 @@ namespace CapaPresentacion
         private void AplicarIdioma()
         {
             //menu
-            this.TSMAdministracion.Text = StringResources.frmPrincipal_MenuStripAdministracion1;
+            this.TSMAdministracion.Text = StringResources.Administración;
             this.reportesToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripReportes1;
             this.empresasToolStripMenuItem.Text = StringResources.Inicio_Empresa;
             this.inicioToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripInicio1;
             this.tSmtablas.Text = StringResources.frmPrincipal_MenuStripTablas1;
             this.procesosToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripProcesos1;
             this.tSmMantenimiento.Text = StringResources.frmPrincipal_MenuStripMantenimiento1;
-            this.ayudaToolStripMenuItem.Text = StringResources.frmPrincipal_MenuStripAyuda1;
+            this.ayudaToolStripMenuItem.Text = StringResources.Ayuda;
             this.inventarioToolStripMenuItem.Text = StringResources.frmPrincipal_Inventario;
 
             //bto's

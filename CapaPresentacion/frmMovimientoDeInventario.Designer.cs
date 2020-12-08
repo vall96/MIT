@@ -71,6 +71,7 @@
             this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.CBFiltarFechas = new System.Windows.Forms.CheckBox();
             this.cboCodTipoMov = new System.Windows.Forms.ComboBox();
             this.cboTipoMov = new System.Windows.Forms.ComboBox();
             this.lblTipoMov = new System.Windows.Forms.Label();
@@ -94,7 +95,6 @@
             this.txtCod = new System.Windows.Forms.TextBox();
             this.lblCod = new System.Windows.Forms.Label();
             this.lblMaquinas = new System.Windows.Forms.Label();
-            this.CBFiltarFechas = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tpgInfoGeneral.SuspendLayout();
@@ -482,6 +482,19 @@
             this.panel3.Size = new System.Drawing.Size(969, 69);
             this.panel3.TabIndex = 0;
             // 
+            // CBFiltarFechas
+            // 
+            this.CBFiltarFechas.AutoSize = true;
+            this.CBFiltarFechas.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBFiltarFechas.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.CBFiltarFechas.Location = new System.Drawing.Point(112, -3);
+            this.CBFiltarFechas.Name = "CBFiltarFechas";
+            this.CBFiltarFechas.Size = new System.Drawing.Size(193, 23);
+            this.CBFiltarFechas.TabIndex = 33;
+            this.CBFiltarFechas.Text = "Filtrar por rango de Fechas";
+            this.CBFiltarFechas.UseVisualStyleBackColor = true;
+            this.CBFiltarFechas.CheckedChanged += new System.EventHandler(this.CBFiltarFechas_CheckedChanged);
+            // 
             // cboCodTipoMov
             // 
             this.cboCodTipoMov.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -516,6 +529,7 @@
             // 
             // dtpFinal
             // 
+            this.dtpFinal.CustomFormat = "MM/dd/yyyy";
             this.dtpFinal.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFinal.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpFinal.Location = new System.Drawing.Point(373, 20);
@@ -537,6 +551,7 @@
             // 
             // dtpInicio
             // 
+            this.dtpInicio.CustomFormat = "MM/dd/yyyy";
             this.dtpInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpInicio.Location = new System.Drawing.Point(170, 20);
@@ -723,19 +738,6 @@
             this.lblMaquinas.Name = "lblMaquinas";
             this.lblMaquinas.Size = new System.Drawing.Size(76, 18);
             this.lblMaquinas.TabIndex = 6;
-            // 
-            // CBFiltarFechas
-            // 
-            this.CBFiltarFechas.AutoSize = true;
-            this.CBFiltarFechas.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CBFiltarFechas.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.CBFiltarFechas.Location = new System.Drawing.Point(112, -3);
-            this.CBFiltarFechas.Name = "CBFiltarFechas";
-            this.CBFiltarFechas.Size = new System.Drawing.Size(193, 23);
-            this.CBFiltarFechas.TabIndex = 33;
-            this.CBFiltarFechas.Text = "Filtrar por rango de Fechas";
-            this.CBFiltarFechas.UseVisualStyleBackColor = true;
-            this.CBFiltarFechas.CheckedChanged += new System.EventHandler(this.CBFiltarFechas_CheckedChanged);
             // 
             // MovDeInventario
             // 

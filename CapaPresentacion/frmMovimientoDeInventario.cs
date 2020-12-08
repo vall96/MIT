@@ -161,7 +161,7 @@ namespace CapaPresentacion
             {
                 for (int i = 0; i < dtUnidades.Rows.Count; i++)
                 {
-                    if (dtUnidades.Rows[i]["UnidDes_codUni"].ToString().ToLower() == unidad)
+                    if (dtUnidades.Rows[i]["UnidDes_codUni"].ToString().ToLower() == unidad.ToLower())
                     {
                         id = dtUnidades.Rows[i]["UnidDes_Descripcion"].ToString();
                         return;
@@ -175,7 +175,7 @@ namespace CapaPresentacion
                 {
                     for (int n = 0; n < dtUnidades.Rows.Count; n++)
                     {
-                        if (dtUnidades.Rows[n]["UnidDes_Descripcion"].ToString().ToLower() == unidad)
+                        if (dtUnidades.Rows[n]["UnidDes_Descripcion"].ToString().ToLower() == unidad.ToLower())
                         {
                             id = dtUnidades.Rows[n]["UnidDes_codUni"].ToString();
                             return;
@@ -380,81 +380,90 @@ namespace CapaPresentacion
 
             DgvMovDeInventario.Enabled = true;
             DgvMovDeInventario.Rows.Clear();
-
-            if (cboTipoMov.Text != "")
+            if (CBFiltarFechas.Checked == false)
             {
-                EMP.codigo = cboCodTipoMov.Text;
-                DtInventario = EMP.Listado_InvTipoMovFiltro(frmPrincipal.nombreBD);
-
-                for (int i = 0; i < DtInventario.Rows.Count; i++)
+                if (cboTipoMov.Text != "")
                 {
-                    unidadValidar = 0;
-                    CodArt = DtInventario.Rows[i]["Inv_CodArt"].ToString();
-                    CargarCodigoArticulos();
-                    //
-                    unidad = DtInventario.Rows[i]["Inv_Unidad"].ToString();
-                    CargarCodigoUnidad();
-                    //
-                    codMov = DtInventario.Rows[i]["Inv_TipoMov"].ToString();
-                    CargarCodTipoMov();
-                    //
-                    Codproc = DtInventario.Rows[i]["Inv_Proceso"].ToString();
-                    CargarCodProcesos();
-                    //
-                    //DateTime fechita = Convert.ToDateTime(DtInventario.Rows[i]["Inv_Fecha"].ToString());
-                    //fechita.ToShortDateString(); 
-                    this.DgvMovDeInventario.Rows.Add(dgvCheck,
-                         art, "...",
-                        // fechita,
-                         DtInventario.Rows[i]["Inv_Fecha"].ToString(),
-                         " ",
-                         DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
-                         DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
-                         id,
-                         " ");
-                    DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
-                    DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+                    EMP.codigo = cboCodTipoMov.Text;
+                    DtInventario = EMP.Listado_InvTipoMovFiltro(frmPrincipal.nombreBD);
+
+                    for (int i = 0; i < DtInventario.Rows.Count; i++)
+                    {
+                        unidadValidar = 0;
+                        CodArt = DtInventario.Rows[i]["Inv_CodArt"].ToString();
+                        CargarCodigoArticulos();
+                        //
+                        unidad = DtInventario.Rows[i]["Inv_Unidad"].ToString();
+                        CargarCodigoUnidad();
+                        //
+                        codMov = DtInventario.Rows[i]["Inv_TipoMov"].ToString();
+                        CargarCodTipoMov();
+                        //
+                        Codproc = DtInventario.Rows[i]["Inv_Proceso"].ToString();
+                        CargarCodProcesos();
+                        //
+                        this.DgvMovDeInventario.Rows.Add(dgvCheck,
+                             art, "...",
+                             DtInventario.Rows[i]["Inv_Fecha"].ToString(),
+                             " ",
+                             DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
+                             DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
+                             id,
+                             " ");
+                        DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
+                        DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+                    }
                 }
             }
-
-            else if (dtpInicio.Text != "" && dtpFinal.Text != "")
+            if (CBFiltarFechas.Checked == true)
             {
-                EMP.inicio = dtpInicio.Value;
-                EMP.fin = dtpFinal.Value;
-
-                dtFechasFil = EMP.Listado_FechaFiltro(frmPrincipal.nombreBD);
-
-                for (int i = 0; i < dtFechasFil.Rows.Count; i++)
+                if (dtpInicio.Text != "" && dtpFinal.Text != "")
                 {
-                    unidadValidar = 0;
-                    //
-                    CodArt = DtInventario.Rows[i]["Inv_CodArt"].ToString();
-                    CargarCodigoArticulos();
-                    //
-                    unidad = dtFechasFil.Rows[i]["Inv_Unidad"].ToString();
-                    CargarCodigoUnidad();
-                    //
-                    codMov = dtFechasFil.Rows[i]["Inv_TipoMov"].ToString();
-                    CargarCodTipoMov();
-                    //
-                    Codproc = dtFechasFil.Rows[i]["Inv_Proceso"].ToString();
-                    CargarCodProcesos();
-                    //
-                    //DateTime fechita = Convert.ToDateTime(DtInventario.Rows[i]["Inv_Fecha"].ToString());
-                    //fechita.ToShortDateString();
-                    this.DgvMovDeInventario.Rows.Add(dgvCheck,
-                         art, "...",
-                         //fechita,
-                         DtInventario.Rows[i]["Inv_Fecha"].ToString(),
-                         " ",
-                         DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
-                         DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
-                         id,
-                         " ");
-                    DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
-                    DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+                    if (cboTipoMov.Text == "")
+                    {
+                        mensajeCaption = StringResources.Validacióndecampos;
+                        mensajeText = StringResources.ExistenCamposVacios;
+
+                        MessageBox.Show(mensajeText, mensajeCaption,
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Information);
+                        return;
+                    }
+                    EMP.inicio = dtpInicio.Value;
+                    EMP.fin = dtpFinal.Value;
+                    EMP.codigo = cboCodTipoMov.Text;
+
+                    dtFechasFil = EMP.Listado_FechaFiltro(frmPrincipal.nombreBD);
+
+                    for (int i = 0; i < dtFechasFil.Rows.Count; i++)
+                    {
+                        unidadValidar = 0;
+                        //
+                        CodArt = dtFechasFil.Rows[i]["Inv_CodArt"].ToString();
+                        CargarCodigoArticulos();
+                        //
+                        unidad = dtFechasFil.Rows[i]["Inv_Unidad"].ToString();
+                        CargarCodigoUnidad();
+                        //
+                        codMov = dtFechasFil.Rows[i]["Inv_TipoMov"].ToString();
+                        CargarCodTipoMov();
+                        //
+                        Codproc = dtFechasFil.Rows[i]["Inv_Proceso"].ToString();
+                        CargarCodProcesos();
+                        //
+                        this.DgvMovDeInventario.Rows.Add(dgvCheck,
+                             art, "...",
+                             dtFechasFil.Rows[i]["Inv_Fecha"].ToString(),
+                             " ",
+                             dtFechasFil.Rows[i]["Inv_Almacen"].ToString(), "...",
+                             dtFechasFil.Rows[i]["Inv_Cantidad"].ToString(),
+                             id,
+                             " ");
+                        DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
+                        DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+                    }
+                    j++;
                 }
-                j++;
             }
         }
         //--------------------------------------------------------------------------------------------------------
@@ -538,7 +547,7 @@ namespace CapaPresentacion
                         dtp.Location = new Point(_Rectangle.X, _Rectangle.Y);
                         DgvMovDeInventario.CommitEdit(DataGridViewDataErrorContexts.Commit);
                         dtp.CloseUp += new EventHandler(dtp_CloseUp);
-                        dtp.CustomFormat = "dd/MM/yyyy";
+                        //dtp.CustomFormat = "dd/MM/yyyy";
 
                     }
                 }
@@ -620,7 +629,7 @@ namespace CapaPresentacion
         private void cboTipoMov_SelectedIndexChanged(object sender, EventArgs e)
         {
             cboCodTipoMov.SelectedIndex = cboTipoMov.SelectedIndex;
-            CargarTipoMov();
+            //CargarTipoMov();
         }
         private void DgvMovDeInventario_Scroll(object sender, ScrollEventArgs e)
         {
@@ -655,15 +664,14 @@ namespace CapaPresentacion
                 dtpInicio.Visible = false;
                 lblFechaFinal.Visible = false;
                 lblFechaInicial.Visible = false;
-
             }
         }
 
         //--------------------------------------------------------------------------------------------------------
-        public void CargarTipoMov()
-        {
+        //public void CargarTipoMov()
+        //{
 
-        }
+        //}
         public void ValidadCampos()
         {
             DgvMovDeInventario.AllowUserToAddRows = false;

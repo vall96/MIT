@@ -80,7 +80,7 @@ namespace CapaLogicaNegocios
         //-----------------------------------------------
         public int m_IVA { get; set; }
         public int m_LOTE { get; set; }
-
+        public DateTime inicio, fin;
         //-----------------------------------------------
         public DataTable listadoEmpresa()
         {
@@ -1614,25 +1614,21 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "sp_RegistrarCedulaArticulo", "@dtRelacion");
         }
-
         public DataTable ListarUnidadesDeLongitud(string nombreBd)
         {
             M.CambiarBD(nombreBd);
             return M.Listado("sp_ListarUnidadLongitud", null);
         }
-
         public void EliminarCedulaArt(DataTable dt, string nombreBd)
         {
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "SP_EliminarCedulaArticulo", "@dtRelacion");
         }
-
         public DataTable ListarUnidadesEstandarMVL(string nombreBd)
         {
             M.CambiarBD(nombreBd);
             return M.Listado("sp_ListarUnidadesEstarMVL", null);
         }
-
         public DataTable ListarUnidadesDeMasa(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1643,13 +1639,11 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd);
             return M.Listado("sp_ListarUnidadesDeVolumen", null);
         }
-
         public DataTable ListarUnidadesDeTiempo(string nombreBd)
         {
             M.CambiarBD(nombreBd);
             return M.Listado("sp_ListarUnidaddDeTiempo", null);
         }
-
         public DataTable ListarFactorDeConversionSeg(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1660,27 +1654,23 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd);
             return M.Listado("sp_ListarUnidadesDescripMVL", null);
         }
-
         public void ActualizarCedArtic(DataTable dt, string nombreBd)
         {
             M.CambiarBD(nombreBd); 
             M.InsertarDt(dt, "Sp_ActualizarCedulaArticulo", "@dtRelacion");
         }
-
         //SEPTIEMBRE
         public DataTable Listado_TipoMovimientoInventario(string nombreBd)
         {
             M.CambiarBD(nombreBd);
             return M.Listado("Sp_ListarInvTipoMov", null);
         }
-
         public DataTable Listado_ProcesosInventario(string nombreBd)
         {
            
             M.CambiarBD(nombreBd);
             return M.Listado("Sp_ListarInvtProcesos", null);
         }
-
         //Orden de produccion oscar
         public DataTable Listar_OrdenProduccion(string nombreBd)
         {
@@ -1737,15 +1727,11 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "Sp_RegistrarMovInventario", "@dtRelacion");
         }
-
-
         public DataTable Listado_Inventario(string nombreBd)
         {
             M.CambiarBD(nombreBd);
             return M.Listado(" SP_ListarInventario", null);
         }
-
-
         public DataTable Listado_InvTipoMovFiltro(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1761,7 +1747,7 @@ namespace CapaLogicaNegocios
                 throw ex;
             }
         }
-        public DateTime inicio, fin;
+       
         public DataTable Listado_FechaFiltro(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1771,6 +1757,7 @@ namespace CapaLogicaNegocios
             {
                 lst.Add(new clsParametros("@fechainicial", inicio));
                 lst.Add(new clsParametros("@fechaFinal", fin));
+                lst.Add(new clsParametros("@TipoMov", codigo ));
                 return M.Listado("SP_FiltrarFechas", lst);
             }
             catch (Exception ex)
@@ -1778,7 +1765,6 @@ namespace CapaLogicaNegocios
                 throw ex;
             }
         }
-
         public string EliminarArticulos(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1800,25 +1786,21 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-
         public void EliminarMovIn(DataTable dt, string nombreBd)
         {
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "SP_EliminarMovInventrio", "@dtRelacion");
         }
-
         public void RegistrarArticulo_Prov(DataTable dt, string nombreBd)
         {
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "sp_Registrar_ArticuloProv", "@dtRelacion");
         }
-
         public void ActualizarArticulo_Prov(DataTable dt, string nombreBd)
         {
             M.CambiarBD(nombreBd); 
             M.InsertarDt(dt, "Sp_ActualizarArticulo_Prov", "@dtRelacion");
         }
-
     }
 }
 

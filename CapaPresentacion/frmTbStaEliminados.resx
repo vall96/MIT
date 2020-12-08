@@ -131,9 +131,6 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value> </value>
-  </data>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -163,9 +160,6 @@
   </data>
   <data name="btnSalir.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
-  </data>
-  <data name="btnSalir.Text" xml:space="preserve">
-    <value>Salir</value>
   </data>
   <data name="&gt;&gt;btnSalir.Name" xml:space="preserve">
     <value>btnSalir</value>
@@ -221,9 +215,6 @@
   <data name="btoSalir.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
   </data>
-  <data name="btoSalir.Text" xml:space="preserve">
-    <value>Salir</value>
-  </data>
   <data name="&gt;&gt;btoSalir.Name" xml:space="preserve">
     <value>btoSalir</value>
   </data>
@@ -275,9 +266,6 @@
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>  </value>
-  </data>
   <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -304,9 +292,6 @@
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value> E</value>
   </data>
   <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -369,9 +354,6 @@
   <data name="btnBuscar.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="btnBuscar.Text" xml:space="preserve">
-    <value>Buscar</value>
-  </data>
   <data name="&gt;&gt;btnBuscar.Name" xml:space="preserve">
     <value>btnBuscar</value>
   </data>
@@ -398,9 +380,6 @@
   </data>
   <data name="lblCodigo.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="lblCodigo.Text" xml:space="preserve">
-    <value>Código</value>
   </data>
   <data name="&gt;&gt;lblCodigo.Name" xml:space="preserve">
     <value>lblCodigo</value>
@@ -471,9 +450,6 @@
   <data name="lblDescripcion.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lblDescripcion.Text" xml:space="preserve">
-    <value>Descripción</value>
-  </data>
   <data name="&gt;&gt;lblDescripcion.Name" xml:space="preserve">
     <value>lblDescripcion</value>
   </data>
@@ -519,9 +495,6 @@
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value> </value>
-  </data>
   <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -546,9 +519,6 @@
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value> </value>
-  </data>
   <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -564,14 +534,8 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="Codigo.Text" xml:space="preserve">
-    <value>Codigo</value>
-  </data>
   <data name="Codigo.Width" type="System.Int32, mscorlib">
     <value>129</value>
-  </data>
-  <data name="descripcion.Text" xml:space="preserve">
-    <value>Descripcion</value>
   </data>
   <data name="descripcion.Width" type="System.Int32, mscorlib">
     <value>380</value>
@@ -702,7 +666,7 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>657, 638</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="EstadosEliminados.Text" xml:space="preserve">
     <value>Estados Eliminados</value>
   </data>
   <data name="&gt;&gt;Codigo.Name" xml:space="preserve">

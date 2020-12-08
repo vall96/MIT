@@ -1830,3 +1830,15 @@ C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresent
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaDePresenta.csproj.CopyComplete
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\bin\Debug\en-US\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\bin\Debug\fr-FR\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\bin\Debug\ru-RU\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarioPruebaEstilo.en-US.resources
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarioPruebaEstilo.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarioPruebaEstilo.ru-RU.resources
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\en-US\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\fr-FR\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\ru-RU\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmTbStaEliminados.en-US.resources
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmTbStaEliminados.fr-FR.resources
+C:\Users\vrodriguez\Desktop\MITProduccion\CapaPresentacion\obj\Debug\CapaPresentacion.frmTbStaEliminados.ru-RU.resources

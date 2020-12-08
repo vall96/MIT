@@ -417,8 +417,8 @@ namespace CapaPresentacion
                     msj = emp.ActualizarProcedencia(frmPrincipal.nombreBD);
                     if (msj == "Actualizacion Exitosa")
                     {
-                        mensajeCaption = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
-                        mensajeText = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
+                        mensajeCaption = StringResources.ValidaciondeRegistro;
+                        mensajeText = StringResources.DBActualizacionExitosa;
                         MessageBox.Show(mensajeText, mensajeCaption, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
