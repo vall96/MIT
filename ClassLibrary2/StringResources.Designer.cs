@@ -2987,6 +2987,15 @@ namespace CultureResources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un tipo de movimiento para poder registrar.
+        /// </summary>
+        public static string SeleccionarTipoMov {
+            get {
+                return ResourceManager.GetString("SeleccionarTipoMov", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Seleccione el Método de Costo.
         /// </summary>
         public static string SeleccioneElMetodoDeCosto {

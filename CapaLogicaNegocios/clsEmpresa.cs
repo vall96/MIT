@@ -1786,10 +1786,30 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-        public void EliminarMovIn(DataTable dt, string nombreBd)
+        string fecha;
+        public string EliminarMovIn(string nombreBd)
         {
             M.CambiarBD(nombreBd);
-            M.InsertarDt(dt, "SP_EliminarMovInventrio", "@dtRelacion");
+            List<clsParametros> lst = new List<clsParametros>();
+            string mensaje = "";
+            try
+            {
+                lst.Add(new clsParametros("@codigo", codigo));
+                lst.Add(new clsParametros("@fecha", fecha));
+                lst.Add(new clsParametros("@almacen", m_cod));
+                //
+                lst.Add(new clsParametros("@mensaje", SqlDbType.VarChar, 20));
+                //
+                M.EjecutarSP("SP_EliminarMovInventrio", ref lst);
+
+                mensaje = lst[3].m_valor.ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return mensaje;
+            
         }
         public void RegistrarArticulo_Prov(DataTable dt, string nombreBd)
         {
