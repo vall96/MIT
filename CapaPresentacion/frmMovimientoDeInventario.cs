@@ -9,8 +9,6 @@ using CultureResources;
 
 namespace CapaPresentacion
 {
-
-
     public partial class MovDeInventario : Form
     {
         // private const string V = "";
@@ -55,12 +53,15 @@ namespace CapaPresentacion
         //
         DataTable dtFechasFil = new DataTable(); // carga la lista filtrada por fechas 
         DateTime Fechafiltro = DateTime.Now;
+        //
+        DateTime fecha = DateTime.UtcNow;
+        string eliminar;
         //-------------------------------------------------------------------------------------------------------------------------
         public MovDeInventario()
         {
             InitializeComponent();
             FuncionInicio();
-            
+
         }
         private void frmMovimientoDeInventario_Load(object sender, EventArgs e)
         {
@@ -84,7 +85,7 @@ namespace CapaPresentacion
         }
         public void CargarCboTipoMov()
         {
-           // this.ColCBOTipoMov.Items.Clear();
+            // this.ColCBOTipoMov.Items.Clear();
             CargarlistadoTipoMov();
 
             //if (valido == "tipomov")
@@ -96,14 +97,13 @@ namespace CapaPresentacion
             //}
             //else
             //{
-                for (int i = 0; i < dtTipoMov.Rows.Count; i++)
-                {
-                    cboCodTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Codigo"].ToString());
-                    cboTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Descrip"].ToString());
-                }
+            for (int i = 0; i < dtTipoMov.Rows.Count; i++)
+            {
+                cboCodTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Codigo"].ToString());
+                cboTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Descrip"].ToString());
+            }
             //}
         }
-
         public void CargarListadoProcesos()
         {
             dtProc = EMP.Listado_ProcesosInventario(frmPrincipal.nombreBD);
@@ -123,7 +123,7 @@ namespace CapaPresentacion
         {
 
             Articulos = EMP.ListadoArticulos(frmPrincipal.nombreBD);
-           
+
             if (unidadValidar == 0)
             {
                 for (int i = 0; i < Articulos.Rows.Count; i++)
@@ -327,6 +327,11 @@ namespace CapaPresentacion
             accion = "agregar";
             FuncionAgregar();
         }
+        private void toolStripBtoEditar_Click(object sender, EventArgs e)
+        {
+            accion = "editar";
+            FuncionEditar();
+        }
         private void toolStripBtoGuardar_Click(object sender, EventArgs e)
         {
             DgvMovDeInventario.EndEdit();
@@ -350,14 +355,14 @@ namespace CapaPresentacion
                 FuncionInicio();
             }
         }
+        private void toolStripBtoEliminar_Click(object sender, EventArgs e)
+        {
+            eliminarDgvArt();
+            eliminar = "si";
+        }
         private void toolStripBtoDescartar_Click(object sender, EventArgs e)
         {
             FuncionInicio();
-        }
-        private void toolStripBtoEditar_Click(object sender, EventArgs e)
-        {
-            accion = "editar";
-            FuncionEditar();
         }
         private void BtoEliminarArticulos_Click(object sender, EventArgs e)
         {
@@ -371,6 +376,7 @@ namespace CapaPresentacion
             }
             BtoEliminarInv.Enabled = false;
         }
+        //
         private void btoBuscar_Click(object sender, EventArgs e)
         {
             valido = "tipomov";
@@ -407,6 +413,7 @@ namespace CapaPresentacion
                              " ",
                              DtInventario.Rows[i]["Inv_Almacen"].ToString(), "...",
                              DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
+                             "F1",
                              id,
                              " ");
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
@@ -455,7 +462,7 @@ namespace CapaPresentacion
                              dtFechasFil.Rows[i]["Inv_Fecha"].ToString(),
                              " ",
                              dtFechasFil.Rows[i]["Inv_Almacen"].ToString(), "...",
-                             dtFechasFil.Rows[i]["Inv_Cantidad"].ToString(),
+                             dtFechasFil.Rows[i]["Inv_Cantidad"].ToString(), "F1",
                              id,
                              " ");
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
@@ -465,11 +472,15 @@ namespace CapaPresentacion
                 }
             }
         }
+        private void btoSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         //--------------------------------------------------------------------------------------------------------
         private void DgvMovDeInventario_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DgvMovDeInventario.CommitEdit(DataGridViewDataErrorContexts.Commit);
-          
+
             if (accion == "agregar" || accion == "editar" || accion == "pasado")
             {
                 foreach (DataGridViewRow fila in DgvMovDeInventario.Rows)
@@ -495,7 +506,7 @@ namespace CapaPresentacion
         }
         private void DgvMovDeInventario_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           // dtp.Location = new System.Drawing.Point(237, 51);
+            // dtp.Location = new System.Drawing.Point(237, 51);
 
             filaDGV = DgvMovDeInventario.CurrentRow.Index; //recoge el valor de la fila en la que esta posicionado el cursor
             //
@@ -549,7 +560,7 @@ namespace CapaPresentacion
             //           // //dtp.CustomFormat = "dd/MM/yyyy";
 
             //        }
-             //       DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+            //       DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
             //    }
             //}
             else
@@ -570,7 +581,7 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                   // CargarCboTipoMov();
+                    // CargarCboTipoMov();
                 }
             }
 
@@ -586,7 +597,7 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                valido = "Mov-TbAlmacenes";
+                    valido = "Mov-TbAlmacenes";
                     VentAlmacenes = new frmTbAlmacenes();
                     VentAlmacenes.pasadoMov += new frmTbAlmacenes.pasarMov(ejecutarMInvAlmacenes);
                     VentAlmacenes.ShowDialog();
@@ -604,8 +615,9 @@ namespace CapaPresentacion
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
+
             }
-            if (e.ColumnIndex == 9)
+            if (e.ColumnIndex == 10)
             {
                 if (Convert.ToString(this.DgvMovDeInventario.Rows[filaDGV].Cells[1].Value) == "")
                 {
@@ -621,24 +633,7 @@ namespace CapaPresentacion
                 }
             }
         }
-        //----------------------------------------------⇵⇵⇵ DTP fecha ⇵⇵⇵-------------------------------------------------------------
-        //private void DgvMovDeInventario_ColumnWidthChanged(object sender, DataGridViewColumnEventArgs e)
-        //{
-        //    dtp.Visible = false;
-        //}
-        //private void DgvMovDeInventario_Scroll(object sender, ScrollEventArgs e)
-        //{
-        //    dtp.Visible = false;
-        //}
-        //private void dtp_TextChange(object sender, EventArgs e)
-        //{
-        //    DgvMovDeInventario.CurrentCell.Value = dtp.Value;
-        //}
-      //  void dtp_CloseUp(object sender, EventArgs e)
-        //{
-        //    dtp.Visible = false;   //Volvemos a colocar en invisible el control
-        //}
-        //--------------------------------------------------------------------------------------------------------------------------------
+        //----------------------------------------------------------------------------------------------------------------------------------
         private void cboTipoMov_SelectedIndexChanged(object sender, EventArgs e)
         {
             cboCodTipoMov.SelectedIndex = cboTipoMov.SelectedIndex;
@@ -648,7 +643,7 @@ namespace CapaPresentacion
                 {
                     DgvMovDeInventario.Rows[i].Cells[4].Value = cboTipoMov.Text;
                 }
-              
+
             }
             //CargarTipoMov();
         }
@@ -680,7 +675,7 @@ namespace CapaPresentacion
             {
                 if (e.KeyCode == Keys.F8)
                 {
-                  //  FuncionEliminar();
+                    //  FuncionEliminar();
                 }
             }
             if (e.KeyCode == Keys.F9)
@@ -689,13 +684,6 @@ namespace CapaPresentacion
                 FuncionInicio();
             }
         }
-
-        private void btoSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        DateTime fecha = DateTime.UtcNow;
-
         private void DTPfechaRegistro_ValueChanged(object sender, EventArgs e)
         {
             fecha = DTPfechaRegistro.Value.Date;
@@ -708,17 +696,9 @@ namespace CapaPresentacion
                 DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
             }
         }
-
-        string eliminar;
-        private void toolStripBtoEliminar_Click(object sender, EventArgs e)
-        {
-            eliminarDgvArt();
-            eliminar = "si";
-        }
-
         private void CBFiltarFechas_CheckedChanged(object sender, EventArgs e)
         {
-            if(CBFiltarFechas.Checked == true)
+            if (CBFiltarFechas.Checked == true)
             {
                 dtpFinal.Enabled = true;
                 dtpInicio.Enabled = true;
@@ -821,7 +801,7 @@ namespace CapaPresentacion
             DgvMovDeInventario.Columns[1].ReadOnly = true;
             DgvMovDeInventario.Columns[3].ReadOnly = true;
             DgvMovDeInventario.Columns[5].ReadOnly = true;
-            DgvMovDeInventario.Columns[8].ReadOnly = true;
+            DgvMovDeInventario.Columns[9].ReadOnly = true;
 
             lblFecha.Visible = true;
             DTPfechaRegistro.Visible = true;
@@ -863,12 +843,10 @@ namespace CapaPresentacion
                     art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
                     CargarCodigoArticulos();
                     //
-                    unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
+                    unidad = DgvMovDeInventario.Rows[i].Cells[9].Value.ToString().ToLower();
                     CargarCodigoUnidad();
                     //
-
                     tipoMov = Convert.ToString(cboCodTipoMov.Text);
-                    
                     // CargarCodTipoMov();
                     //
                     proc = Convert.ToString(DgvMovDeInventario.Rows[i].Cells[9].Value);
@@ -888,16 +866,29 @@ namespace CapaPresentacion
                 {
                     EMP.RegistrarMovInvetario(dtMInv, frmPrincipal.nombreBD);
                 }
+                if (DgvMovDeInventario.Rows.Count == 0)
+                {
+                    Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
+                    mensajeText = StringResources.ExistenCamposVacios;
+                    mensajeCaption = StringResources.ValidaciondeRegistro;
 
-                Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
-                mensajeText = StringResources.DBRegistroexitoso;
-                mensajeCaption = StringResources.ValidaciondeRegistro;
+                    MessageBox.Show(mensajeText, mensajeCaption,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                }
+                else
+                {
+                    Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
+                    mensajeText = StringResources.DBRegistroexitoso;
+                    mensajeCaption = StringResources.ValidaciondeRegistro;
 
-                MessageBox.Show(mensajeText, mensajeCaption,
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
+                    MessageBox.Show(mensajeText, mensajeCaption,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                }
             }
         }
+
         public void FuncionEditar()
         {
             accion = "editar";
@@ -978,7 +969,7 @@ namespace CapaPresentacion
                                 art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
                                 CargarCodigoArticulos();
                                 //
-                                unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
+                                unidad = DgvMovDeInventario.Rows[i].Cells[9].Value.ToString().ToLower();
                                 CargarCodigoUnidad();
                                 //
                                 tipoMov = Convert.ToString(cboCodTipoMov.Text);

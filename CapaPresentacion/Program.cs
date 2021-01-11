@@ -16,10 +16,10 @@ namespace CapaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-          //  Application.Run(new frmRegristroUsuario());
-             Application.Run(new frmPrincipal());
+           // Application.Run(new frmRegristroUsuario());
+            Application.Run(new frmPrincipal());
             // Application.Run(new frmTareas());
-           //Application.Run(new frmCedulaDeProducto());
+           // Application.Run(new frmEmpresas());
         }
     }
 }

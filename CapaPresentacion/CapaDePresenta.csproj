@@ -94,6 +94,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmLotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotes.Designer.cs">
+      <DependentUpon>frmLotes.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMovimientoDeInventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -456,6 +462,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmLotes.resx">
+      <DependentUpon>frmLotes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMovimientoDeInventario.resx">
       <DependentUpon>frmMovimientoDeInventario.cs</DependentUpon>
     </EmbeddedResource>

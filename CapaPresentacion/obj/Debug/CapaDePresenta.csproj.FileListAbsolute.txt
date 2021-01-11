@@ -1942,3 +1942,4 @@ C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaDePresenta.csproj.CopyComplete
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmLotes.resources
