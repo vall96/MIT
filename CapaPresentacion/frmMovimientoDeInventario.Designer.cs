@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class MovDeInventario
+    partial class frmMovDeInventario
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MovDeInventario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMovDeInventario));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -39,6 +39,17 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.tpgInfoGeneral = new System.Windows.Forms.ToolStrip();
+            this.toolStripBtoAgregar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoEditar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoGuardar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoEliminar = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripBtoDescartar = new System.Windows.Forms.ToolStripButton();
             this.label4 = new System.Windows.Forms.Label();
             this.btoSalir = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -48,6 +59,17 @@
             this.lblInventario = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.BtoEliminarInv = new System.Windows.Forms.Button();
+            this.DgvMovDeInventario = new System.Windows.Forms.DataGridView();
+            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.DTPfechaRegistro = new System.Windows.Forms.DateTimePicker();
             this.lblFecha = new System.Windows.Forms.Label();
@@ -76,39 +98,16 @@
             this.lblCod = new System.Windows.Forms.Label();
             this.lblMaquinas = new System.Windows.Forms.Label();
             this.miniToolStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripBtoAgregar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripBtoEditar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripBtoGuardar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripBtoEliminar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripBtoDescartar = new System.Windows.Forms.ToolStripButton();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.tpgInfoGeneral = new System.Windows.Forms.ToolStrip();
-            this.DgvMovDeInventario = new System.Windows.Forms.DataGridView();
-            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtoCantidad = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.panel1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.tpgInfoGeneral.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tapInfoG.SuspendLayout();
             this.tpInformacionGeneral.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvMovDeInventario)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel7.SuspendLayout();
-            this.tpgInfoGeneral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvMovDeInventario)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -128,6 +127,114 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1064, 642);
             this.panel1.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.AutoSize = true;
+            this.panel7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.tpgInfoGeneral);
+            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.ForeColor = System.Drawing.Color.Teal;
+            this.panel7.Location = new System.Drawing.Point(12, 48);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(369, 46);
+            this.panel7.TabIndex = 29;
+            // 
+            // tpgInfoGeneral
+            // 
+            this.tpgInfoGeneral.Dock = System.Windows.Forms.DockStyle.None;
+            this.tpgInfoGeneral.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.tpgInfoGeneral.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.tpgInfoGeneral.ImageScalingSize = new System.Drawing.Size(31, 22);
+            this.tpgInfoGeneral.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripBtoAgregar,
+            this.toolStripSeparator5,
+            this.toolStripBtoEditar,
+            this.toolStripSeparator6,
+            this.toolStripBtoGuardar,
+            this.toolStripSeparator7,
+            this.toolStripBtoEliminar,
+            this.toolStripSeparator8,
+            this.toolStripBtoDescartar});
+            this.tpgInfoGeneral.Location = new System.Drawing.Point(4, 0);
+            this.tpgInfoGeneral.Name = "tpgInfoGeneral";
+            this.tpgInfoGeneral.Size = new System.Drawing.Size(361, 42);
+            this.tpgInfoGeneral.TabIndex = 20;
+            // 
+            // toolStripBtoAgregar
+            // 
+            this.toolStripBtoAgregar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoAgregar.Image")));
+            this.toolStripBtoAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoAgregar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 2);
+            this.toolStripBtoAgregar.Name = "toolStripBtoAgregar";
+            this.toolStripBtoAgregar.Size = new System.Drawing.Size(67, 39);
+            this.toolStripBtoAgregar.Text = "F5 Agregar";
+            this.toolStripBtoAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoAgregar.Click += new System.EventHandler(this.toolStripBtoAgregar_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.toolStripSeparator5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 42);
+            // 
+            // toolStripBtoEditar
+            // 
+            this.toolStripBtoEditar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEditar.Image")));
+            this.toolStripBtoEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoEditar.Name = "toolStripBtoEditar";
+            this.toolStripBtoEditar.Size = new System.Drawing.Size(56, 39);
+            this.toolStripBtoEditar.Text = "F6 Editar";
+            this.toolStripBtoEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoEditar.Click += new System.EventHandler(this.toolStripBtoEditar_Click);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 42);
+            // 
+            // toolStripBtoGuardar
+            // 
+            this.toolStripBtoGuardar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoGuardar.Image")));
+            this.toolStripBtoGuardar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoGuardar.Name = "toolStripBtoGuardar";
+            this.toolStripBtoGuardar.Size = new System.Drawing.Size(68, 39);
+            this.toolStripBtoGuardar.Text = "F7 Guardar";
+            this.toolStripBtoGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoGuardar.Click += new System.EventHandler(this.toolStripBtoGuardar_Click);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 42);
+            // 
+            // toolStripBtoEliminar
+            // 
+            this.toolStripBtoEliminar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEliminar.Image")));
+            this.toolStripBtoEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoEliminar.Name = "toolStripBtoEliminar";
+            this.toolStripBtoEliminar.Size = new System.Drawing.Size(67, 39);
+            this.toolStripBtoEliminar.Text = "F8 Eliminar";
+            this.toolStripBtoEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoEliminar.Click += new System.EventHandler(this.toolStripBtoEliminar_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 42);
+            // 
+            // toolStripBtoDescartar
+            // 
+            this.toolStripBtoDescartar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoDescartar.Image")));
+            this.toolStripBtoDescartar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtoDescartar.Name = "toolStripBtoDescartar";
+            this.toolStripBtoDescartar.Size = new System.Drawing.Size(74, 39);
+            this.toolStripBtoDescartar.Text = "F9 Descartar";
+            this.toolStripBtoDescartar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoDescartar.Click += new System.EventHandler(this.toolStripBtoDescartar_Click);
             // 
             // label4
             // 
@@ -237,6 +344,136 @@
             this.BtoEliminarInv.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtoEliminarInv.UseVisualStyleBackColor = false;
             this.BtoEliminarInv.Click += new System.EventHandler(this.BtoEliminarArticulos_Click);
+            // 
+            // DgvMovDeInventario
+            // 
+            this.DgvMovDeInventario.AllowUserToResizeColumns = false;
+            this.DgvMovDeInventario.BackgroundColor = System.Drawing.Color.White;
+            this.DgvMovDeInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvMovDeInventario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColCheck,
+            this.ColArticulos,
+            this.ColBtnArt,
+            this.ColFecha,
+            this.ColTipoMov,
+            this.ColAlmacen,
+            this.ColBtnAlmacen,
+            this.ColCantidad,
+            this.ColUnidad,
+            this.ColCBOProceso});
+            this.DgvMovDeInventario.Enabled = false;
+            this.DgvMovDeInventario.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.DgvMovDeInventario.Location = new System.Drawing.Point(9, 3);
+            this.DgvMovDeInventario.Name = "DgvMovDeInventario";
+            this.DgvMovDeInventario.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.DgvMovDeInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DgvMovDeInventario.Size = new System.Drawing.Size(958, 264);
+            this.DgvMovDeInventario.TabIndex = 8;
+            this.DgvMovDeInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellClick);
+            this.DgvMovDeInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellContentClick);
+            this.DgvMovDeInventario.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellEndEdit);
+            this.DgvMovDeInventario.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.DgvMovDeInventario_CellValidating);
+            this.DgvMovDeInventario.CurrentCellChanged += new System.EventHandler(this.DgvMovDeInventario_CurrentCellChanged);
+            // 
+            // ColCheck
+            // 
+            this.ColCheck.Frozen = true;
+            this.ColCheck.HeaderText = "";
+            this.ColCheck.Name = "ColCheck";
+            this.ColCheck.Visible = false;
+            this.ColCheck.Width = 20;
+            // 
+            // ColArticulos
+            // 
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ColArticulos.Frozen = true;
+            this.ColArticulos.HeaderText = "Articulos";
+            this.ColArticulos.Name = "ColArticulos";
+            this.ColArticulos.Width = 160;
+            // 
+            // ColBtnArt
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ColBtnArt.Frozen = true;
+            this.ColBtnArt.HeaderText = "";
+            this.ColBtnArt.Name = "ColBtnArt";
+            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnArt.Text = "...";
+            this.ColBtnArt.ToolTipText = "agg";
+            this.ColBtnArt.Width = 30;
+            // 
+            // ColFecha
+            // 
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ColFecha.Frozen = true;
+            this.ColFecha.HeaderText = "Fecha";
+            this.ColFecha.Name = "ColFecha";
+            this.ColFecha.Width = 95;
+            // 
+            // ColTipoMov
+            // 
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ColTipoMov.Frozen = true;
+            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
+            this.ColTipoMov.Name = "ColTipoMov";
+            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ColTipoMov.Visible = false;
+            // 
+            // ColAlmacen
+            // 
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ColAlmacen.Frozen = true;
+            this.ColAlmacen.HeaderText = "Almacen";
+            this.ColAlmacen.Name = "ColAlmacen";
+            this.ColAlmacen.Width = 200;
+            // 
+            // ColBtnAlmacen
+            // 
+            this.ColBtnAlmacen.DataPropertyName = "...";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
+            this.ColBtnAlmacen.Frozen = true;
+            this.ColBtnAlmacen.HeaderText = "";
+            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
+            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ColBtnAlmacen.Text = "...";
+            this.ColBtnAlmacen.ToolTipText = "Agg";
+            this.ColBtnAlmacen.Width = 30;
+            // 
+            // ColCantidad
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Format = "N0";
+            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
+            this.ColCantidad.Frozen = true;
+            this.ColCantidad.HeaderText = "Cantidad";
+            this.ColCantidad.Name = "ColCantidad";
+            // 
+            // ColUnidad
+            // 
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
+            this.ColUnidad.HeaderText = "Unidad";
+            this.ColUnidad.Name = "ColUnidad";
+            // 
+            // ColCBOProceso
+            // 
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
+            this.ColCBOProceso.HeaderText = "Proceso";
+            this.ColCBOProceso.Name = "ColCBOProceso";
+            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColCBOProceso.Width = 150;
             // 
             // panel3
             // 
@@ -555,253 +792,7 @@
             this.miniToolStrip.Size = new System.Drawing.Size(361, 42);
             this.miniToolStrip.TabIndex = 20;
             // 
-            // toolStripBtoAgregar
-            // 
-            this.toolStripBtoAgregar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoAgregar.Image")));
-            this.toolStripBtoAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtoAgregar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 2);
-            this.toolStripBtoAgregar.Name = "toolStripBtoAgregar";
-            this.toolStripBtoAgregar.Size = new System.Drawing.Size(67, 39);
-            this.toolStripBtoAgregar.Text = "F5 Agregar";
-            this.toolStripBtoAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripBtoAgregar.Click += new System.EventHandler(this.toolStripBtoAgregar_Click);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.toolStripSeparator5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 42);
-            // 
-            // toolStripBtoEditar
-            // 
-            this.toolStripBtoEditar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEditar.Image")));
-            this.toolStripBtoEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtoEditar.Name = "toolStripBtoEditar";
-            this.toolStripBtoEditar.Size = new System.Drawing.Size(56, 39);
-            this.toolStripBtoEditar.Text = "F6 Editar";
-            this.toolStripBtoEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripBtoEditar.Click += new System.EventHandler(this.toolStripBtoEditar_Click);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 42);
-            // 
-            // toolStripBtoGuardar
-            // 
-            this.toolStripBtoGuardar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoGuardar.Image")));
-            this.toolStripBtoGuardar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtoGuardar.Name = "toolStripBtoGuardar";
-            this.toolStripBtoGuardar.Size = new System.Drawing.Size(68, 39);
-            this.toolStripBtoGuardar.Text = "F7 Guardar";
-            this.toolStripBtoGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripBtoGuardar.Click += new System.EventHandler(this.toolStripBtoGuardar_Click);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 42);
-            // 
-            // toolStripBtoEliminar
-            // 
-            this.toolStripBtoEliminar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoEliminar.Image")));
-            this.toolStripBtoEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtoEliminar.Name = "toolStripBtoEliminar";
-            this.toolStripBtoEliminar.Size = new System.Drawing.Size(67, 39);
-            this.toolStripBtoEliminar.Text = "F8 Eliminar";
-            this.toolStripBtoEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripBtoEliminar.Click += new System.EventHandler(this.toolStripBtoEliminar_Click);
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 42);
-            // 
-            // toolStripBtoDescartar
-            // 
-            this.toolStripBtoDescartar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtoDescartar.Image")));
-            this.toolStripBtoDescartar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtoDescartar.Name = "toolStripBtoDescartar";
-            this.toolStripBtoDescartar.Size = new System.Drawing.Size(74, 39);
-            this.toolStripBtoDescartar.Text = "F9 Descartar";
-            this.toolStripBtoDescartar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripBtoDescartar.Click += new System.EventHandler(this.toolStripBtoDescartar_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.AutoSize = true;
-            this.panel7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.tpgInfoGeneral);
-            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel7.ForeColor = System.Drawing.Color.Teal;
-            this.panel7.Location = new System.Drawing.Point(12, 48);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(369, 46);
-            this.panel7.TabIndex = 29;
-            // 
-            // tpgInfoGeneral
-            // 
-            this.tpgInfoGeneral.Dock = System.Windows.Forms.DockStyle.None;
-            this.tpgInfoGeneral.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.tpgInfoGeneral.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.tpgInfoGeneral.ImageScalingSize = new System.Drawing.Size(31, 22);
-            this.tpgInfoGeneral.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripBtoAgregar,
-            this.toolStripSeparator5,
-            this.toolStripBtoEditar,
-            this.toolStripSeparator6,
-            this.toolStripBtoGuardar,
-            this.toolStripSeparator7,
-            this.toolStripBtoEliminar,
-            this.toolStripSeparator8,
-            this.toolStripBtoDescartar});
-            this.tpgInfoGeneral.Location = new System.Drawing.Point(4, 0);
-            this.tpgInfoGeneral.Name = "tpgInfoGeneral";
-            this.tpgInfoGeneral.Size = new System.Drawing.Size(361, 42);
-            this.tpgInfoGeneral.TabIndex = 20;
-            // 
-            // DgvMovDeInventario
-            // 
-            this.DgvMovDeInventario.AllowUserToResizeColumns = false;
-            this.DgvMovDeInventario.BackgroundColor = System.Drawing.Color.White;
-            this.DgvMovDeInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvMovDeInventario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColCheck,
-            this.ColArticulos,
-            this.ColBtnArt,
-            this.ColFecha,
-            this.ColTipoMov,
-            this.ColAlmacen,
-            this.ColBtnAlmacen,
-            this.ColCantidad,
-            this.ColBtoCantidad,
-            this.ColUnidad,
-            this.ColCBOProceso});
-            this.DgvMovDeInventario.Enabled = false;
-            this.DgvMovDeInventario.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.DgvMovDeInventario.Location = new System.Drawing.Point(9, 10);
-            this.DgvMovDeInventario.Name = "DgvMovDeInventario";
-            this.DgvMovDeInventario.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.DgvMovDeInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvMovDeInventario.Size = new System.Drawing.Size(958, 264);
-            this.DgvMovDeInventario.TabIndex = 8;
-            this.DgvMovDeInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellClick);
-            this.DgvMovDeInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellContentClick);
-            this.DgvMovDeInventario.CurrentCellChanged += new System.EventHandler(this.DgvMovDeInventario_CurrentCellChanged);
-            // 
-            // ColCheck
-            // 
-            this.ColCheck.Frozen = true;
-            this.ColCheck.HeaderText = "";
-            this.ColCheck.Name = "ColCheck";
-            this.ColCheck.Visible = false;
-            this.ColCheck.Width = 20;
-            // 
-            // ColArticulos
-            // 
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ColArticulos.Frozen = true;
-            this.ColArticulos.HeaderText = "Articulos";
-            this.ColArticulos.Name = "ColArticulos";
-            this.ColArticulos.Width = 160;
-            // 
-            // ColBtnArt
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ColBtnArt.Frozen = true;
-            this.ColBtnArt.HeaderText = "";
-            this.ColBtnArt.Name = "ColBtnArt";
-            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnArt.Text = "...";
-            this.ColBtnArt.ToolTipText = "agg";
-            this.ColBtnArt.Width = 30;
-            // 
-            // ColFecha
-            // 
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
-            this.ColFecha.Frozen = true;
-            this.ColFecha.HeaderText = "Fecha";
-            this.ColFecha.Name = "ColFecha";
-            this.ColFecha.Width = 95;
-            // 
-            // ColTipoMov
-            // 
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ColTipoMov.Frozen = true;
-            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
-            this.ColTipoMov.Name = "ColTipoMov";
-            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ColTipoMov.Visible = false;
-            // 
-            // ColAlmacen
-            // 
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
-            this.ColAlmacen.Frozen = true;
-            this.ColAlmacen.HeaderText = "Almacen";
-            this.ColAlmacen.Name = "ColAlmacen";
-            this.ColAlmacen.Width = 200;
-            // 
-            // ColBtnAlmacen
-            // 
-            this.ColBtnAlmacen.DataPropertyName = "...";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
-            this.ColBtnAlmacen.Frozen = true;
-            this.ColBtnAlmacen.HeaderText = "";
-            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
-            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ColBtnAlmacen.Text = "...";
-            this.ColBtnAlmacen.ToolTipText = "Agg";
-            this.ColBtnAlmacen.Width = 30;
-            // 
-            // ColCantidad
-            // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.Format = "N0";
-            dataGridViewCellStyle7.NullValue = null;
-            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
-            this.ColCantidad.Frozen = true;
-            this.ColCantidad.HeaderText = "Cantidad";
-            this.ColCantidad.Name = "ColCantidad";
-            // 
-            // ColBtoCantidad
-            // 
-            this.ColBtoCantidad.Frozen = true;
-            this.ColBtoCantidad.HeaderText = "";
-            this.ColBtoCantidad.Name = "ColBtoCantidad";
-            this.ColBtoCantidad.Text = "F1";
-            this.ColBtoCantidad.Width = 30;
-            // 
-            // ColUnidad
-            // 
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
-            this.ColUnidad.HeaderText = "Unidad";
-            this.ColUnidad.Name = "ColUnidad";
-            // 
-            // ColCBOProceso
-            // 
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
-            this.ColCBOProceso.HeaderText = "Proceso";
-            this.ColCBOProceso.Name = "ColCBOProceso";
-            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ColCBOProceso.Width = 150;
-            // 
-            // MovDeInventario
+            // frmMovDeInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -811,25 +802,25 @@
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Name = "MovDeInventario";
+            this.Name = "frmMovDeInventario";
             this.Text = "Entrada De Inventario";
             this.Load += new System.EventHandler(this.frmMovimientoDeInventario_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MovDeInventario_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.tpgInfoGeneral.ResumeLayout(false);
+            this.tpgInfoGeneral.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.tapInfoG.ResumeLayout(false);
             this.tpInformacionGeneral.ResumeLayout(false);
             this.tpInformacionGeneral.PerformLayout();
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvMovDeInventario)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.tpgInfoGeneral.ResumeLayout(false);
-            this.tpgInfoGeneral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvMovDeInventario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -894,7 +885,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColAlmacen;
         private System.Windows.Forms.DataGridViewButtonColumn ColBtnAlmacen;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCantidad;
-        private System.Windows.Forms.DataGridViewButtonColumn ColBtoCantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColUnidad;
         private System.Windows.Forms.DataGridViewComboBoxColumn ColCBOProceso;
     }

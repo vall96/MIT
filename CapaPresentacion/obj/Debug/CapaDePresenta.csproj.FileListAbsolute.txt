@@ -1865,7 +1865,6 @@ C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\bin\Debug
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\bin\Debug\fr-FR\CultureResources.resources.dll
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\bin\Debug\ru-RU\CultureResources.resources.dll
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaDePresenta.csprojAssemblyReference.cache
-C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.MovDeInventario.resources
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmArticulosCompuestos.resources
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmAtributos.resources
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmCedulaDeProducto.resources
@@ -1943,3 +1942,4 @@ C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmLotes.resources
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmMovDeInventario.resources

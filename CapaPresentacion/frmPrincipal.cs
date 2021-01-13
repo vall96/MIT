@@ -64,23 +64,20 @@ namespace CapaPresentacion
         frmTareas venTareas;
         frmCedulaDeProducto ventCedulaProd;
         frmPropiedadesSistema ventPropiedades;
-        MovDeInventario VentMovInventario;
+        frmMovDeInventario VentMovInventario;
         frmOrdenProduccion VentOrdProduccion;
+        frmLotes VentLotes;
         public frmPrincipal()
         {
             InitializeComponent();
             
-            //tipoPais = idioma;
-            tipoPais = frmRegristroUsuario.tipoPais;
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
-            AplicarIdioma();
             funcionInicio();
             
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             tipoPais = frmRegristroUsuario.tipoPais;
-            nombreBD = "Digitel";//frmEmpresaSucursursal.nombreBd;
+            nombreBD = "Digitel";//frmEmpresaSucursursal.nombreBd; cargar de nuevo para la entrega final
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
             AplicarIdioma();
         }
@@ -136,26 +133,23 @@ namespace CapaPresentacion
         {
             switch (formulario)
             {
-
-
-                
                 case "frmOrdProduccion":
                     if (estado == "inicial")
-                {
+                    {
                         VentOrdProduccion = new frmOrdenProduccion();
-                Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmOrdenProduccion);
-                if (frm != null)
-                {
-                    frm.BringToFront();
-                    return;
-                }
-                else
-                {
-                    VentOrdProduccion.MdiParent = this;
-                    VentOrdProduccion.Show();
-                }
-            }
-            break;
+                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmOrdenProduccion);
+                        if (frm != null)
+                        {
+                            frm.BringToFront();
+                            return;
+                        }
+                        else
+                        {
+                            VentOrdProduccion.MdiParent = this;
+                            VentOrdProduccion.Show();
+                        }
+                    }
+                    break;
                 case "frmPropiedadesSistema":
                     if (estado == "inicial")
                     {
@@ -370,7 +364,7 @@ namespace CapaPresentacion
                 case "FrmMonedas":
                     if (estado == "inicial")
                     {
-                        
+
                         frmEmpresas.statusLsv = 0;
                         frmSucursales.formSucursales = "";
                         ventMoneda = new frmMoneda();
@@ -661,12 +655,12 @@ namespace CapaPresentacion
                     }
 
                     break;
-                    //entrada de invntario
-                    case "frmMovimientoDeInventario":
+                //entrada de invntario
+                case "frmMovimientoDeInventario":
                     if (estado == "inicial")
                     {
-                        VentMovInventario = new MovDeInventario();
-                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MovDeInventario);
+                        VentMovInventario = new frmMovDeInventario();
+                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmMovDeInventario);
                         if (frm != null)
                         {
                             frm.BringToFront();
@@ -676,6 +670,23 @@ namespace CapaPresentacion
                         {
                             VentMovInventario.MdiParent = this;
                             VentMovInventario.Show();
+                        }
+                    }
+                    break;
+                case "frmLotes":
+                    if (estado == "inicial")
+                    {
+                        VentLotes = new frmLotes();
+                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmLotes);
+                        if (frm != null)
+                        {
+                            frm.BringToFront();
+                            return;
+                        }
+                        else
+                        {
+                            VentLotes.MdiParent = this;
+                            VentLotes.Show();
                         }
                     }
                     break;
@@ -1236,7 +1247,6 @@ namespace CapaPresentacion
         {
             accionesFormularios("frmOrdProduccion", "inicial");
         }
-
         private void tsbMovimientoDeInventario(object sender, EventArgs e)
         {
             accionesFormularios("frmMovimientoDeInventario", "inicial");

@@ -19,7 +19,7 @@ namespace CapaPresentacion
            // Application.Run(new frmRegristroUsuario());
             Application.Run(new frmPrincipal());
             // Application.Run(new frmTareas());
-           // Application.Run(new frmEmpresas());
+            //Application.Run(new frmLotes());
         }
     }
 }

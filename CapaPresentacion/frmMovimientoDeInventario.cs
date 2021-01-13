@@ -9,12 +9,13 @@ using CultureResources;
 
 namespace CapaPresentacion
 {
-    public partial class MovDeInventario : Form
+    public partial class frmMovDeInventario : Form
     {
         // private const string V = "";
         clsEmpresa EMP = new clsEmpresa();
         frmTbArticulos VentArticulos;
         frmTbAlmacenes VentAlmacenes;
+        frmLotes VentLotes;
         //
         DataTable dtMovArt = new DataTable(); //carga los articulos seleccionados
         DataTable dtMovAlmc = new DataTable(); //carga los almacenes seleccionados
@@ -39,7 +40,7 @@ namespace CapaPresentacion
         //
         public int filaDGV; // recoger fila 
         public int unidadValidar; // validacion de cargas de codigos o descripcion de unidades,tipo de mov, procesos.
-        public int j = 0; //contador
+        public int j = 0, posPr; //contador
         //
         public string tipoMov, proc, art; //Variable para almacenar Descripcion
         public string Codproc, codMov, CodArt; //Variable para almacenar Codigo
@@ -48,20 +49,19 @@ namespace CapaPresentacion
         bool dgvCheck = false; // variable para determinar el valor con el que se inicializa el checkbox
         bool IsEmptyCell = false; // variable usada para indicar si esta vacia una celda del DataGrid, inicializada en false
         //-------------------------------------------------------------------------------------------------------------------------
-        DateTimePicker dtp = new DateTimePicker(); // variable para que aparezca el datatimepicker en el DGV
-        Rectangle _Rectangle; // recoge el tamaño de la celda
+        // DateTimePicker dtp = new DateTimePicker(); // variable para que aparezca el datatimepicker en el DGV
+        //Rectangle _Rectangle; // recoge el tamaño de la celda
         //
         DataTable dtFechasFil = new DataTable(); // carga la lista filtrada por fechas 
-        DateTime Fechafiltro = DateTime.Now;
+        DateTime Fechafiltro = DateTime.Now; //varible que almacena las fechas para filtrar la busqueda
         //
-        DateTime fecha = DateTime.UtcNow;
+        DateTime fecha = DateTime.UtcNow; //almacena la fecha para cagarlo en el data grid
         string eliminar;
         //-------------------------------------------------------------------------------------------------------------------------
-        public MovDeInventario()
+        public frmMovDeInventario()
         {
             InitializeComponent();
             FuncionInicio();
-
         }
         private void frmMovimientoDeInventario_Load(object sender, EventArgs e)
         {
@@ -76,8 +76,6 @@ namespace CapaPresentacion
             dtpInicio.Value = new DateTime((int)Fechafiltro.Year, (int)Fechafiltro.Month, 01);
             dtpFinal.Value = new DateTime((int)Fechafiltro.Year, (int)Fechafiltro.Month, DateTime.DaysInMonth(Fechafiltro.Year, Fechafiltro.Month));
         }
-        //---------------------------------------------------------------------------------------------------------------------------
-
         //---------------------------------------------------------------------------------------------------------------------------
         public void CargarlistadoTipoMov()
         {
@@ -234,6 +232,7 @@ namespace CapaPresentacion
                             "");
                     }
                     posMovART = DgvMovDeInventario.Rows.Count;
+                    posPr = DgvMovDeInventario.Rows.Count;
                 }
             }
         }
@@ -313,6 +312,25 @@ namespace CapaPresentacion
             filaDGV = DgvMovDeInventario.CurrentRow.Index;
             this.DgvMovDeInventario.Rows[filaDGV].Cells[5].Value = dtclikAlmc.Rows[j]["NombreDtMov"].ToString();
         }
+
+        //public void CampoCantidad()
+        //{
+        //    filaDGV = DgvMovDeInventario.CurrentRow.Index;
+        //    if(this.DgvMovDeInventario.Columns[].Name == "")
+        //    {
+
+        //    }
+        //}
+        //DataTable dtLote = new DataTable();
+        //private void ConstruccionDtLotes()
+        //{
+        //    dtLote.Rows.Clear();
+        //    dtLote.Columns.Clear();
+        //    dtLote.Columns.Add("lot_coArt", Type.GetType("System.String"));
+        //    dtLote.Columns.Add("lot_nroLote", Type.GetType("System.String"));
+        //    dtLote.Columns.Add("lot_fecVencimiento", Type.GetType("System.String"));
+        //}
+
         public void ejecutarMInvAlmacenes(string[,] datoMov)
         {
             dato1 = datoMov[0, 0];
@@ -366,6 +384,7 @@ namespace CapaPresentacion
         }
         private void BtoEliminarArticulos_Click(object sender, EventArgs e)
         {
+            DgvMovDeInventario.AllowUserToAddRows = true;
             foreach (DataGridViewRow fila in DgvMovDeInventario.Rows)
             {
                 if (Convert.ToBoolean(fila.Cells["ColCheck"].Value) == true)
@@ -497,6 +516,9 @@ namespace CapaPresentacion
                 }
             }
         }
+
+       // int cantidad;
+
         private void DgvMovDeInventario_CurrentCellChanged(object sender, EventArgs e)
         {
             if (DgvMovDeInventario.CurrentCell is System.Windows.Forms.DataGridViewCheckBoxCell)
@@ -563,10 +585,10 @@ namespace CapaPresentacion
             //       DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
             //    }
             //}
-            else
-            {
-                dtp.Visible = false;
-            }
+            //else
+            //{
+            //    dtp.Visible = false;
+            //}
             //
             if (e.ColumnIndex == 4)
             {
@@ -615,9 +637,9 @@ namespace CapaPresentacion
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
-
+                filaDGV = DgvMovDeInventario.CurrentRow.Index;
             }
-            if (e.ColumnIndex == 10)
+            if (e.ColumnIndex == 9)
             {
                 if (Convert.ToString(this.DgvMovDeInventario.Rows[filaDGV].Cells[1].Value) == "")
                 {
@@ -633,6 +655,60 @@ namespace CapaPresentacion
                 }
             }
         }
+
+       
+        private void DgvMovDeInventario_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 7)
+            {
+                //if(x == 0)
+                //{
+                //    //e.Cancel = true;
+                //    MessageBox.Show("Solo puede ingresar valores numericos", "validacion",
+                //    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    return;
+                //}
+                filaDGV = DgvMovDeInventario.CurrentRow.Index;
+                if (this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "0" || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "")
+                {
+                    mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
+                    mensajeCaption = StringResources.Validacióndecampos;
+                    MessageBox.Show(mensajeText, mensajeCaption,
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                else if (x != 0)
+                {
+                    valido = "Nro-Lote";
+                    VentLotes = new frmLotes();
+                    VentLotes.ShowDialog();
+                    valido = "";
+                }
+            }
+        }
+        int x;
+        private void DgvMovDeInventario_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            if(e.ColumnIndex == 7)
+            {
+                DgvMovDeInventario.AllowUserToAddRows = false;
+               
+                if (!int.TryParse(Convert.ToString(e.FormattedValue), out x))
+                {
+                    if (x == 0)
+                    {
+                        MessageBox.Show("Solo puede ingresar valores numericos", "validacion",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+
+                    }
+                    //e.Cancel = true;
+                    
+                }
+            }
+           
+        }
+
         //----------------------------------------------------------------------------------------------------------------------------------
         private void cboTipoMov_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -720,10 +796,7 @@ namespace CapaPresentacion
         }
 
         //--------------------------------------------------------------------------------------------------------
-        //public void CargarTipoMov()
-        //{
-
-        //}
+        
         public void ValidadCampos() //Indica si existen campos vacios en el data grid, i = filas , j = columnas
         {
             DgvMovDeInventario.AllowUserToAddRows = false;
@@ -777,8 +850,7 @@ namespace CapaPresentacion
             DTPfechaRegistro.Visible = false;
             //
             CBFiltarFechas.Visible = true;
-
-
+            
         }
         public void FuncionAgregar()
         {
@@ -801,7 +873,7 @@ namespace CapaPresentacion
             DgvMovDeInventario.Columns[1].ReadOnly = true;
             DgvMovDeInventario.Columns[3].ReadOnly = true;
             DgvMovDeInventario.Columns[5].ReadOnly = true;
-            DgvMovDeInventario.Columns[9].ReadOnly = true;
+            DgvMovDeInventario.Columns[8].ReadOnly = true;
 
             lblFecha.Visible = true;
             DTPfechaRegistro.Visible = true;
@@ -843,7 +915,7 @@ namespace CapaPresentacion
                     art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
                     CargarCodigoArticulos();
                     //
-                    unidad = DgvMovDeInventario.Rows[i].Cells[9].Value.ToString().ToLower();
+                    unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
                     CargarCodigoUnidad();
                     //
                     tipoMov = Convert.ToString(cboCodTipoMov.Text);
@@ -969,7 +1041,7 @@ namespace CapaPresentacion
                                 art = DgvMovDeInventario.Rows[i].Cells[1].Value.ToString().ToLower();
                                 CargarCodigoArticulos();
                                 //
-                                unidad = DgvMovDeInventario.Rows[i].Cells[9].Value.ToString().ToLower();
+                                unidad = DgvMovDeInventario.Rows[i].Cells[8].Value.ToString().ToLower();
                                 CargarCodigoUnidad();
                                 //
                                 tipoMov = Convert.ToString(cboCodTipoMov.Text);

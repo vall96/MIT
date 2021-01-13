@@ -130,7 +130,7 @@ namespace CapaPresentacion
 
         private void lstvAlmacenes_DoubleClick(object sender, EventArgs e)
         {
-            if (MovDeInventario.valido == "Mov-TbAlmacenes")
+            if (frmMovDeInventario.valido == "Mov-TbAlmacenes")
             {
                 DatosSeleccionadosMov();
                 this.Hide();
@@ -196,7 +196,7 @@ namespace CapaPresentacion
         }
         private void DatosSeleccionadosMov()
         {
-            if (MovDeInventario.valido == "Mov-TbAlmacenes")
+            if (frmMovDeInventario.valido == "Mov-TbAlmacenes")
             {
                 _alm_cod = lstvAlmacenes.SelectedItems[0].Text.ToString();
                 _alm_nombre = lstvAlmacenes.SelectedItems[0].SubItems[1].Text.ToString();

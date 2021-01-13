@@ -44,7 +44,7 @@ namespace CapaPresentacion
         }
         private void frmTbArticulos_Load(object sender, EventArgs e)
         {
-            if (frmTareas.valido == "si" || frmCedulaDeProducto.valido == "si" || MovDeInventario.valido == "Mov-TbArticulos")
+            if (frmTareas.valido == "si" || frmCedulaDeProducto.valido == "si" || frmMovDeInventario.valido == "Mov-TbArticulos")
             {
                 lstvArticulos.CheckBoxes = true;
             }
@@ -71,7 +71,7 @@ namespace CapaPresentacion
                 ArticulosSeleccionadas();
                 this.Hide();
             }
-            if (MovDeInventario.valido == "Mov-TbArticulos")
+            if (frmMovDeInventario.valido == "Mov-TbArticulos")
             {
                 ArticulosSeleccionadas();
                 this.Hide();
@@ -88,7 +88,7 @@ namespace CapaPresentacion
             }
             frmTareas.valido = "no";
             frmCedulaDeProducto.valido = "no";
-            MovDeInventario.valido = "no";
+            frmMovDeInventario.valido = "no";
         }
         //----------------------------------------------------------------------------------------
         private void lstvArticulos_ColumnClick(object sender, ColumnClickEventArgs e)
@@ -118,7 +118,7 @@ namespace CapaPresentacion
                 dtArticulos.Columns.Add("codigo", Type.GetType("System.String"));
                 dtArticulos.Columns.Add("descripcion", Type.GetType("System.String"));
             }
-            if (MovDeInventario.valido == "Mov-TbArticulos")
+            if (frmMovDeInventario.valido == "Mov-TbArticulos")
             {
                 dtArticulos = new DataTable();
                 dtArticulos.Columns.Add("codigo", Type.GetType("System.String"));
@@ -206,7 +206,7 @@ namespace CapaPresentacion
                     }
                 }
             }
-            if (MovDeInventario.valido == "Mov-TbArticulos")
+            if (frmMovDeInventario.valido == "Mov-TbArticulos")
             {
                 for (int i = 0; i < lstvArticulos.Items.Count; i++)
                 {
