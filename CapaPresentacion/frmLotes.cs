@@ -26,7 +26,7 @@ namespace CapaPresentacion
             if (frmMovDeInventario.valido == "sin-lote")
             {
                 MessageBox.Show("este articulo no trabaja con lotes", "Validacion de campos" );
-                return;
+                this.Close();
             }
             else
             {
@@ -41,20 +41,26 @@ namespace CapaPresentacion
         {
          txtCodPro.Text  =  ClaseCompartida.Articulo1 ;
         }
-        
-
         private void btoSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void dtpFechaVencimiento_ValueChanged(object sender, EventArgs e)
         {
             FechaVencimiento = dtpFechaVencimiento.Value.Date;
         }
-             
+        //public static class ClaseCompartidaLOTE  // se declara variables estaticas para compartir informacion entre formula
+        //{
+        //    public static string Nlote;
+        //    public static DateTime FechaV;
+        //    public static string CodArt;
+
+        //}
         private void btoAceptar_Click(object sender, EventArgs e)
           {
+            //ClaseCompartidaLOTE.Nlote = txtNroLote.Text;
+            //ClaseCompartidaLOTE.FechaV = FechaVencimiento;
+            //ClaseCompartidaLOTE.CodArt = txtCodPro.Text;
             EMP.codigo = txtCodPro.Text;
             EMP.m_NumLot = txtNroLote.Text;
             EMP.Fechas = FechaVencimiento;
@@ -83,10 +89,10 @@ namespace CapaPresentacion
                 MessageBoxIcon.Information);
 
                 EMP.m_Almacen = ClaseCompartida.AlmacenLote;
-                EMP.m_cod = ClaseCompartida.Articulo1;
+                EMP.m_cod = txtCodPro.Text;
                 EMP.m_NumLot = txtNroLote.Text;
                 EMP.m_Cantidad = ClaseCompartida.CantidadLote;
-                EMP.Fechas = FechaVencimiento;
+                EMP.Fechas = ClaseCompartida.FechaIngreso;
 
                 EMP.RegistarStLote(frmPrincipal.nombreBD);
             }

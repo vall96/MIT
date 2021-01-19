@@ -6,6 +6,7 @@ using System.Threading;
 using System.Windows.Forms;
 using CapaLogicaNegocios;
 using CultureResources;
+using static CapaPresentacion.frmLotes;
 
 namespace CapaPresentacion
 {
@@ -42,8 +43,8 @@ namespace CapaPresentacion
         public int unidadValidar; // validacion de cargas de codigos o descripcion de unidades,tipo de mov, procesos.
         public int j = 0, posPr, x; //contador
         //
-        public string tipoMov, proc, art; //Variable para almacenar Descripcion
-        public string Codproc, codMov, Articulo; //Variable para almacenar Codigo
+        public string tipoMov, proc, art, alm; //Variable para almacenar Descripcion
+        public string Codproc, codMov, codAlm, Articulo; //Variable para almacenar Codigo
         string validacion; //Variable de validacion del checkBox de Filtrar por Fechas
         //
         bool dgvCheck = false; // variable para determinar el valor con el que se inicializa el checkbox
@@ -57,7 +58,10 @@ namespace CapaPresentacion
         //
         DateTime fecha = DateTime.UtcNow; //almacena la fecha para cagarlo en el data grid
         string eliminar;
-        int ArtLot;
+        //int ArtLot;
+        DataTable dtLotes = new DataTable();
+        int cant;
+
         //-------------------------------------------------------------------------------------------------------------------------
         public frmMovDeInventario()
         {
@@ -120,7 +124,6 @@ namespace CapaPresentacion
         //
         public void CargarCodigoArticulos()
         {
-
             Articulos = EMP.ListadoArticulos(frmPrincipal.nombreBD);
 
             if (unidadValidar == 0)
@@ -143,6 +146,37 @@ namespace CapaPresentacion
                         if (Articulos.Rows[n]["art_Nom"].ToString().ToLower() == art.ToLower())
                         {
                             Articulo = Articulos.Rows[n]["art_Id"].ToString();
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+        //
+        public void CargarCodigoAlmacen()
+        {
+            DtAlmacenes = EMP.Listado_Almacenes(frmPrincipal.nombreBD);
+
+            if (unidadValidar == 0)
+            {
+                for (int i = 0; i < DtAlmacenes.Rows.Count; i++)
+                {
+                    if (DtAlmacenes.Rows[i]["alm_cod"].ToString().ToLower() == codAlm.ToLower())
+                    {
+                        alm = DtAlmacenes.Rows[i]["alm_nombre"].ToString();
+                        return;
+                    }
+                }
+            }
+            else if (unidadValidar == 1)
+            {
+                if (DgvMovDeInventario.Rows.Count != 0)
+                {
+                    for (int n = 0; n < DtAlmacenes.Rows.Count; n++)
+                    {
+                        if (DtAlmacenes.Rows[n]["alm_nombre"].ToString().ToLower() == alm.ToLower())
+                        {
+                            codAlm = DtAlmacenes.Rows[n]["alm_cod"].ToString();
                             return;
                         }
                     }
@@ -274,17 +308,7 @@ namespace CapaPresentacion
                     }
                 }
             }
-            //if (unidadValidar == 1)
-            //{
-            //    for (int i = 0; i < dtTipoMov.Rows.Count; i++)
-            //    {
-            //        if (dtTipoMov.Rows[i]["TipoMov_Descrip"].ToString().ToLower() == tipoMov.ToLower())
-            //        {
-            //            codMov = dtTipoMov.Rows[i]["TipoMov_Codigo"].ToString();
-            //            return;
-            //        }
-            //    }
-            //}
+       
         }
         //
         public void ConstruccionDtMovAlmacen()
@@ -307,7 +331,6 @@ namespace CapaPresentacion
             filaDGV = DgvMovDeInventario.CurrentRow.Index;
             this.DgvMovDeInventario.Rows[filaDGV].Cells[5].Value = dtclikAlmc.Rows[j]["NombreDtMov"].ToString();
         }
-
         //DataTable dtLote = new DataTable();
         //private void ConstruccionDtLotes()
         //{
@@ -317,7 +340,6 @@ namespace CapaPresentacion
         //    dtLote.Columns.Add("lot_nroLote", Type.GetType("System.String"));
         //    dtLote.Columns.Add("lot_fecVencimiento", Type.GetType("System.String"));
         //}
-
         public void ejecutarMInvAlmacenes(string[,] datoMov)
         {
             dato1 = datoMov[0, 0];
@@ -424,6 +446,7 @@ namespace CapaPresentacion
                              " " );
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
                         DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+                        DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
                     }
                 }
             }
@@ -474,6 +497,7 @@ namespace CapaPresentacion
                              " ");
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
                         DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
+              DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
                     }
                     j++;
                 }
@@ -608,17 +632,21 @@ namespace CapaPresentacion
             public static string Articulo1;
             public static string AlmacenLote;
             public static string CantidadLote;
-            
+            public static DateTime FechaIngreso;
         }
         private void DgvMovDeInventario_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "1")
+            if (e.ColumnIndex == 7)
             {
-
-                if (e.ColumnIndex == 7)
+                if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == " ")
+                {
+                    return;
+                }
+                if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "1")
                 {
                     filaDGV = DgvMovDeInventario.CurrentRow.Index;
-                    if (this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "0" || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "")
+                    cant = Convert.ToInt32(this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString());
+                    if (cant/1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == " ")
                     {
                         mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
                         mensajeCaption = StringResources.Validacióndecampos;
@@ -629,15 +657,25 @@ namespace CapaPresentacion
                     else if (x != 0)
                     {
                         valido = "Nro-Lote";
+                        unidadValidar = 1;
                         art = DgvMovDeInventario.Rows[filaDGV].Cells[1].Value.ToString().ToLower();
                         CargarCodigoArticulos();
                         ClaseCompartida.Articulo1 = Articulo;
-                        ClaseCompartida.AlmacenLote = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
+                        ClaseCompartida.FechaIngreso = Convert.ToDateTime(DgvMovDeInventario.Rows[filaDGV].Cells[3].Value);
+                        alm = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
+                        CargarCodigoAlmacen();
+                        ClaseCompartida.AlmacenLote = codAlm;
                         ClaseCompartida.CantidadLote = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
                         VentLotes = new frmLotes();
                         VentLotes.ShowDialog();
                         valido = "";
                     }
+                }
+                if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "0")
+                {
+                    valido = "sin-lote";
+                    VentLotes = new frmLotes();
+                    valido = "";
                 }
             }
         }
@@ -656,8 +694,6 @@ namespace CapaPresentacion
                         return;
 
                     }
-                    //e.Cancel = true;
-                    
                 }
             }
            
@@ -720,24 +756,73 @@ namespace CapaPresentacion
                     {
                         valido = "sin-lote";
                         VentLotes = new frmLotes();
-                        VentLotes.ShowDialog();
+                       // VentLotes.ShowDialog();
                         valido = "";
                     }
+                    else if(cant / 1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "")
+                    {
+                        mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
+                        mensajeCaption = StringResources.Validacióndecampos;
+                        MessageBox.Show(mensajeText, mensajeCaption,
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
                     else if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "1")
                     {
                         valido = "Nro-Lote";
+                        unidadValidar = 1;
                         art = DgvMovDeInventario.Rows[filaDGV].Cells[1].Value.ToString().ToLower();
                         CargarCodigoArticulos();
                         ClaseCompartida.Articulo1 = Articulo;
-                        ClaseCompartida.AlmacenLote = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
+                        ClaseCompartida.FechaIngreso = Convert.ToDateTime(DgvMovDeInventario.Rows[filaDGV].Cells[3].Value);
+                        alm = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
+                        CargarCodigoAlmacen();
+                        ClaseCompartida.AlmacenLote = codAlm;
                         ClaseCompartida.CantidadLote = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
                         VentLotes = new frmLotes();
                         VentLotes.ShowDialog();
+                        //  CargarDatosLotes();
                         valido = "";
                     }
                 }
             }
         }
+
+        //public void CargarDatosLotes()
+        //{
+        //    ConstruirDtLotes();
+        //    j = 0;
+        //    DgvMovDeInventario.AllowUserToAddRows = false;
+        //    if (ClaseCompartidaLOTE.CodArt == art)
+        //    {
+        //        for (int i = filaDGV; i < DgvMovDeInventario.Rows.Count; i++)
+        //        {
+        //            dtLotes.Rows.Add();
+        //            dtLotes.Rows[j]["St_codAlm"] = Articulo;
+        //            dtLotes.Rows[j]["St_codArt"] = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
+        //            dtLotes.Rows[j]["St_nroLote"] = ClaseCompartidaLOTE.Nlote;
+        //            dtLotes.Rows[j]["St_stock"] = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
+        //            dtLotes.Rows[j]["St_fecha"] = DgvMovDeInventario.Rows[filaDGV].Cells[3].Value.ToString().ToLower();
+        //            dtLotes.Rows[j]["lot_fecVencimiento"] = ClaseCompartidaLOTE.FechaV;
+        //        }
+        //    }
+        //    j++;
+        //}
+
+        //public void ConstruirDtLotes()
+        //{
+        //   dtLotes.Rows.Clear();
+        //   dtLotes.Columns.Clear();
+        //    dtLotes.Columns.Add("St_codAlm", Type.GetType("System.String"));
+        //    dtLotes.Columns.Add("St_codArt", Type.GetType("System.String"));
+        //    dtLotes.Columns.Add("St_nroLote", Type.GetType("System.String"));
+        //    dtLotes.Columns.Add("St_stock", Type.GetType("System.String"));
+        //    dtLotes.Columns.Add("St_fecha", Type.GetType("System.String"));
+        //    dtLotes.Columns.Add("lot_fecVencimiento", Type.GetType("System.String"));
+
+        //}
+
         private void DTPfechaRegistro_ValueChanged(object sender, EventArgs e)
         {
             fecha = DTPfechaRegistro.Value.Date;
@@ -885,7 +970,6 @@ namespace CapaPresentacion
             ValidarCampos();
             if (validacion == "si")
             {
-
                 for (int i = 0; i < DgvMovDeInventario.Rows.Count; i++)
                 {
                     unidadValidar = 1;
@@ -903,7 +987,7 @@ namespace CapaPresentacion
                     //
                     dtMInv.Rows.Add();
                     dtMInv.Rows[j]["Inv_CodArt"] = Articulo;
-                    dtMInv.Rows[j]["Inv_Fecha"] = fecha;/*Convert.ToDateTime(DgvMovDeInventario.Rows[i].Cells[3].Value.ToString())*/;
+                    dtMInv.Rows[j]["Inv_Fecha"] = fecha;
                     dtMInv.Rows[j]["Inv_TipoMov"] = tipoMov;
                     dtMInv.Rows[j]["Inv_Almacen"] = DgvMovDeInventario.Rows[i].Cells[5].Value;
                     dtMInv.Rows[j]["Inv_Cantidad"] = Convert.ToInt64(DgvMovDeInventario.Rows[i].Cells[7].Value);
