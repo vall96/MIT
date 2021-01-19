@@ -281,7 +281,7 @@ namespace CapaPresentacion
             this.Text = StringResources.frmPreguntasDeSeguridad_TITULO;
 
             this.lblCodigo.Text = StringResources.Codigo;
-            this.lblPregunta.Text = StringResources.frmPreguntasDeSeguridad_lblPregunta;
+            this.lblPregunta.Text = StringResources.Pregunta;
 
             this.btoAgregar.Text = StringResources.agregar;
             this.btoEliminar.Text = StringResources.btoEliminar;

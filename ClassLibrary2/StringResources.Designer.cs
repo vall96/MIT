@@ -160,6 +160,15 @@ namespace CultureResources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Administración.
+        /// </summary>
+        public static string Administración {
+            get {
+                return ResourceManager.GetString("Administración", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Agregar.
         /// </summary>
         public static string agregar {
@@ -835,11 +844,20 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Descripción:.
+        ///   Busca una cadena traducida similar a Descripción.
         /// </summary>
         public static string Descripcion {
             get {
                 return ResourceManager.GetString("Descripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Descripción:.
+        /// </summary>
+        public static string Descripciondospuntos {
+            get {
+                return ResourceManager.GetString("Descripciondospuntos", resourceCulture);
             }
         }
         
@@ -898,7 +916,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Detalles De Usuario.
+        ///   Busca una cadena traducida similar a Detalles de Usuario.
         /// </summary>
         public static string DetallesDeUsuario {
             get {
@@ -1024,7 +1042,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Desea Eliminar la Subcategoria .
+        ///   Busca una cadena traducida similar a ¿Desea Eliminar la Subcategoria.
         /// </summary>
         public static string EliminarSubcategioria {
             get {
@@ -1186,20 +1204,20 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fecha:.
-        /// </summary>
-        public static string Fecha1 {
-            get {
-                return ResourceManager.GetString("Fecha1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca una cadena traducida similar a Fecha de Creación.
         /// </summary>
         public static string FechaCreacion {
             get {
                 return ResourceManager.GetString("FechaCreacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha:.
+        /// </summary>
+        public static string Fechadospuntos {
+            get {
+                return ResourceManager.GetString("Fechadospuntos", resourceCulture);
             }
         }
         
@@ -1213,7 +1231,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desea eliminar el Atributo .
+        ///   Busca una cadena traducida similar a Desea eliminar el Atributo.
         /// </summary>
         public static string frmAtributo_EliminarAtributo {
             get {
@@ -1411,15 +1429,6 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Actualización Exitosa.
-        /// </summary>
-        public static string frmFallaMaquinas_msjActualizacionExitosa {
-            get {
-                return ResourceManager.GetString("frmFallaMaquinas.msjActualizacionExitosa", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca una cadena traducida similar a Falla de Maquinas.
         /// </summary>
         public static string frmFallaMaquinas_Titulo {
@@ -1492,7 +1501,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Desea eliminar la Maquina .
+        ///   Busca una cadena traducida similar a Desea eliminar la Maquina.
         /// </summary>
         public static string frmMaquina_EliminarMaquina {
             get {
@@ -1556,15 +1565,6 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pregunta.
-        /// </summary>
-        public static string frmPreguntasDeSeguridad_lblPregunta {
-            get {
-                return ResourceManager.GetString("frmPreguntasDeSeguridad.lblPregunta", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca una cadena traducida similar a Preguntas.
         /// </summary>
         public static string frmPreguntasDeSeguridad_lvPreguntas {
@@ -1619,20 +1619,11 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &amp;Administración .
+        ///   Busca una cadena traducida similar a &amp;Administración.
         /// </summary>
         public static string frmPrincipal_MenuStripAdministracion {
             get {
                 return ResourceManager.GetString("frmPrincipal.MenuStripAdministracion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Administración .
-        /// </summary>
-        public static string frmPrincipal_MenuStripAdministracion1 {
-            get {
-                return ResourceManager.GetString("frmPrincipal.MenuStripAdministracion1", resourceCulture);
             }
         }
         
@@ -1642,15 +1633,6 @@ namespace CultureResources {
         public static string frmPrincipal_MenuStripAyuda {
             get {
                 return ResourceManager.GetString("frmPrincipal.MenuStripAyuda", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Ayuda.
-        /// </summary>
-        public static string frmPrincipal_MenuStripAyuda1 {
-            get {
-                return ResourceManager.GetString("frmPrincipal.MenuStripAyuda1", resourceCulture);
             }
         }
         
@@ -1673,7 +1655,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Histórico de operaciones .
+        ///   Busca una cadena traducida similar a Histórico de operaciones.
         /// </summary>
         public static string frmPrincipal_MenuStripHistorialOperaciones {
             get {
@@ -1691,7 +1673,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Cambiar de Sesión .
+        ///   Busca una cadena traducida similar a Cambiar de Sesión.
         /// </summary>
         public static string frmPrincipal_MenuStripInicio_CambiarSesion {
             get {
@@ -2033,7 +2015,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Desea Eliminar el Status  .
+        ///   Busca una cadena traducida similar a ¿Desea Eliminar el Status.
         /// </summary>
         public static string frmStaUsuarios_messDeseaEliminarStatus {
             get {
@@ -2114,7 +2096,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Desea Eliminar el Usuario  .
+        ///   Busca una cadena traducida similar a ¿Desea Eliminar el Usuario.
         /// </summary>
         public static string frmUsuarioEstiloPrueba_messDeseaEliminarUsuario {
             get {
@@ -2141,15 +2123,6 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Administración.
-        /// </summary>
-        public static string frmUsuarioPruebaEstilo_cboAdministracion {
-            get {
-                return ResourceManager.GetString("frmUsuarioPruebaEstilo_cboAdministracion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca una cadena traducida similar a Contabilidad.
         /// </summary>
         public static string frmUsuarioPruebaEstilo_cboContabilidad {
@@ -2168,7 +2141,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a ¿Desea Eliminar definitivamente el Usuario  .
+        ///   Busca una cadena traducida similar a ¿Desea Eliminar definitivamente el Usuario.
         /// </summary>
         public static string frmUsuariosEliminados_messDeseaEliminarUsuario {
             get {
@@ -2344,15 +2317,6 @@ namespace CultureResources {
         public static string IvaVenta {
             get {
                 return ResourceManager.GetString("IvaVenta", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Descripción.
-        /// </summary>
-        public static string lblDescripcion_Text {
-            get {
-                return ResourceManager.GetString("lblDescripcion.Text", resourceCulture);
             }
         }
         
@@ -2600,7 +2564,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a No se puede eliminar la Cedula .
+        ///   Busca una cadena traducida similar a No se puede eliminar la Cedula.
         /// </summary>
         public static string NoSePuedeEliminarCedulaPro {
             get {
@@ -2753,6 +2717,15 @@ namespace CultureResources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Pregunta.
+        /// </summary>
+        public static string Pregunta {
+            get {
+                return ResourceManager.GetString("Pregunta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a ¿Cual es su color favorito?.
         /// </summary>
         public static string preguntaSeguridad_1 {
@@ -2861,7 +2834,7 @@ namespace CultureResources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Programacion de Producción .
+        ///   Busca una cadena traducida similar a Programacion de Producción.
         /// </summary>
         public static string ProgramaciondeProduccion {
             get {
@@ -3010,6 +2983,15 @@ namespace CultureResources {
         public static string SeleccionarEmpresa {
             get {
                 return ResourceManager.GetString("SeleccionarEmpresa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Debe seleccionar un tipo de movimiento para poder registrar.
+        /// </summary>
+        public static string SeleccionarTipoMov {
+            get {
+                return ResourceManager.GetString("SeleccionarTipoMov", resourceCulture);
             }
         }
         

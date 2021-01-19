@@ -442,8 +442,8 @@
             // inventarioToolStripMenuItem
             // 
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.inventarioToolStripMenuItem.Text = "&DtInventario";
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.inventarioToolStripMenuItem.Text = "&Inventario";
             this.inventarioToolStripMenuItem.Click += new System.EventHandler(this.inventarioToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem

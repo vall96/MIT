@@ -58,7 +58,7 @@ namespace CapaPresentacion
                 {
                     tipoPais = frmRegristroUsuario.tipoPais;
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
-                    cboModulo.Items.Add(StringResources.frmUsuarioPruebaEstilo_cboAdministracion);
+                    cboModulo.Items.Add(StringResources.Administración);
                 }
                 else if (dt.Rows[i]["mod_Descripcion"].ToString() == "Contabilidad")
                 {
@@ -153,8 +153,8 @@ namespace CapaPresentacion
                 msj = Config.ActualizarDecimal();
                 if (msj == "Actualizacion Exitosa")
                 {
-                    mensajeCaption = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
-                    mensajeText = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
+                    mensajeCaption = StringResources.ValidaciondeRegistro;
+                    mensajeText = StringResources.DBActualizacionExitosa;
                     MessageBox.Show(mensajeText, mensajeCaption, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -169,8 +169,8 @@ namespace CapaPresentacion
                 msj = Config.ActualizarDecimal();
                 if (msj == "Actualizacion Exitosa")
                 {
-                    mensajeCaption = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
-                    mensajeText = StringResources.frmFallaMaquinas_msjActualizacionExitosa;
+                    mensajeCaption = StringResources.ValidaciondeRegistro;
+                    mensajeText = StringResources.DBActualizacionExitosa;
                     MessageBox.Show(mensajeText, mensajeCaption, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }

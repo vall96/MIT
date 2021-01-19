@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class MovDeInventario
+    partial class frmMovDeInventario
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MovDeInventario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMovDeInventario));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -38,6 +38,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.tpgInfoGeneral = new System.Windows.Forms.ToolStrip();
@@ -61,6 +62,9 @@
             this.BtoEliminarInv = new System.Windows.Forms.Button();
             this.DgvMovDeInventario = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.DTPfechaRegistro = new System.Windows.Forms.DateTimePicker();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.CBFiltarFechas = new System.Windows.Forms.CheckBox();
             this.cboCodTipoMov = new System.Windows.Forms.ComboBox();
             this.cboTipoMov = new System.Windows.Forms.ComboBox();
             this.lblTipoMov = new System.Windows.Forms.Label();
@@ -84,6 +88,7 @@
             this.txtCod = new System.Windows.Forms.TextBox();
             this.lblCod = new System.Windows.Forms.Label();
             this.lblMaquinas = new System.Windows.Forms.Label();
+            this.miniToolStrip = new System.Windows.Forms.ToolStrip();
             this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -94,6 +99,7 @@
             this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colLoteCheck = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tpgInfoGeneral.SuspendLayout();
@@ -121,7 +127,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1154, 623);
+            this.panel1.Size = new System.Drawing.Size(1064, 642);
             this.panel1.TabIndex = 7;
             // 
             // panel7
@@ -215,6 +221,7 @@
             this.toolStripBtoEliminar.Size = new System.Drawing.Size(67, 39);
             this.toolStripBtoEliminar.Text = "F8 Eliminar";
             this.toolStripBtoEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripBtoEliminar.Click += new System.EventHandler(this.toolStripBtoEliminar_Click);
             // 
             // toolStripSeparator8
             // 
@@ -250,12 +257,13 @@
             this.btoSalir.ForeColor = System.Drawing.SystemColors.Control;
             this.btoSalir.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btoSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoSalir.Location = new System.Drawing.Point(870, 584);
+            this.btoSalir.Location = new System.Drawing.Point(900, 602);
             this.btoSalir.Name = "btoSalir";
             this.btoSalir.Size = new System.Drawing.Size(99, 30);
             this.btoSalir.TabIndex = 4;
             this.btoSalir.Text = "Salir";
             this.btoSalir.UseVisualStyleBackColor = false;
+            this.btoSalir.Click += new System.EventHandler(this.btoSalir_Click);
             // 
             // label10
             // 
@@ -263,7 +271,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label10.Location = new System.Drawing.Point(979, -2);
+            this.label10.Location = new System.Drawing.Point(991, -2);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 33);
             this.label10.TabIndex = 26;
@@ -277,7 +285,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(12, 114);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1126, 464);
+            this.panel2.Size = new System.Drawing.Size(1034, 482);
             this.panel2.TabIndex = 2;
             this.panel2.Tag = "";
             // 
@@ -285,10 +293,10 @@
             // 
             this.tapInfoG.Controls.Add(this.tpInformacionGeneral);
             this.tapInfoG.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.tapInfoG.Location = new System.Drawing.Point(3, 90);
+            this.tapInfoG.Location = new System.Drawing.Point(3, 99);
             this.tapInfoG.Name = "tapInfoG";
             this.tapInfoG.SelectedIndex = 0;
-            this.tapInfoG.Size = new System.Drawing.Size(1104, 360);
+            this.tapInfoG.Size = new System.Drawing.Size(1009, 365);
             this.tapInfoG.TabIndex = 1;
             // 
             // tpInformacionGeneral
@@ -298,7 +306,7 @@
             this.tpInformacionGeneral.Location = new System.Drawing.Point(4, 27);
             this.tpInformacionGeneral.Name = "tpInformacionGeneral";
             this.tpInformacionGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tpInformacionGeneral.Size = new System.Drawing.Size(1096, 329);
+            this.tpInformacionGeneral.Size = new System.Drawing.Size(1001, 334);
             this.tpInformacionGeneral.TabIndex = 0;
             this.tpInformacionGeneral.Text = "Informacion General";
             this.tpInformacionGeneral.UseVisualStyleBackColor = true;
@@ -309,10 +317,10 @@
             this.lblInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblInventario.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblInventario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblInventario.Location = new System.Drawing.Point(11, 7);
+            this.lblInventario.Location = new System.Drawing.Point(25, 3);
             this.lblInventario.Name = "lblInventario";
             this.lblInventario.Size = new System.Drawing.Size(75, 18);
-            this.lblInventario.TabIndex = 38;
+            this.lblInventario.TabIndex = 41;
             this.lblInventario.Text = "Inventario:";
             // 
             // panel8
@@ -320,9 +328,9 @@
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.BtoEliminarInv);
             this.panel8.Controls.Add(this.DgvMovDeInventario);
-            this.panel8.Location = new System.Drawing.Point(6, 19);
+            this.panel8.Location = new System.Drawing.Point(6, 13);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1069, 297);
+            this.panel8.Size = new System.Drawing.Size(985, 312);
             this.panel8.TabIndex = 40;
             // 
             // BtoEliminarInv
@@ -331,7 +339,7 @@
             this.BtoEliminarInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtoEliminarInv.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtoEliminarInv.Image = ((System.Drawing.Image)(resources.GetObject("BtoEliminarInv.Image")));
-            this.BtoEliminarInv.Location = new System.Drawing.Point(872, 265);
+            this.BtoEliminarInv.Location = new System.Drawing.Point(922, 280);
             this.BtoEliminarInv.Name = "BtoEliminarInv";
             this.BtoEliminarInv.Size = new System.Drawing.Size(45, 27);
             this.BtoEliminarInv.TabIndex = 45;
@@ -354,25 +362,29 @@
             this.ColBtnAlmacen,
             this.ColCantidad,
             this.ColUnidad,
-            this.ColCBOProceso});
+            this.ColCBOProceso,
+            this.colLoteCheck});
             this.DgvMovDeInventario.Enabled = false;
             this.DgvMovDeInventario.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.DgvMovDeInventario.Location = new System.Drawing.Point(7, 8);
+            this.DgvMovDeInventario.Location = new System.Drawing.Point(9, 3);
             this.DgvMovDeInventario.Name = "DgvMovDeInventario";
             this.DgvMovDeInventario.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.DgvMovDeInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvMovDeInventario.Size = new System.Drawing.Size(1010, 255);
+            this.DgvMovDeInventario.Size = new System.Drawing.Size(958, 264);
             this.DgvMovDeInventario.TabIndex = 8;
             this.DgvMovDeInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellClick);
             this.DgvMovDeInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellContentClick);
-            this.DgvMovDeInventario.ColumnWidthChanged += new System.Windows.Forms.DataGridViewColumnEventHandler(this.DgvMovDeInventario_ColumnWidthChanged);
+            this.DgvMovDeInventario.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellEndEdit);
+            this.DgvMovDeInventario.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.DgvMovDeInventario_CellValidating);
             this.DgvMovDeInventario.CurrentCellChanged += new System.EventHandler(this.DgvMovDeInventario_CurrentCellChanged);
-            this.DgvMovDeInventario.Scroll += new System.Windows.Forms.ScrollEventHandler(this.DgvMovDeInventario_Scroll);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.DTPfechaRegistro);
+            this.panel3.Controls.Add(this.lblFecha);
+            this.panel3.Controls.Add(this.CBFiltarFechas);
             this.panel3.Controls.Add(this.cboCodTipoMov);
             this.panel3.Controls.Add(this.cboTipoMov);
             this.panel3.Controls.Add(this.lblTipoMov);
@@ -384,14 +396,50 @@
             this.panel3.Controls.Add(this.lblFechaInicial);
             this.panel3.Location = new System.Drawing.Point(4, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(955, 69);
+            this.panel3.Size = new System.Drawing.Size(1004, 90);
             this.panel3.TabIndex = 0;
+            // 
+            // DTPfechaRegistro
+            // 
+            this.DTPfechaRegistro.CustomFormat = "dd/MM/yyyy";
+            this.DTPfechaRegistro.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DTPfechaRegistro.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTPfechaRegistro.Location = new System.Drawing.Point(610, 20);
+            this.DTPfechaRegistro.Name = "DTPfechaRegistro";
+            this.DTPfechaRegistro.Size = new System.Drawing.Size(140, 24);
+            this.DTPfechaRegistro.TabIndex = 35;
+            this.DTPfechaRegistro.ValueChanged += new System.EventHandler(this.DTPfechaRegistro_ValueChanged);
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.lblFecha.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblFecha.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblFecha.Location = new System.Drawing.Point(549, 23);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(53, 18);
+            this.lblFecha.TabIndex = 34;
+            this.lblFecha.Text = "Fecha:";
+            // 
+            // CBFiltarFechas
+            // 
+            this.CBFiltarFechas.AutoSize = true;
+            this.CBFiltarFechas.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBFiltarFechas.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.CBFiltarFechas.Location = new System.Drawing.Point(119, 3);
+            this.CBFiltarFechas.Name = "CBFiltarFechas";
+            this.CBFiltarFechas.Size = new System.Drawing.Size(193, 23);
+            this.CBFiltarFechas.TabIndex = 33;
+            this.CBFiltarFechas.Text = "Filtrar por rango de Fechas";
+            this.CBFiltarFechas.UseVisualStyleBackColor = true;
+            this.CBFiltarFechas.CheckedChanged += new System.EventHandler(this.CBFiltarFechas_CheckedChanged);
             // 
             // cboCodTipoMov
             // 
             this.cboCodTipoMov.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCodTipoMov.FormattingEnabled = true;
-            this.cboCodTipoMov.Location = new System.Drawing.Point(806, 14);
+            this.cboCodTipoMov.Location = new System.Drawing.Point(756, 50);
             this.cboCodTipoMov.Name = "cboCodTipoMov";
             this.cboCodTipoMov.Size = new System.Drawing.Size(34, 27);
             this.cboCodTipoMov.TabIndex = 32;
@@ -399,9 +447,10 @@
             // 
             // cboTipoMov
             // 
+            this.cboTipoMov.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoMov.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipoMov.FormattingEnabled = true;
-            this.cboTipoMov.Location = new System.Drawing.Point(660, 14);
+            this.cboTipoMov.Location = new System.Drawing.Point(610, 50);
             this.cboTipoMov.Name = "cboTipoMov";
             this.cboTipoMov.Size = new System.Drawing.Size(140, 27);
             this.cboTipoMov.TabIndex = 31;
@@ -413,7 +462,7 @@
             this.lblTipoMov.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblTipoMov.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblTipoMov.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTipoMov.Location = new System.Drawing.Point(512, 20);
+            this.lblTipoMov.Location = new System.Drawing.Point(462, 53);
             this.lblTipoMov.Name = "lblTipoMov";
             this.lblTipoMov.Size = new System.Drawing.Size(142, 18);
             this.lblTipoMov.TabIndex = 30;
@@ -421,11 +470,12 @@
             // 
             // dtpFinal
             // 
+            this.dtpFinal.CustomFormat = "dd/MM/yyyy";
             this.dtpFinal.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFinal.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFinal.Location = new System.Drawing.Point(371, 14);
+            this.dtpFinal.Location = new System.Drawing.Point(178, 57);
             this.dtpFinal.Name = "dtpFinal";
-            this.dtpFinal.Size = new System.Drawing.Size(117, 24);
+            this.dtpFinal.Size = new System.Drawing.Size(144, 24);
             this.dtpFinal.TabIndex = 29;
             // 
             // lblFechaFinal
@@ -434,7 +484,7 @@
             this.lblFechaFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblFechaFinal.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblFechaFinal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblFechaFinal.Location = new System.Drawing.Point(310, 17);
+            this.lblFechaFinal.Location = new System.Drawing.Point(117, 60);
             this.lblFechaFinal.Name = "lblFechaFinal";
             this.lblFechaFinal.Size = new System.Drawing.Size(51, 18);
             this.lblFechaFinal.TabIndex = 28;
@@ -442,19 +492,20 @@
             // 
             // dtpInicio
             // 
+            this.dtpInicio.CustomFormat = "dd/MM/yyyy";
             this.dtpInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpInicio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpInicio.Location = new System.Drawing.Point(168, 14);
+            this.dtpInicio.Location = new System.Drawing.Point(178, 27);
             this.dtpInicio.Name = "dtpInicio";
-            this.dtpInicio.Size = new System.Drawing.Size(117, 24);
+            this.dtpInicio.Size = new System.Drawing.Size(144, 24);
             this.dtpInicio.TabIndex = 27;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 20);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(70, 60);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
@@ -466,7 +517,7 @@
             this.btoBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btoBuscar.ForeColor = System.Drawing.Color.White;
             this.btoBuscar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoBuscar.Location = new System.Drawing.Point(863, 14);
+            this.btoBuscar.Location = new System.Drawing.Point(849, 29);
             this.btoBuscar.Name = "btoBuscar";
             this.btoBuscar.Size = new System.Drawing.Size(75, 27);
             this.btoBuscar.TabIndex = 25;
@@ -480,7 +531,7 @@
             this.lblFechaInicial.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lblFechaInicial.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblFechaInicial.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblFechaInicial.Location = new System.Drawing.Point(107, 17);
+            this.lblFechaInicial.Location = new System.Drawing.Point(117, 30);
             this.lblFechaInicial.Name = "lblFechaInicial";
             this.lblFechaInicial.Size = new System.Drawing.Size(55, 18);
             this.lblFechaInicial.TabIndex = 0;
@@ -507,7 +558,7 @@
             this.lblTituloPanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblTituloPanel.Location = new System.Drawing.Point(0, 0);
             this.lblTituloPanel.Name = "lblTituloPanel";
-            this.lblTituloPanel.Size = new System.Drawing.Size(1150, 31);
+            this.lblTituloPanel.Size = new System.Drawing.Size(1060, 31);
             this.lblTituloPanel.TabIndex = 0;
             this.lblTituloPanel.Text = "Movimiento de Inventario";
             this.lblTituloPanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -629,6 +680,21 @@
             this.lblMaquinas.Size = new System.Drawing.Size(76, 18);
             this.lblMaquinas.TabIndex = 6;
             // 
+            // miniToolStrip
+            // 
+            this.miniToolStrip.AccessibleName = "Selección de nuevo elemento";
+            this.miniToolStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonDropDown;
+            this.miniToolStrip.AutoSize = false;
+            this.miniToolStrip.CanOverflow = false;
+            this.miniToolStrip.Dock = System.Windows.Forms.DockStyle.None;
+            this.miniToolStrip.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.miniToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.miniToolStrip.ImageScalingSize = new System.Drawing.Size(31, 22);
+            this.miniToolStrip.Location = new System.Drawing.Point(358, 11);
+            this.miniToolStrip.Name = "miniToolStrip";
+            this.miniToolStrip.Size = new System.Drawing.Size(361, 42);
+            this.miniToolStrip.TabIndex = 20;
+            // 
             // ColCheck
             // 
             this.ColCheck.Frozen = true;
@@ -663,6 +729,7 @@
             // 
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ColFecha.Frozen = true;
             this.ColFecha.HeaderText = "Fecha";
             this.ColFecha.Name = "ColFecha";
             this.ColFecha.Width = 95;
@@ -671,9 +738,10 @@
             // 
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
             this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ColTipoMov.Frozen = true;
             this.ColTipoMov.HeaderText = "Tipo de Movimiento";
             this.ColTipoMov.Name = "ColTipoMov";
-            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.ColTipoMov.Visible = false;
             // 
@@ -681,6 +749,7 @@
             // 
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
             this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ColAlmacen.Frozen = true;
             this.ColAlmacen.HeaderText = "Almacen";
             this.ColAlmacen.Name = "ColAlmacen";
             this.ColAlmacen.Width = 200;
@@ -691,6 +760,7 @@
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
             this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
+            this.ColBtnAlmacen.Frozen = true;
             this.ColBtnAlmacen.HeaderText = "";
             this.ColBtnAlmacen.Name = "ColBtnAlmacen";
             this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -701,8 +771,11 @@
             // 
             // ColCantidad
             // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Format = "N0";
             this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
+            this.ColCantidad.Frozen = true;
             this.ColCantidad.HeaderText = "Cantidad";
             this.ColCantidad.Name = "ColCantidad";
             // 
@@ -722,18 +795,28 @@
             this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ColCBOProceso.Width = 150;
             // 
-            // MovDeInventario
+            // colLoteCheck
+            // 
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.colLoteCheck.DefaultCellStyle = dataGridViewCellStyle10;
+            this.colLoteCheck.HeaderText = "loteCheck";
+            this.colLoteCheck.Name = "colLoteCheck";
+            this.colLoteCheck.Visible = false;
+            // 
+            // frmMovDeInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.images__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1234, 641);
+            this.ClientSize = new System.Drawing.Size(1088, 666);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "MovDeInventario";
+            this.KeyPreview = true;
+            this.Name = "frmMovDeInventario";
             this.Text = "Entrada De Inventario";
             this.Load += new System.EventHandler(this.frmMovimientoDeInventario_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MovDeInventario_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -756,17 +839,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.ToolStrip tpgInfoGeneral;
-        private System.Windows.Forms.ToolStripButton toolStripBtoAgregar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripBtoEditar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton toolStripBtoGuardar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripButton toolStripBtoEliminar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripButton toolStripBtoDescartar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btoSalir;
         private System.Windows.Forms.Label label10;
@@ -778,7 +850,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTituloPanel;
         private System.Windows.Forms.TabControl tapInfoG;
-        private System.Windows.Forms.TabPage tpInformacionGeneral;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnAsociarMaq;
         public System.Windows.Forms.ListView lsvMaquin;
@@ -791,15 +862,31 @@
         public System.Windows.Forms.TextBox txtCod;
         private System.Windows.Forms.Label lblCod;
         private System.Windows.Forms.Label lblMaquinas;
-        private System.Windows.Forms.Label lblInventario;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button BtoEliminarInv;
         private System.Windows.Forms.DateTimePicker dtpFinal;
         private System.Windows.Forms.Label lblFechaFinal;
         private System.Windows.Forms.DateTimePicker dtpInicio;
         private System.Windows.Forms.ComboBox cboTipoMov;
         private System.Windows.Forms.Label lblTipoMov;
         private System.Windows.Forms.ComboBox cboCodTipoMov;
+        private System.Windows.Forms.CheckBox CBFiltarFechas;
+        private System.Windows.Forms.TabPage tpInformacionGeneral;
+        private System.Windows.Forms.Label lblInventario;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button BtoEliminarInv;
+        private System.Windows.Forms.DateTimePicker DTPfechaRegistro;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.ToolStrip tpgInfoGeneral;
+        private System.Windows.Forms.ToolStripButton toolStripBtoAgregar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripBtoEditar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton toolStripBtoGuardar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripButton toolStripBtoEliminar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripButton toolStripBtoDescartar;
+        private System.Windows.Forms.ToolStrip miniToolStrip;
         private System.Windows.Forms.DataGridView DgvMovDeInventario;
         private System.Windows.Forms.DataGridViewCheckBoxColumn ColCheck;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColArticulos;
@@ -811,5 +898,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColUnidad;
         private System.Windows.Forms.DataGridViewComboBoxColumn ColCBOProceso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLoteCheck;
     }
 }

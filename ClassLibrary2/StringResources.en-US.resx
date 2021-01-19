@@ -157,7 +157,7 @@
     <value>Add comment:</value>
   </data>
   <data name="Almacen" xml:space="preserve">
-    <value>Warehouse:</value>
+    <value>Warehouse</value>
   </data>
   <data name="Almacenes" xml:space="preserve">
     <value>Warehouses</value>
@@ -200,9 +200,6 @@
   </data>
   <data name="Ayuda" xml:space="preserve">
     <value>Help</value>
-  </data>
-  <data name="btnBuscar" xml:space="preserve">
-    <value>Search</value>
   </data>
   <data name="btnSalir" xml:space="preserve">
     <value>Exit</value>
@@ -274,7 +271,7 @@
     <value>City:</value>
   </data>
   <data name="Codigo" xml:space="preserve">
-    <value>Code:</value>
+    <value>Code</value>
   </data>
   <data name="CodigoAsociado" xml:space="preserve">
     <value>Associated Code</value>
@@ -307,7 +304,7 @@
     <value>With tax</value>
   </data>
   <data name="Contacto" xml:space="preserve">
-    <value>Contact:</value>
+    <value>Contact</value>
   </data>
   <data name="ContraseñaActualizada" xml:space="preserve">
     <value>Password Updated with Success</value>
@@ -375,7 +372,7 @@
   <data name="Descartar" xml:space="preserve">
     <value>Discard</value>
   </data>
-  <data name="Descripcion" xml:space="preserve">
+  <data name="Descripciondospuntos" xml:space="preserve">
     <value>Description:</value>
   </data>
   <data name="DescripcionSubCatg" xml:space="preserve">
@@ -409,7 +406,7 @@
     <value>Warranty Days:</value>
   </data>
   <data name="Direccion" xml:space="preserve">
-    <value>Address:</value>
+    <value>Address</value>
   </data>
   <data name="Disponible" xml:space="preserve">
     <value>Available</value>
@@ -436,7 +433,7 @@
     <value>Remove</value>
   </data>
   <data name="EliminarSubcategioria" xml:space="preserve">
-    <value>Do you want to delete the subcategory?</value>
+    <value>Do you want to delete the subcategory</value>
   </data>
   <data name="email" xml:space="preserve">
     <value>e-mail</value>
@@ -492,7 +489,7 @@
   <data name="fecha" xml:space="preserve">
     <value>Date</value>
   </data>
-  <data name="Fecha1" xml:space="preserve">
+  <data name="Fechadospuntos" xml:space="preserve">
     <value>Date:</value>
   </data>
   <data name="FechaCreacion" xml:space="preserve">
@@ -553,7 +550,7 @@
     <value>Select the Company:</value>
   </data>
   <data name="frmEmpresa-Surcusal.lblSeleccioneSucursal" xml:space="preserve">
-    <value>Select Associated Branch:</value>
+    <value>Select Associated Branch</value>
   </data>
   <data name="frmEmpresa.TabPropiedadesEmpresa" xml:space="preserve">
     <value>Company Properties</value>
@@ -566,9 +563,6 @@
   </data>
   <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
     <value>Do you want to delete</value>
-  </data>
-  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
-    <value>Successful update</value>
   </data>
   <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
     <value>Machine failure</value>
@@ -616,7 +610,7 @@
     <value>This code should not have
 special characters or spaces.</value>
   </data>
-  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+  <data name="Pregunta" xml:space="preserve">
     <value>Question</value>
   </data>
   <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
@@ -640,14 +634,8 @@ special characters or spaces.</value>
   <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
     <value>&amp;Administration</value>
   </data>
-  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
-    <value>Administration</value>
-  </data>
   <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
     <value>&amp;Help</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
-    <value>Help</value>
   </data>
   <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
     <value>Change Password</value>
@@ -811,7 +799,7 @@ special characters or spaces.</value>
   <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
     <value>Update Validation</value>
   </data>
-  <data name="frmUsuarioPruebaEstilo_cboAdministracion" xml:space="preserve">
+  <data name="Administración" xml:space="preserve">
     <value>Administration</value>
   </data>
   <data name="frmUsuarioPruebaEstilo_cboContabilidad" xml:space="preserve">
@@ -871,11 +859,11 @@ special characters or spaces.</value>
   <data name="IvaVenta" xml:space="preserve">
     <value>Sales VAT:</value>
   </data>
-  <data name="lblDescripcion.Text" xml:space="preserve">
+  <data name="Descripcion" xml:space="preserve">
     <value>Description</value>
   </data>
   <data name="lblNombeDosPuntos" xml:space="preserve">
-    <value>Name</value>
+    <value>Name:</value>
   </data>
   <data name="Limite" xml:space="preserve">
     <value>Limit:</value>
@@ -914,8 +902,7 @@ special characters or spaces.</value>
     <value>Currency</value>
   </data>
   <data name="msjAsociarArticulos" xml:space="preserve">
-    <value>
-You must associate Articles</value>
+    <value>You must associate Articles</value>
   </data>
   <data name="msjAsociarMaquinas" xml:space="preserve">
     <value>You must Associate Machines</value>
@@ -945,7 +932,7 @@ You must associate Articles</value>
     <value>There is no branch</value>
   </data>
   <data name="Nombre" xml:space="preserve">
-    <value>Name:</value>
+    <value>Name</value>
   </data>
   <data name="NoPoseeAlmacenAsociado" xml:space="preserve">
     <value>It does not have Associated Warehouses</value>
@@ -1104,10 +1091,10 @@ You must associate Articles</value>
     <value>It does not have Associated Branches</value>
   </data>
   <data name="sobreNosotros" xml:space="preserve">
-    <value>About us </value>
+    <value>About us</value>
   </data>
   <data name="Soporte" xml:space="preserve">
-    <value>Online support </value>
+    <value>Online support</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
@@ -1119,7 +1106,7 @@ You must associate Articles</value>
     <value>Subcategory</value>
   </data>
   <data name="Sucursal" xml:space="preserve">
-    <value>Branch office:</value>
+    <value>Branch office</value>
   </data>
   <data name="Sucursales" xml:space="preserve">
     <value>Branch offices</value>
@@ -1140,7 +1127,7 @@ You must associate Articles</value>
     <value>Task</value>
   </data>
   <data name="Telefonos" xml:space="preserve">
-    <value>Phones:</value>
+    <value>Phones</value>
   </data>
   <data name="this.Text" xml:space="preserve">
     <value>Users Test Style</value>
@@ -1188,7 +1175,7 @@ You must associate Articles</value>
     <value>Units</value>
   </data>
   <data name="Usuario" xml:space="preserve">
-    <value>User:</value>
+    <value>User</value>
   </data>
   <data name="UsuarioBloqueado" xml:space="preserve">
     <value>Blocked user contact the administrator to access the system</value>
@@ -1243,5 +1230,11 @@ You must associate Articles</value>
   </data>
   <data name="Hasta" xml:space="preserve">
     <value>Until</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SeleccionarTipoMov" xml:space="preserve">
+    <value>You must select a type of movement to register</value>
   </data>
 </root>

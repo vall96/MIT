@@ -994,13 +994,7 @@ namespace CapaPresentacion
             this.lblCategoria.Text = StringResources.Categoria;
             this.lblSubCategoria.Text = StringResources.SubCategoria;
             this.lblUnidad.Text = StringResources.Unidad;
-            //this.lblCantidad.Text = StringResources.Cantidad;
-            //this.lblCostoPro.Text = StringResources.CostoProveedor;
-            //this.lblProcedencia.Text = StringResources.Procedencia;
-            //this.lblIvaCom.Text = StringResources.IVAcompra;
-            //this.lblIvaVent.Text = StringResources.IvaVenta;
-            //this.lblTipoRedon.Text = StringResources.TipodeRedondeo;
-            //this.lblPrecioV.Text = StringResources.PreciodeVenta_;
+          
             //
             this.tPgCostosyPrecios.Text = StringResources.CostoyPrecio;
             this.lblMetodoCosto.Text = StringResources.SeleccioneElMetodoDeCosto;

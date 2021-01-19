@@ -157,7 +157,7 @@
     <value>Добавить комментарий:</value>
   </data>
   <data name="Almacen" xml:space="preserve">
-    <value>Хранение:</value>
+    <value>Хранение</value>
   </data>
   <data name="Almacenes" xml:space="preserve">
     <value>склады</value>
@@ -200,9 +200,6 @@
   </data>
   <data name="Ayuda" xml:space="preserve">
     <value>помощь</value>
-  </data>
-  <data name="btnBuscar" xml:space="preserve">
-    <value>поиск</value>
   </data>
   <data name="btnSalir" xml:space="preserve">
     <value>выход</value>
@@ -274,7 +271,7 @@
     <value>город:</value>
   </data>
   <data name="Codigo" xml:space="preserve">
-    <value>код:</value>
+    <value>код</value>
   </data>
   <data name="CodigoAsociado" xml:space="preserve">
     <value>Ассоциированный код</value>
@@ -307,7 +304,7 @@
     <value>С налогом</value>
   </data>
   <data name="Contacto" xml:space="preserve">
-    <value>обращайтесь:</value>
+    <value>обращайтесь</value>
   </data>
   <data name="ContraseñaActualizada" xml:space="preserve">
     <value>Пароль успешно обновлен</value>
@@ -375,7 +372,7 @@
   <data name="Descartar" xml:space="preserve">
     <value>отбрасывать</value>
   </data>
-  <data name="Descripcion" xml:space="preserve">
+  <data name="Descripciondospuntos" xml:space="preserve">
     <value>Описание:</value>
   </data>
   <data name="DescripcionSubCatg" xml:space="preserve">
@@ -385,7 +382,7 @@
     <value>Вы хотите удалить категорию</value>
   </data>
   <data name="DeseaEliminarCeduladeProducto" xml:space="preserve">
-    <value>Вы хотите удалить идентификатор продукта</value>
+    <value>Вы хотите удалить идентификатор продукта?</value>
   </data>
   <data name="DeseaEliminarLaSucursal" xml:space="preserve">
     <value>Вы хотите удалить ветку:</value>
@@ -409,7 +406,7 @@
     <value>Дни гарантии:</value>
   </data>
   <data name="Direccion" xml:space="preserve">
-    <value>адрес:</value>
+    <value>адрес</value>
   </data>
   <data name="Disponible" xml:space="preserve">
     <value>доступный</value>
@@ -427,7 +424,7 @@
     <value>Поле Описание не может быть пустым</value>
   </data>
   <data name="ElEstadoEstaAsociadoaUsuarios" xml:space="preserve">
-    <value>Состояние нельзя удалить, поскольку оно связано с существующими </value>
+    <value>Состояние нельзя удалить, поскольку оно связано с существующими</value>
   </data>
   <data name="ElEstadoNoSePuede_liminarPorqueEsta_AsociadoaUsuariosEnMantenimiento" xml:space="preserve">
     <value>Состояние нельзя удалить, поскольку оно связано с пользователями в обслуживании</value>
@@ -436,7 +433,7 @@
     <value>удаление</value>
   </data>
   <data name="EliminarSubcategioria" xml:space="preserve">
-    <value>Вы хотите удалить подкатегорию?</value>
+    <value>Вы хотите удалить подкатегорию</value>
   </data>
   <data name="email" xml:space="preserve">
     <value>удаление</value>
@@ -492,7 +489,7 @@
   <data name="fecha" xml:space="preserve">
     <value>дата</value>
   </data>
-  <data name="Fecha1" xml:space="preserve">
+  <data name="Fechadospuntos" xml:space="preserve">
     <value>дата:</value>
   </data>
   <data name="FechaCreacion" xml:space="preserve">
@@ -553,7 +550,7 @@
     <value>Выберите компанию:</value>
   </data>
   <data name="frmEmpresa-Surcusal.lblSeleccioneSucursal" xml:space="preserve">
-    <value>Выберите связанную ветвь:</value>
+    <value>Выберите связанную ветвь</value>
   </data>
   <data name="frmEmpresa.TabPropiedadesEmpresa" xml:space="preserve">
     <value>Свойства компании</value>
@@ -566,9 +563,6 @@
   </data>
   <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
     <value>Вы хотите удалить</value>
-  </data>
-  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
-    <value>Успешное обновление</value>
   </data>
   <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
     <value>Сбой машины</value>
@@ -616,7 +610,7 @@
     <value>Этот код не должен иметь
 специальные символы или пробелы.</value>
   </data>
-  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+  <data name="Pregunta" xml:space="preserve">
     <value>вопрос</value>
   </data>
   <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
@@ -638,15 +632,9 @@
     <value>И инвентарь</value>
   </data>
   <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
-    <value>администрация</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
-    <value>администрация</value>
+    <value>&amp;администрация</value>
   </data>
   <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
-    <value>помощь</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
     <value>помощь</value>
   </data>
   <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
@@ -811,7 +799,7 @@
   <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
     <value>Обновление проверки</value>
   </data>
-  <data name="frmUsuarioPruebaEstilo_cboAdministracion" xml:space="preserve">
+  <data name="Administración" xml:space="preserve">
     <value>производство</value>
   </data>
   <data name="frmUsuarioPruebaEstilo_cboContabilidad" xml:space="preserve">
@@ -871,11 +859,11 @@
   <data name="IvaVenta" xml:space="preserve">
     <value>НДС с продаж:</value>
   </data>
-  <data name="lblDescripcion.Text" xml:space="preserve">
+  <data name="Descripcion" xml:space="preserve">
     <value>описание</value>
   </data>
   <data name="lblNombeDosPuntos" xml:space="preserve">
-    <value>имя</value>
+    <value>Название:</value>
   </data>
   <data name="Limite" xml:space="preserve">
     <value>предел:</value>
@@ -920,7 +908,7 @@
     <value>Должны ассоциировать машины</value>
   </data>
   <data name="msjEliminarItems" xml:space="preserve">
-    <value>Вы хотите удалить выбранные элементы</value>
+    <value>Вы хотите удалить выбранные элементы ?</value>
   </data>
   <data name="msjEliminarTarea" xml:space="preserve">
     <value>Вы не можете удалить задачу</value>
@@ -944,7 +932,7 @@
     <value>Нет ветки</value>
   </data>
   <data name="Nombre" xml:space="preserve">
-    <value>название:</value>
+    <value>название</value>
   </data>
   <data name="NoPoseeAlmacenAsociado" xml:space="preserve">
     <value>Не имеет ассоциированных складов</value>
@@ -1118,7 +1106,7 @@
     <value>подкатегория</value>
   </data>
   <data name="Sucursal" xml:space="preserve">
-    <value>отрасль:</value>
+    <value>отрасль</value>
   </data>
   <data name="Sucursales" xml:space="preserve">
     <value>ветви</value>
@@ -1139,7 +1127,7 @@
     <value>задача</value>
   </data>
   <data name="Telefonos" xml:space="preserve">
-    <value>телефон:</value>
+    <value>телефон</value>
   </data>
   <data name="this.Text" xml:space="preserve">
     <value>Стиль тестирования пользователей</value>
@@ -1187,7 +1175,7 @@
     <value>единицы</value>
   </data>
   <data name="Usuario" xml:space="preserve">
-    <value>пользователь:</value>
+    <value>пользователь</value>
   </data>
   <data name="UsuarioBloqueado" xml:space="preserve">
     <value>Заблокированный пользователь, обратитесь к администратору для доступа к системе</value>
@@ -1242,5 +1230,11 @@
   </data>
   <data name="Hasta" xml:space="preserve">
     <value>До</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>поиск</value>
+  </data>
+  <data name="SeleccionarTipoMov" xml:space="preserve">
+    <value>Вы должны выбрать тип движения для регистрации</value>
   </data>
 </root>

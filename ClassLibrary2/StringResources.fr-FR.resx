@@ -151,13 +151,13 @@
     <value>Courant</value>
   </data>
   <data name="agregar" xml:space="preserve">
-    <value>Ajouter</value>
+    <value>Administration</value>
   </data>
   <data name="AgregarComentario" xml:space="preserve">
     <value>Ajouter un commentaire:</value>
   </data>
   <data name="Almacen" xml:space="preserve">
-    <value>Entrepôt:</value>
+    <value>Entrepôt</value>
   </data>
   <data name="Almacenes" xml:space="preserve">
     <value>Entrepôts</value>
@@ -200,9 +200,6 @@
   </data>
   <data name="Ayuda" xml:space="preserve">
     <value>L'aide</value>
-  </data>
-  <data name="btnBuscar" xml:space="preserve">
-    <value>Chercher</value>
   </data>
   <data name="btnSalir" xml:space="preserve">
     <value>Sortir</value>
@@ -274,7 +271,7 @@
     <value>Ville:</value>
   </data>
   <data name="Codigo" xml:space="preserve">
-    <value>Code:</value>
+    <value>Code</value>
   </data>
   <data name="CodigoAsociado" xml:space="preserve">
     <value>Code associé</value>
@@ -307,7 +304,7 @@
     <value>Avec taxe</value>
   </data>
   <data name="Contacto" xml:space="preserve">
-    <value>Contact:</value>
+    <value>Contact</value>
   </data>
   <data name="ContraseñaActualizada" xml:space="preserve">
     <value>Mot de passe mis à jour avec succès</value>
@@ -375,7 +372,7 @@
   <data name="Descartar" xml:space="preserve">
     <value>Jeter</value>
   </data>
-  <data name="Descripcion" xml:space="preserve">
+  <data name="Descripciondospuntos" xml:space="preserve">
     <value>Description:</value>
   </data>
   <data name="DescripcionSubCatg" xml:space="preserve">
@@ -385,7 +382,7 @@
     <value>Voulez-vous supprimer une catégorie</value>
   </data>
   <data name="DeseaEliminarCeduladeProducto" xml:space="preserve">
-    <value>Vous voulez supprimer l'ID de produit</value>
+    <value>Vous voulez supprimer l'ID de produit?</value>
   </data>
   <data name="DeseaEliminarLaSucursal" xml:space="preserve">
     <value>Vous voulez supprimer la branche:</value>
@@ -409,7 +406,7 @@
     <value>Jours de garantie:</value>
   </data>
   <data name="Direccion" xml:space="preserve">
-    <value>Adresse:</value>
+    <value>Adresse</value>
   </data>
   <data name="Disponible" xml:space="preserve">
     <value>disponible</value>
@@ -427,10 +424,10 @@
     <value>Le champ Description ne peut pas être vide</value>
   </data>
   <data name="ElEstadoEstaAsociadoaUsuarios" xml:space="preserve">
-    <value>L'État ne peut pas être supprimé car il est associé à des utilisateurs existants.</value>
+    <value>L'État ne peut pas être supprimé car il est associé à des utilisateurs existants</value>
   </data>
   <data name="ElEstadoNoSePuede_liminarPorqueEsta_AsociadoaUsuariosEnMantenimiento" xml:space="preserve">
-    <value>L'État ne peut pas être supprimé car il est associé à des utilisateurs en maintenance.</value>
+    <value>L'État ne peut pas être supprimé car il est associé à des utilisateurs en maintenance</value>
   </data>
   <data name="Eliminar" xml:space="preserve">
     <value>Enlever</value>
@@ -492,7 +489,7 @@
   <data name="fecha" xml:space="preserve">
     <value>Date</value>
   </data>
-  <data name="Fecha1" xml:space="preserve">
+  <data name="Fechadospuntos" xml:space="preserve">
     <value>Date:</value>
   </data>
   <data name="FechaCreacion" xml:space="preserve">
@@ -514,7 +511,7 @@
     <value>Mot de passe:</value>
   </data>
   <data name="frmCambiarClave.messContraseña123" xml:space="preserve">
-    <value>Le nouveau mot de passe doit être différent du mot de passe actuel et du mot de passe de démarrage.</value>
+    <value>Le nouveau mot de passe doit être différent du mot de passe actuel et du mot de passe de démarrage</value>
   </data>
   <data name="frmCambiarClave.messContraseñaEnBlanco" xml:space="preserve">
     <value>Les champs ne peuvent pas être vides</value>
@@ -553,7 +550,7 @@
     <value>Sélectionnez la société:</value>
   </data>
   <data name="frmEmpresa-Surcusal.lblSeleccioneSucursal" xml:space="preserve">
-    <value>Sélectionnez une branche associée:</value>
+    <value>Sélectionnez une branche associée</value>
   </data>
   <data name="frmEmpresa.TabPropiedadesEmpresa" xml:space="preserve">
     <value>Propriétés de l'entreprise</value>
@@ -566,9 +563,6 @@
   </data>
   <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
     <value>Voulez-vous supprimer</value>
-  </data>
-  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
-    <value>Mise à jour réussie</value>
   </data>
   <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
     <value>Panne de machine</value>
@@ -616,7 +610,7 @@
     <value>Ce code ne devrait pas avoir
 caractères spéciaux ou espaces.</value>
   </data>
-  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+  <data name="Pregunta" xml:space="preserve">
     <value>Question</value>
   </data>
   <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
@@ -638,15 +632,9 @@ caractères spéciaux ou espaces.</value>
     <value>Et inventaire</value>
   </data>
   <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
-    <value>Administration</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
-    <value>Administration</value>
+    <value>&amp;Administration</value>
   </data>
   <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
-    <value>L'aide</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
     <value>L'aide</value>
   </data>
   <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
@@ -800,7 +788,7 @@ caractères spéciaux ou espaces.</value>
     <value>Vous devez entrer un nom</value>
   </data>
   <data name="frmUsuarioEstiloPrueba.messDebeingresarUnNombre" xml:space="preserve">
-    <value>Vous devez entrer un utilisateur ou un nom pour effectuer la recherche.</value>
+    <value>Vous devez entrer un utilisateur ou un nom pour effectuer la recherche</value>
   </data>
   <data name="frmUsuarioEstiloPrueba.messDeseaEliminarUsuario" xml:space="preserve">
     <value>Voulez-vous supprimer l'utilisateur</value>
@@ -811,7 +799,7 @@ caractères spéciaux ou espaces.</value>
   <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
     <value>Mettre à jour la validation</value>
   </data>
-  <data name="frmUsuarioPruebaEstilo_cboAdministracion" xml:space="preserve">
+  <data name="Administración" xml:space="preserve">
     <value>Administration</value>
   </data>
   <data name="frmUsuarioPruebaEstilo_cboContabilidad" xml:space="preserve">
@@ -871,11 +859,11 @@ caractères spéciaux ou espaces.</value>
   <data name="IvaVenta" xml:space="preserve">
     <value>TVA de vente:</value>
   </data>
-  <data name="lblDescripcion.Text" xml:space="preserve">
+  <data name="Descripcion" xml:space="preserve">
     <value>Description</value>
   </data>
   <data name="lblNombeDosPuntos" xml:space="preserve">
-    <value>Nom</value>
+    <value>Nom:</value>
   </data>
   <data name="Limite" xml:space="preserve">
     <value>Limite:</value>
@@ -920,7 +908,7 @@ caractères spéciaux ou espaces.</value>
     <value>Doit associer des machines</value>
   </data>
   <data name="msjEliminarItems" xml:space="preserve">
-    <value>Vous voulez supprimer les éléments sélectionnés</value>
+    <value>Vous voulez supprimer les éléments sélectionnés ?</value>
   </data>
   <data name="msjEliminarTarea" xml:space="preserve">
     <value>Impossible de supprimer la tâche</value>
@@ -944,7 +932,7 @@ caractères spéciaux ou espaces.</value>
     <value>Il n'y a pas de succursale</value>
   </data>
   <data name="Nombre" xml:space="preserve">
-    <value>Nom:</value>
+    <value>Nom</value>
   </data>
   <data name="NoPoseeAlmacenAsociado" xml:space="preserve">
     <value>Il n'a pas d'entrepôts associés</value>
@@ -1118,7 +1106,7 @@ caractères spéciaux ou espaces.</value>
     <value>Sous catégorie</value>
   </data>
   <data name="Sucursal" xml:space="preserve">
-    <value>Branche:</value>
+    <value>Branche</value>
   </data>
   <data name="Sucursales" xml:space="preserve">
     <value>Les branches</value>
@@ -1139,7 +1127,7 @@ caractères spéciaux ou espaces.</value>
     <value>Tâche</value>
   </data>
   <data name="Telefonos" xml:space="preserve">
-    <value>Téléphones:</value>
+    <value>Téléphones</value>
   </data>
   <data name="this.Text" xml:space="preserve">
     <value>Users Test Style</value>
@@ -1190,7 +1178,7 @@ caractères spéciaux ou espaces.</value>
     <value>Utilisateur</value>
   </data>
   <data name="UsuarioBloqueado" xml:space="preserve">
-    <value>Utilisateur bloqué, contactez l'administrateur pour accéder au système.</value>
+    <value>Utilisateur bloqué contactez l'administrateur pour accéder au système</value>
   </data>
   <data name="UsuariosEliminados" xml:space="preserve">
     <value>Utilisateurs supprimés</value>
@@ -1242,5 +1230,11 @@ caractères spéciaux ou espaces.</value>
   </data>
   <data name="Hasta" xml:space="preserve">
     <value>Jusqu'à</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Chercher</value>
+  </data>
+  <data name="SeleccionarTipoMov" xml:space="preserve">
+    <value>Vous devez sélectionner un type de mouvement pour vous inscrire</value>
   </data>
 </root>

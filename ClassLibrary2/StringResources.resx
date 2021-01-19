@@ -201,9 +201,6 @@
   <data name="Ayuda" xml:space="preserve">
     <value>Ayuda</value>
   </data>
-  <data name="btnBuscar" xml:space="preserve">
-    <value>Buscar</value>
-  </data>
   <data name="btnSalir" xml:space="preserve">
     <value>Salir</value>
   </data>
@@ -375,7 +372,7 @@
   <data name="Descartar" xml:space="preserve">
     <value>Descartar</value>
   </data>
-  <data name="Descripcion" xml:space="preserve">
+  <data name="Descripciondospuntos" xml:space="preserve">
     <value>Descripción:</value>
   </data>
   <data name="DescripcionSubCatg" xml:space="preserve">
@@ -394,7 +391,7 @@
     <value>Desea Eliminar las Unidades</value>
   </data>
   <data name="DetallesDeUsuario" xml:space="preserve">
-    <value>Detalles De Usuario</value>
+    <value>Detalles de Usuario</value>
   </data>
   <data name="Devoluciones" xml:space="preserve">
     <value>Devoluciones</value>
@@ -436,7 +433,7 @@
     <value>Eliminar</value>
   </data>
   <data name="EliminarSubcategioria" xml:space="preserve">
-    <value>¿Desea Eliminar la Subcategoria </value>
+    <value>¿Desea Eliminar la Subcategoria</value>
   </data>
   <data name="email" xml:space="preserve">
     <value>e-mail</value>
@@ -492,7 +489,7 @@
   <data name="fecha" xml:space="preserve">
     <value>Fecha</value>
   </data>
-  <data name="Fecha1" xml:space="preserve">
+  <data name="Fechadospuntos" xml:space="preserve">
     <value>Fecha:</value>
   </data>
   <data name="FechaCreacion" xml:space="preserve">
@@ -502,7 +499,7 @@
     <value>Fecha de Registro:</value>
   </data>
   <data name="frmAtributo.EliminarAtributo" xml:space="preserve">
-    <value>Desea eliminar el Atributo </value>
+    <value>Desea eliminar el Atributo</value>
   </data>
   <data name="frmAtributo.EliminarEstatusMaquina" xml:space="preserve">
     <value>Desea eliminar el Estatus</value>
@@ -567,9 +564,6 @@
   <data name="frmFallaMaquia.msjDeseaEliminar.mt" xml:space="preserve">
     <value>¿Desea eliminar</value>
   </data>
-  <data name="frmFallaMaquinas.msjActualizacionExitosa" xml:space="preserve">
-    <value>Actualización Exitosa</value>
-  </data>
   <data name="frmFallaMaquinas.Titulo" xml:space="preserve">
     <value>Falla de Maquinas</value>
   </data>
@@ -595,7 +589,7 @@
     <value>Validación de Nombre de Usuario</value>
   </data>
   <data name="frmMaquina.EliminarMaquina" xml:space="preserve">
-    <value>Desea eliminar la Maquina </value>
+    <value>Desea eliminar la Maquina</value>
   </data>
   <data name="frmMonedas.CodIso" xml:space="preserve">
     <value>Código ISO</value>
@@ -616,7 +610,7 @@
     <value>Este codigo no debe de tener 
 caracteres especiales ni espacios.</value>
   </data>
-  <data name="frmPreguntasDeSeguridad.lblPregunta" xml:space="preserve">
+  <data name="Pregunta" xml:space="preserve">
     <value>Pregunta</value>
   </data>
   <data name="frmPreguntasDeSeguridad.lvPreguntas" xml:space="preserve">
@@ -638,16 +632,10 @@ caracteres especiales ni espacios.</value>
     <value>&amp;Inventario</value>
   </data>
   <data name="frmPrincipal.MenuStripAdministracion" xml:space="preserve">
-    <value>&amp;Administración </value>
-  </data>
-  <data name="frmPrincipal.MenuStripAdministracion1" xml:space="preserve">
-    <value>Administración </value>
+    <value>&amp;Administración</value>
   </data>
   <data name="frmPrincipal.MenuStripAyuda" xml:space="preserve">
     <value>A&amp;yuda</value>
-  </data>
-  <data name="frmPrincipal.MenuStripAyuda1" xml:space="preserve">
-    <value>Ayuda</value>
   </data>
   <data name="frmPrincipal.MenuStripCambiarClave" xml:space="preserve">
     <value>Cambiar Clave</value>
@@ -656,13 +644,13 @@ caracteres especiales ni espacios.</value>
     <value>Cambiar Respuestas</value>
   </data>
   <data name="frmPrincipal.MenuStripHistorialOperaciones" xml:space="preserve">
-    <value>Histórico de operaciones </value>
+    <value>Histórico de operaciones</value>
   </data>
   <data name="frmPrincipal.MenuStripInicio" xml:space="preserve">
     <value>&amp;Inicio</value>
   </data>
   <data name="frmPrincipal.MenuStripInicio-CambiarSesion" xml:space="preserve">
-    <value>Cambiar de Sesión </value>
+    <value>Cambiar de Sesión</value>
   </data>
   <data name="frmPrincipal.MenuStripInicio1" xml:space="preserve">
     <value>Inicio</value>
@@ -776,7 +764,7 @@ caracteres especiales ni espacios.</value>
     <value>Debe ingresar una descripción para el nuevo código</value>
   </data>
   <data name="frmStaUsuarios.messDeseaEliminarStatus" xml:space="preserve">
-    <value>¿Desea Eliminar el Status  </value>
+    <value>¿Desea Eliminar el Status</value>
   </data>
   <data name="frmSucursales.NoHayMonedas" xml:space="preserve">
     <value>No existen Monedas Asociadas</value>
@@ -803,7 +791,7 @@ caracteres especiales ni espacios.</value>
     <value>Debe ingresar un Usuario o nombre para realizar la busqueda</value>
   </data>
   <data name="frmUsuarioEstiloPrueba.messDeseaEliminarUsuario" xml:space="preserve">
-    <value>¿Desea Eliminar el Usuario  </value>
+    <value>¿Desea Eliminar el Usuario</value>
   </data>
   <data name="frmUsuarioEstiloPrueba.TituloFormulario" xml:space="preserve">
     <value>Buscar/Agregar Usuarios</value>
@@ -811,7 +799,7 @@ caracteres especiales ni espacios.</value>
   <data name="frmUsuarioEstiloPrueba.TituloValidacionDeActualizacion" xml:space="preserve">
     <value>Validación De Actualización</value>
   </data>
-  <data name="frmUsuarioPruebaEstilo_cboAdministracion" xml:space="preserve">
+  <data name="Administración" xml:space="preserve">
     <value>Administración</value>
   </data>
   <data name="frmUsuarioPruebaEstilo_cboContabilidad" xml:space="preserve">
@@ -821,7 +809,7 @@ caracteres especiales ni espacios.</value>
     <value>¿Desea Eliminar definitivamente los usuarios?</value>
   </data>
   <data name="frmUsuariosEliminados.messDeseaEliminarUsuario" xml:space="preserve">
-    <value>¿Desea Eliminar definitivamente el Usuario  </value>
+    <value>¿Desea Eliminar definitivamente el Usuario</value>
   </data>
   <data name="frmValidarClaveVieja.lblContraseña" xml:space="preserve">
     <value>Contraseña</value>
@@ -871,7 +859,7 @@ caracteres especiales ni espacios.</value>
   <data name="IvaVenta" xml:space="preserve">
     <value>IVA Venta:</value>
   </data>
-  <data name="lblDescripcion.Text" xml:space="preserve">
+  <data name="Descripcion" xml:space="preserve">
     <value>Descripción</value>
   </data>
   <data name="lblNombeDosPuntos" xml:space="preserve">
@@ -1034,7 +1022,7 @@ caracteres especiales ni espacios.</value>
     <value>Productos Terminados</value>
   </data>
   <data name="ProgramaciondeProduccion" xml:space="preserve">
-    <value>Programacion de Producción </value>
+    <value>Programacion de Producción</value>
   </data>
   <data name="Propiedades" xml:space="preserve">
     <value>Propiedades</value>
@@ -1223,7 +1211,7 @@ caracteres especiales ni espacios.</value>
     <value>Ya existe un registro con este Código</value>
   </data>
   <data name="NoSePuedeEliminarCedulaPro" xml:space="preserve">
-    <value>No se puede eliminar la Cedula </value>
+    <value>No se puede eliminar la Cedula</value>
   </data>
   <data name="Inventario" xml:space="preserve">
     <value>Inventario</value>
@@ -1242,5 +1230,11 @@ caracteres especiales ni espacios.</value>
   </data>
   <data name="Hasta" xml:space="preserve">
     <value>Hasta</value>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SeleccionarTipoMov" xml:space="preserve">
+    <value>Debe seleccionar un tipo de movimiento para poder registrar</value>
   </data>
 </root>

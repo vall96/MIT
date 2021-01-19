@@ -57,6 +57,8 @@ namespace CapaPresentacion
             }
         }
 
+       
+
         private void frmRegristroUsuario_Load(object sender, EventArgs e)
         {
             AplicarIdioma();
