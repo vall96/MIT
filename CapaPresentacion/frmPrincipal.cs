@@ -673,23 +673,23 @@ namespace CapaPresentacion
                         }
                     }
                     break;
-                case "frmLotes":
-                    if (estado == "inicial")
-                    {
-                        VentLotes = new frmLotes();
-                        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmLotes);
-                        if (frm != null)
-                        {
-                            frm.BringToFront();
-                            return;
-                        }
-                        else
-                        {
-                            VentLotes.MdiParent = this;
-                            VentLotes.Show();
-                        }
-                    }
-                    break;
+                //case "frmLotes":
+                //    if (estado == "inicial")
+                //    {
+                //        VentLotes = new frmLotes(frm);
+                //        Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmLotes);
+                //        if (frm != null)
+                //        {
+                //            frm.BringToFront();
+                //            return;
+                //        }
+                //        else
+                //        {
+                //            VentLotes.MdiParent = this;
+                //            VentLotes.Show();
+                //        }
+                //    }
+                //    break;
             }
         }
 

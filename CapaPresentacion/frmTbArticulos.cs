@@ -125,6 +125,7 @@ namespace CapaPresentacion
                 dtArticulos.Columns.Add("descripcion", Type.GetType("System.String"));
                 dtArticulos.Columns.Add("medida", Type.GetType("System.String"));
                 dtArticulos.Columns.Add("unidad", Type.GetType("System.String"));
+                dtArticulos.Columns.Add("LOTE", Type.GetType("System.String"));
             }
         }
         private void CargarLst()
@@ -140,8 +141,6 @@ namespace CapaPresentacion
                 lvrow.SubItems.Add(dt.Rows[i]["art_serial"].ToString());
                 lvrow.SubItems.Add(dt.Rows[i]["art_Modelo"].ToString());
                 lvrow.SubItems.Add(dt.Rows[i]["art_Garantia"].ToString());
-              //  lvrow.SubItems.Add(dt.Rows[i]["art_Procedencia"].ToString());
-                //art_Garantia
                 this.lstvArticulos.Items.Add(lvrow);
             }
             FiltrarDatos();
@@ -216,19 +215,21 @@ namespace CapaPresentacion
                         dtArticulos.Rows[j]["codigo"] = lstvArticulos.Items[i].SubItems[0].Text;
                         dtArticulos.Rows[j]["descripcion"] = lstvArticulos.Items[i].SubItems[1].Text;
                         dtArticulos.Rows[j]["unidad"] = dt.Rows[i]["art_UnidadFriltro"].ToString();
+                        _codigo = lstvArticulos.Items[i].SubItems[0].Text;
+                        BuscarOtrosDatos();
+                        dtArticulos.Rows[j]["LOTE"] = _lote;
+                        j++; 
 
-                        j++;
                     }
                 }
             }
             dtRelArtic(dtArticulos);
-            //FiltrarDatos();
         }
         private void BuscarOtrosDatos()
         {
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                if (_codigo == dt.Rows[i]["art_Id"].ToString())
+                if (_codigo.ToLower() == dt.Rows[i]["art_Id"].ToString().ToLower())
                 {
                     _codMedida = dt.Rows[i]["art_Unidad"].ToString();
                     _CodFiltro = dt.Rows[i]["art_UnidadFriltro"].ToString(); 

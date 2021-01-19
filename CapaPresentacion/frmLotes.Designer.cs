@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtCodPro = new System.Windows.Forms.TextBox();
             this.btoSalir = new System.Windows.Forms.Button();
             this.btoAceptar = new System.Windows.Forms.Button();
             this.dtpFechaVencimiento = new System.Windows.Forms.DateTimePicker();
@@ -47,6 +48,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txtCodPro);
             this.panel1.Controls.Add(this.btoSalir);
             this.panel1.Controls.Add(this.btoAceptar);
             this.panel1.Controls.Add(this.dtpFechaVencimiento);
@@ -55,8 +57,16 @@
             this.panel1.Controls.Add(this.txtNroLote);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(304, 140);
+            this.panel1.Size = new System.Drawing.Size(307, 153);
             this.panel1.TabIndex = 2;
+            // 
+            // txtCodPro
+            // 
+            this.txtCodPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.txtCodPro.Location = new System.Drawing.Point(140, 4);
+            this.txtCodPro.Name = "txtCodPro";
+            this.txtCodPro.Size = new System.Drawing.Size(143, 24);
+            this.txtCodPro.TabIndex = 37;
             // 
             // btoSalir
             // 
@@ -65,7 +75,7 @@
             this.btoSalir.ForeColor = System.Drawing.SystemColors.Control;
             this.btoSalir.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btoSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoSalir.Location = new System.Drawing.Point(193, 101);
+            this.btoSalir.Location = new System.Drawing.Point(190, 111);
             this.btoSalir.Name = "btoSalir";
             this.btoSalir.Size = new System.Drawing.Size(93, 27);
             this.btoSalir.TabIndex = 36;
@@ -80,7 +90,7 @@
             this.btoAceptar.ForeColor = System.Drawing.SystemColors.Control;
             this.btoAceptar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btoAceptar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoAceptar.Location = new System.Drawing.Point(31, 101);
+            this.btoAceptar.Location = new System.Drawing.Point(28, 111);
             this.btoAceptar.Name = "btoAceptar";
             this.btoAceptar.Size = new System.Drawing.Size(86, 27);
             this.btoAceptar.TabIndex = 35;
@@ -92,7 +102,7 @@
             // 
             this.dtpFechaVencimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.dtpFechaVencimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaVencimiento.Location = new System.Drawing.Point(193, 57);
+            this.dtpFechaVencimiento.Location = new System.Drawing.Point(190, 67);
             this.dtpFechaVencimiento.Name = "dtpFechaVencimiento";
             this.dtpFechaVencimiento.Size = new System.Drawing.Size(93, 24);
             this.dtpFechaVencimiento.TabIndex = 9;
@@ -102,7 +112,7 @@
             // 
             this.lblFechaVencimiento.AutoSize = true;
             this.lblFechaVencimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.lblFechaVencimiento.Location = new System.Drawing.Point(28, 62);
+            this.lblFechaVencimiento.Location = new System.Drawing.Point(25, 72);
             this.lblFechaVencimiento.Name = "lblFechaVencimiento";
             this.lblFechaVencimiento.Size = new System.Drawing.Size(154, 18);
             this.lblFechaVencimiento.TabIndex = 8;
@@ -112,7 +122,7 @@
             // 
             this.lblNroLote.AutoSize = true;
             this.lblNroLote.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.lblNroLote.Location = new System.Drawing.Point(28, 27);
+            this.lblNroLote.Location = new System.Drawing.Point(25, 37);
             this.lblNroLote.Name = "lblNroLote";
             this.lblNroLote.Size = new System.Drawing.Size(86, 18);
             this.lblNroLote.TabIndex = 7;
@@ -121,7 +131,7 @@
             // txtNroLote
             // 
             this.txtNroLote.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtNroLote.Location = new System.Drawing.Point(143, 24);
+            this.txtNroLote.Location = new System.Drawing.Point(140, 34);
             this.txtNroLote.Name = "txtNroLote";
             this.txtNroLote.Size = new System.Drawing.Size(143, 24);
             this.txtNroLote.TabIndex = 6;
@@ -132,7 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.images__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(324, 168);
+            this.ClientSize = new System.Drawing.Size(343, 177);
             this.Controls.Add(this.panel1);
             this.KeyPreview = true;
             this.Name = "frmLotes";
@@ -151,8 +161,9 @@
         private System.Windows.Forms.DateTimePicker dtpFechaVencimiento;
         private System.Windows.Forms.Label lblFechaVencimiento;
         private System.Windows.Forms.Label lblNroLote;
-        private System.Windows.Forms.TextBox txtNroLote;
         private System.Windows.Forms.Button btoAceptar;
         private System.Windows.Forms.Button btoSalir;
+        public System.Windows.Forms.TextBox txtCodPro;
+        public System.Windows.Forms.TextBox txtNroLote;
     }
 }

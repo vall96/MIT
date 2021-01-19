@@ -304,8 +304,8 @@ namespace CapaPresentacion
             {
                 this.txtCodigo.Enabled = false;
                 this.txtAlmacen.Enabled = false;
-            //    this.txtContacto.Enabled = false;
-           //     this.btoBuscar.Enabled = false;
+              //this.txtContacto.Enabled = false;
+              //this.btoBuscar.Enabled = false;
               //  this.btoAceptar.Enabled = false;
             }
         }

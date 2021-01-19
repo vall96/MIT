@@ -77,10 +77,24 @@ namespace CapaLogicaNegocios
         public string m_unidado { get; set; }
         public string m_unidadc { get; set; }
         public string m_ordcod { get; set; }
+        public string m_NumLot { get; set; }
+        //
+        public string m_codAtributos { get; set; }
+        public string m_DescripAtributos { get; set; }
+        public string m_DescripSubCat { get; set; }
+        public string m_codCategorias { get; set; }
+        public string m_DescripCategorias { get; set; }
+        public string m_codUnidades { get; set; }
+        public string m_DescripUnidades { get; set; }
+        public string m_codCedulaProd { get; set; }
+        public string m_DescripCedulaProd { get; set; }
         //-----------------------------------------------
         public int m_IVA { get; set; }
         public int m_LOTE { get; set; }
         public DateTime inicio, fin;
+        public DateTime Fechas;
+        string fecha;
+        public string m_Almacen { get; set; }
         //-----------------------------------------------
         public DataTable listadoEmpresa()
         {
@@ -159,7 +173,6 @@ namespace CapaLogicaNegocios
         {
             List<clsParametros> lst = new List<clsParametros>();
             string mensaje = "";
-
             try
             {
                 //pasamos parametros de entrada
@@ -174,7 +187,6 @@ namespace CapaLogicaNegocios
                 lst.Add(new clsParametros("@emprWeb", m_emprWeb));
                 lst.Add(new clsParametros("@emprFechaCreacion", m_emprFechaCreacion));
                 lst.Add(new clsParametros("@emprNomb", m_emprNomb));
-                // lst.Add(new clsParametros("@emprMoneda", m_emprMoneda));
                 lst.Add(new clsParametros("@empContacto", m_empContacto));
                 lst.Add(new clsParametros("@empNombCorto", m_emprNombCorto));
                 //pasamos datos de salida 
@@ -194,10 +206,8 @@ namespace CapaLogicaNegocios
         }
         public string registar_empresaSucursal(string nombreBD)
         {
-
             List<clsParametros> lst = new List<clsParametros>();
             string mensaje = "";
-
             try
             {
                 //pasamos parametros de entrada
@@ -411,8 +421,6 @@ namespace CapaLogicaNegocios
             return M.Listado("sp_ListarArticulos", null);
         }
         //procedencia
-
-        //sp_ListarProcedencia
         public DataTable ListadoProcedencia(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -498,9 +506,6 @@ namespace CapaLogicaNegocios
             return mensaje;
         }
         //------------------------- Atributos ---------------------------   VALERIE
-        public string m_codAtributos { get; set; }
-        public string m_DescripAtributos { get; set; }
-        //ATRIBUTOS----------------------------------------------------------------
         public DataTable ListadoAtributos(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -656,9 +661,6 @@ namespace CapaLogicaNegocios
             return mensaje;
         }
         //CATEGORIAS VALERIE 
-        public string m_codCategorias { get; set; }
-        public string m_DescripCategorias { get; set; }
-        //----------------------------------------------------------
         public string ActualizarCategorias(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -837,7 +839,6 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-        public string m_DescripSubCat { get; set; }
         //----------------------------------------------------------
         public string ActualizarSubCategorias(string nombreBd)
         {
@@ -920,8 +921,6 @@ namespace CapaLogicaNegocios
             return M.Listado("sp_listarSubCategoria", null);
         }
         //Unidades Valerie 16102019
-        public string m_codUnidades { get; set; }
-        public string m_DescripUnidades { get; set; }
         public string ActualizarUnidades(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -992,8 +991,7 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-        public string m_codCedulaProd { get; set; }
-        public string m_DescripCedulaProd { get; set; }
+        
         //-----------------------------FIN Valerie 16102019 ---------------------------------------------
 
         //----------------Oscar------
@@ -1455,7 +1453,6 @@ namespace CapaLogicaNegocios
         }
         public void ActualizarTiempoMaquina(DataTable dt, string nombreBd)
         {
-
             M.CambiarBD(nombreBd);
             M.InsertarDt(dt, "Sp_ActualizarTareaTM", "@dtRelacion");
         }
@@ -1659,7 +1656,6 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd); 
             M.InsertarDt(dt, "Sp_ActualizarCedulaArticulo", "@dtRelacion");
         }
-        //SEPTIEMBRE
         public DataTable Listado_TipoMovimientoInventario(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1747,7 +1743,6 @@ namespace CapaLogicaNegocios
                 throw ex;
             }
         }
-       
         public DataTable Listado_FechaFiltro(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1786,7 +1781,6 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-        string fecha;
         public string EliminarMovIn(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1820,6 +1814,51 @@ namespace CapaLogicaNegocios
         {
             M.CambiarBD(nombreBd); 
             M.InsertarDt(dt, "Sp_ActualizarArticulo_Prov", "@dtRelacion");
+        }
+        //
+        public string NrodeLote(string nombreBd)
+        {
+            M.CambiarBD(nombreBd);
+            List<clsParametros> lst = new List<clsParametros>();
+            string mensaje = "";
+            try
+            {
+                lst.Add(new clsParametros("@lot_coArt", codigo));
+                lst.Add(new clsParametros("@lot_nroLote", m_NumLot));
+                lst.Add(new clsParametros("@lot_fecVencimiento", Fechas));
+
+                lst.Add(new clsParametros("@mensaje", SqlDbType.VarChar, 20));
+                M.EjecutarSP("Sp_NrodeLote", ref lst);
+                mensaje = lst[3].m_valor.ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return mensaje;
+        }
+        public string RegistarStLote(string nombreBd)
+        {
+            M.CambiarBD(nombreBd);
+            List<clsParametros> lst = new List<clsParametros>();
+            string mensaje = "";
+            try
+            {
+                lst.Add(new clsParametros("@St_codAlm", m_Almacen));
+                lst.Add(new clsParametros("@St_codArt", m_cod));
+                lst.Add(new clsParametros("@St_nroLote", m_NumLot));
+                lst.Add(new clsParametros("@St_stock", m_Cantidad));
+                lst.Add(new clsParametros("@St_fecha", Fechas));
+
+                lst.Add(new clsParametros("@mensaje", SqlDbType.VarChar, 20));
+                M.EjecutarSP("Sp_RegistrarStLote", ref lst);
+                mensaje = lst[5].m_valor.ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return mensaje;
         }
     }
 }

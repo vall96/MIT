@@ -38,6 +38,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.tpgInfoGeneral = new System.Windows.Forms.ToolStrip();
@@ -60,16 +61,6 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.BtoEliminarInv = new System.Windows.Forms.Button();
             this.DgvMovDeInventario = new System.Windows.Forms.DataGridView();
-            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.DTPfechaRegistro = new System.Windows.Forms.DateTimePicker();
             this.lblFecha = new System.Windows.Forms.Label();
@@ -98,6 +89,17 @@
             this.lblCod = new System.Windows.Forms.Label();
             this.lblMaquinas = new System.Windows.Forms.Label();
             this.miniToolStrip = new System.Windows.Forms.ToolStrip();
+            this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ColArticulos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnArt = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColTipoMov = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColBtnAlmacen = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.ColCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colLoteCheck = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tpgInfoGeneral.SuspendLayout();
@@ -360,7 +362,8 @@
             this.ColBtnAlmacen,
             this.ColCantidad,
             this.ColUnidad,
-            this.ColCBOProceso});
+            this.ColCBOProceso,
+            this.colLoteCheck});
             this.DgvMovDeInventario.Enabled = false;
             this.DgvMovDeInventario.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.DgvMovDeInventario.Location = new System.Drawing.Point(9, 3);
@@ -374,106 +377,6 @@
             this.DgvMovDeInventario.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellEndEdit);
             this.DgvMovDeInventario.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.DgvMovDeInventario_CellValidating);
             this.DgvMovDeInventario.CurrentCellChanged += new System.EventHandler(this.DgvMovDeInventario_CurrentCellChanged);
-            // 
-            // ColCheck
-            // 
-            this.ColCheck.Frozen = true;
-            this.ColCheck.HeaderText = "";
-            this.ColCheck.Name = "ColCheck";
-            this.ColCheck.Visible = false;
-            this.ColCheck.Width = 20;
-            // 
-            // ColArticulos
-            // 
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ColArticulos.Frozen = true;
-            this.ColArticulos.HeaderText = "Articulos";
-            this.ColArticulos.Name = "ColArticulos";
-            this.ColArticulos.Width = 160;
-            // 
-            // ColBtnArt
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ColBtnArt.Frozen = true;
-            this.ColBtnArt.HeaderText = "";
-            this.ColBtnArt.Name = "ColBtnArt";
-            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnArt.Text = "...";
-            this.ColBtnArt.ToolTipText = "agg";
-            this.ColBtnArt.Width = 30;
-            // 
-            // ColFecha
-            // 
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
-            this.ColFecha.Frozen = true;
-            this.ColFecha.HeaderText = "Fecha";
-            this.ColFecha.Name = "ColFecha";
-            this.ColFecha.Width = 95;
-            // 
-            // ColTipoMov
-            // 
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ColTipoMov.Frozen = true;
-            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
-            this.ColTipoMov.Name = "ColTipoMov";
-            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.ColTipoMov.Visible = false;
-            // 
-            // ColAlmacen
-            // 
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
-            this.ColAlmacen.Frozen = true;
-            this.ColAlmacen.HeaderText = "Almacen";
-            this.ColAlmacen.Name = "ColAlmacen";
-            this.ColAlmacen.Width = 200;
-            // 
-            // ColBtnAlmacen
-            // 
-            this.ColBtnAlmacen.DataPropertyName = "...";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
-            this.ColBtnAlmacen.Frozen = true;
-            this.ColBtnAlmacen.HeaderText = "";
-            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
-            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ColBtnAlmacen.Text = "...";
-            this.ColBtnAlmacen.ToolTipText = "Agg";
-            this.ColBtnAlmacen.Width = 30;
-            // 
-            // ColCantidad
-            // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.Format = "N0";
-            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
-            this.ColCantidad.Frozen = true;
-            this.ColCantidad.HeaderText = "Cantidad";
-            this.ColCantidad.Name = "ColCantidad";
-            // 
-            // ColUnidad
-            // 
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
-            this.ColUnidad.HeaderText = "Unidad";
-            this.ColUnidad.Name = "ColUnidad";
-            // 
-            // ColCBOProceso
-            // 
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
-            this.ColCBOProceso.HeaderText = "Proceso";
-            this.ColCBOProceso.Name = "ColCBOProceso";
-            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ColCBOProceso.Width = 150;
             // 
             // panel3
             // 
@@ -792,6 +695,114 @@
             this.miniToolStrip.Size = new System.Drawing.Size(361, 42);
             this.miniToolStrip.TabIndex = 20;
             // 
+            // ColCheck
+            // 
+            this.ColCheck.Frozen = true;
+            this.ColCheck.HeaderText = "";
+            this.ColCheck.Name = "ColCheck";
+            this.ColCheck.Visible = false;
+            this.ColCheck.Width = 20;
+            // 
+            // ColArticulos
+            // 
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.ColArticulos.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ColArticulos.Frozen = true;
+            this.ColArticulos.HeaderText = "Articulos";
+            this.ColArticulos.Name = "ColArticulos";
+            this.ColArticulos.Width = 160;
+            // 
+            // ColBtnArt
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnArt.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ColBtnArt.Frozen = true;
+            this.ColBtnArt.HeaderText = "";
+            this.ColBtnArt.Name = "ColBtnArt";
+            this.ColBtnArt.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnArt.Text = "...";
+            this.ColBtnArt.ToolTipText = "agg";
+            this.ColBtnArt.Width = 30;
+            // 
+            // ColFecha
+            // 
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.ColFecha.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ColFecha.Frozen = true;
+            this.ColFecha.HeaderText = "Fecha";
+            this.ColFecha.Name = "ColFecha";
+            this.ColFecha.Width = 95;
+            // 
+            // ColTipoMov
+            // 
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.ColTipoMov.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ColTipoMov.Frozen = true;
+            this.ColTipoMov.HeaderText = "Tipo de Movimiento";
+            this.ColTipoMov.Name = "ColTipoMov";
+            this.ColTipoMov.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColTipoMov.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.ColTipoMov.Visible = false;
+            // 
+            // ColAlmacen
+            // 
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.ColAlmacen.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ColAlmacen.Frozen = true;
+            this.ColAlmacen.HeaderText = "Almacen";
+            this.ColAlmacen.Name = "ColAlmacen";
+            this.ColAlmacen.Width = 200;
+            // 
+            // ColBtnAlmacen
+            // 
+            this.ColBtnAlmacen.DataPropertyName = "...";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.ColBtnAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
+            this.ColBtnAlmacen.Frozen = true;
+            this.ColBtnAlmacen.HeaderText = "";
+            this.ColBtnAlmacen.Name = "ColBtnAlmacen";
+            this.ColBtnAlmacen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ColBtnAlmacen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ColBtnAlmacen.Text = "...";
+            this.ColBtnAlmacen.ToolTipText = "Agg";
+            this.ColBtnAlmacen.Width = 30;
+            // 
+            // ColCantidad
+            // 
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.Format = "N0";
+            this.ColCantidad.DefaultCellStyle = dataGridViewCellStyle7;
+            this.ColCantidad.Frozen = true;
+            this.ColCantidad.HeaderText = "Cantidad";
+            this.ColCantidad.Name = "ColCantidad";
+            // 
+            // ColUnidad
+            // 
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
+            this.ColUnidad.HeaderText = "Unidad";
+            this.ColUnidad.Name = "ColUnidad";
+            // 
+            // ColCBOProceso
+            // 
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
+            this.ColCBOProceso.HeaderText = "Proceso";
+            this.ColCBOProceso.Name = "ColCBOProceso";
+            this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColCBOProceso.Width = 150;
+            // 
+            // colLoteCheck
+            // 
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.colLoteCheck.DefaultCellStyle = dataGridViewCellStyle10;
+            this.colLoteCheck.HeaderText = "loteCheck";
+            this.colLoteCheck.Name = "colLoteCheck";
+            this.colLoteCheck.Visible = false;
+            // 
             // frmMovDeInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -887,5 +898,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColCantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColUnidad;
         private System.Windows.Forms.DataGridViewComboBoxColumn ColCBOProceso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colLoteCheck;
     }
 }

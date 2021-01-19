@@ -1102,7 +1102,7 @@
             this.panel7.ForeColor = System.Drawing.Color.Teal;
             this.panel7.Location = new System.Drawing.Point(15, 50);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(369, 46);
+            this.panel7.Size = new System.Drawing.Size(400, 46);
             this.panel7.TabIndex = 30;
             // 
             // toolStrip2
@@ -1123,7 +1123,7 @@
             this.toolStripBtoDescartar});
             this.toolStrip2.Location = new System.Drawing.Point(4, 0);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(361, 42);
+            this.toolStrip2.Size = new System.Drawing.Size(392, 42);
             this.toolStrip2.TabIndex = 20;
             // 
             // toolStripBtoAgregar

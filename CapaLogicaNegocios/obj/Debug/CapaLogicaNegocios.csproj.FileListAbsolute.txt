@@ -470,3 +470,13 @@ C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogic
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
 C:\Users\vrodriguez\Desktop\MITProduccion\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.pdb
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\bin\Debug\CapaEnlaceD.dll.config
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.csproj.CopyComplete
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.dll
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaLogicaNegocios\obj\Debug\CapaLogicaNegocios.pdb
