@@ -1237,4 +1237,16 @@ caracteres especiales ni espacios.</value>
   <data name="SeleccionarTipoMov" xml:space="preserve">
     <value>Debe seleccionar un tipo de movimiento para poder registrar</value>
   </data>
+  <data name="FechaDeVencimiento" xml:space="preserve">
+    <value>Fecha de Vencimiento</value>
+  </data>
+  <data name="LotesDeEntrada" xml:space="preserve">
+    <value>Lotes de Entrada</value>
+  </data>
+  <data name="NumerodeLote" xml:space="preserve">
+    <value>Numero de Lote</value>
+  </data>
+  <data name="SinLotes" xml:space="preserve">
+    <value>este articulo no trabaja con lotes</value>
+  </data>
 </root>

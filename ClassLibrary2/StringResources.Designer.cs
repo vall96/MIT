@@ -1213,6 +1213,15 @@ namespace CultureResources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Fecha de Vencimiento.
+        /// </summary>
+        public static string FechaDeVencimiento {
+            get {
+                return ResourceManager.GetString("FechaDeVencimiento", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Fecha:.
         /// </summary>
         public static string Fechadospuntos {
@@ -2348,6 +2357,15 @@ namespace CultureResources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Lotes de Entrada.
+        /// </summary>
+        public static string LotesDeEntrada {
+            get {
+                return ResourceManager.GetString("LotesDeEntrada", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Maquina Con Fallas.
         /// </summary>
         public static string MaquinaConFallas {
@@ -2578,6 +2596,15 @@ namespace CultureResources {
         public static string NumeroDecimal {
             get {
                 return ResourceManager.GetString("NumeroDecimal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Numero de Lote.
+        /// </summary>
+        public static string NumerodeLote {
+            get {
+                return ResourceManager.GetString("NumerodeLote", resourceCulture);
             }
         }
         
@@ -3037,6 +3064,15 @@ namespace CultureResources {
         public static string SinImpuesto {
             get {
                 return ResourceManager.GetString("SinImpuesto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a este articulo no trabaja con lotes.
+        /// </summary>
+        public static string SinLotes {
+            get {
+                return ResourceManager.GetString("SinLotes", resourceCulture);
             }
         }
         

@@ -39,6 +39,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.tpgInfoGeneral = new System.Windows.Forms.ToolStrip();
@@ -100,6 +102,8 @@
             this.ColUnidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColCBOProceso = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.colLoteCheck = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColLote = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColFecVenc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tpgInfoGeneral.SuspendLayout();
@@ -127,7 +131,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1064, 642);
+            this.panel1.Size = new System.Drawing.Size(1037, 642);
             this.panel1.TabIndex = 7;
             // 
             // panel7
@@ -257,7 +261,7 @@
             this.btoSalir.ForeColor = System.Drawing.SystemColors.Control;
             this.btoSalir.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btoSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoSalir.Location = new System.Drawing.Point(900, 602);
+            this.btoSalir.Location = new System.Drawing.Point(926, 605);
             this.btoSalir.Name = "btoSalir";
             this.btoSalir.Size = new System.Drawing.Size(99, 30);
             this.btoSalir.TabIndex = 4;
@@ -271,7 +275,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label10.Location = new System.Drawing.Point(991, -2);
+            this.label10.Location = new System.Drawing.Point(1041, -2);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 33);
             this.label10.TabIndex = 26;
@@ -285,7 +289,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(12, 114);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1034, 482);
+            this.panel2.Size = new System.Drawing.Size(1013, 471);
             this.panel2.TabIndex = 2;
             this.panel2.Tag = "";
             // 
@@ -296,7 +300,7 @@
             this.tapInfoG.Location = new System.Drawing.Point(3, 99);
             this.tapInfoG.Name = "tapInfoG";
             this.tapInfoG.SelectedIndex = 0;
-            this.tapInfoG.Size = new System.Drawing.Size(1009, 365);
+            this.tapInfoG.Size = new System.Drawing.Size(1001, 365);
             this.tapInfoG.TabIndex = 1;
             // 
             // tpInformacionGeneral
@@ -306,7 +310,7 @@
             this.tpInformacionGeneral.Location = new System.Drawing.Point(4, 27);
             this.tpInformacionGeneral.Name = "tpInformacionGeneral";
             this.tpInformacionGeneral.Padding = new System.Windows.Forms.Padding(3);
-            this.tpInformacionGeneral.Size = new System.Drawing.Size(1001, 334);
+            this.tpInformacionGeneral.Size = new System.Drawing.Size(993, 334);
             this.tpInformacionGeneral.TabIndex = 0;
             this.tpInformacionGeneral.Text = "Informacion General";
             this.tpInformacionGeneral.UseVisualStyleBackColor = true;
@@ -330,7 +334,7 @@
             this.panel8.Controls.Add(this.DgvMovDeInventario);
             this.panel8.Location = new System.Drawing.Point(6, 13);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(985, 312);
+            this.panel8.Size = new System.Drawing.Size(972, 312);
             this.panel8.TabIndex = 40;
             // 
             // BtoEliminarInv
@@ -339,7 +343,7 @@
             this.BtoEliminarInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtoEliminarInv.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BtoEliminarInv.Image = ((System.Drawing.Image)(resources.GetObject("BtoEliminarInv.Image")));
-            this.BtoEliminarInv.Location = new System.Drawing.Point(922, 280);
+            this.BtoEliminarInv.Location = new System.Drawing.Point(909, 280);
             this.BtoEliminarInv.Name = "BtoEliminarInv";
             this.BtoEliminarInv.Size = new System.Drawing.Size(45, 27);
             this.BtoEliminarInv.TabIndex = 45;
@@ -363,14 +367,16 @@
             this.ColCantidad,
             this.ColUnidad,
             this.ColCBOProceso,
-            this.colLoteCheck});
+            this.colLoteCheck,
+            this.ColLote,
+            this.ColFecVenc});
             this.DgvMovDeInventario.Enabled = false;
             this.DgvMovDeInventario.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.DgvMovDeInventario.Location = new System.Drawing.Point(9, 3);
             this.DgvMovDeInventario.Name = "DgvMovDeInventario";
             this.DgvMovDeInventario.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.DgvMovDeInventario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgvMovDeInventario.Size = new System.Drawing.Size(958, 264);
+            this.DgvMovDeInventario.Size = new System.Drawing.Size(945, 264);
             this.DgvMovDeInventario.TabIndex = 8;
             this.DgvMovDeInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellClick);
             this.DgvMovDeInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvMovDeInventario_CellContentClick);
@@ -396,7 +402,7 @@
             this.panel3.Controls.Add(this.lblFechaInicial);
             this.panel3.Location = new System.Drawing.Point(4, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1004, 90);
+            this.panel3.Size = new System.Drawing.Size(996, 90);
             this.panel3.TabIndex = 0;
             // 
             // DTPfechaRegistro
@@ -517,7 +523,7 @@
             this.btoBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btoBuscar.ForeColor = System.Drawing.Color.White;
             this.btoBuscar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btoBuscar.Location = new System.Drawing.Point(849, 29);
+            this.btoBuscar.Location = new System.Drawing.Point(825, 44);
             this.btoBuscar.Name = "btoBuscar";
             this.btoBuscar.Size = new System.Drawing.Size(75, 27);
             this.btoBuscar.TabIndex = 25;
@@ -558,7 +564,7 @@
             this.lblTituloPanel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblTituloPanel.Location = new System.Drawing.Point(0, 0);
             this.lblTituloPanel.Name = "lblTituloPanel";
-            this.lblTituloPanel.Size = new System.Drawing.Size(1060, 31);
+            this.lblTituloPanel.Size = new System.Drawing.Size(1033, 31);
             this.lblTituloPanel.TabIndex = 0;
             this.lblTituloPanel.Text = "Movimiento de Inventario";
             this.lblTituloPanel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -783,6 +789,7 @@
             // 
             dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
             this.ColUnidad.DefaultCellStyle = dataGridViewCellStyle8;
+            this.ColUnidad.Frozen = true;
             this.ColUnidad.HeaderText = "Unidad";
             this.ColUnidad.Name = "ColUnidad";
             // 
@@ -790,6 +797,7 @@
             // 
             dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
             this.ColCBOProceso.DefaultCellStyle = dataGridViewCellStyle9;
+            this.ColCBOProceso.Frozen = true;
             this.ColCBOProceso.HeaderText = "Proceso";
             this.ColCBOProceso.Name = "ColCBOProceso";
             this.ColCBOProceso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -803,13 +811,33 @@
             this.colLoteCheck.Name = "colLoteCheck";
             this.colLoteCheck.Visible = false;
             // 
+            // ColLote
+            // 
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            this.ColLote.DefaultCellStyle = dataGridViewCellStyle11;
+            this.ColLote.Frozen = true;
+            this.ColLote.HeaderText = "Lote";
+            this.ColLote.Name = "ColLote";
+            this.ColLote.ReadOnly = true;
+            this.ColLote.Visible = false;
+            // 
+            // ColFecVenc
+            // 
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            this.ColFecVenc.DefaultCellStyle = dataGridViewCellStyle12;
+            this.ColFecVenc.Frozen = true;
+            this.ColFecVenc.HeaderText = "Fec_Venc";
+            this.ColFecVenc.Name = "ColFecVenc";
+            this.ColFecVenc.ReadOnly = true;
+            this.ColFecVenc.Visible = false;
+            // 
             // frmMovDeInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CapaPresentacion.Properties.Resources.images__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1088, 666);
+            this.ClientSize = new System.Drawing.Size(1061, 666);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -899,5 +927,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColUnidad;
         private System.Windows.Forms.DataGridViewComboBoxColumn ColCBOProceso;
         private System.Windows.Forms.DataGridViewTextBoxColumn colLoteCheck;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColLote;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColFecVenc;
     }
 }

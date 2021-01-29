@@ -1237,4 +1237,16 @@ special characters or spaces.</value>
   <data name="SeleccionarTipoMov" xml:space="preserve">
     <value>You must select a type of movement to register</value>
   </data>
+  <data name="FechaDeVencimiento" xml:space="preserve">
+    <value>Expiration date</value>
+  </data>
+  <data name="LotesDeEntrada" xml:space="preserve">
+    <value>Input lots</value>
+  </data>
+  <data name="NumerodeLote" xml:space="preserve">
+    <value>Lot number</value>
+  </data>
+  <data name="SinLotes" xml:space="preserve">
+    <value>this article does not work with batches</value>
+  </data>
 </root>

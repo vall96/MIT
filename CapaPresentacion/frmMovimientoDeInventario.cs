@@ -12,8 +12,7 @@ namespace CapaPresentacion
 {
     public partial class frmMovDeInventario : Form
     {
-        // private const string V = "";
-        clsEmpresa EMP = new clsEmpresa();
+         clsEmpresa EMP = new clsEmpresa();
         frmTbArticulos VentArticulos;
         frmTbAlmacenes VentAlmacenes;
         frmLotes VentLotes;
@@ -74,7 +73,7 @@ namespace CapaPresentacion
 
             tipoPais = frmRegristroUsuario.tipoPais;
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(tipoPais);
-            AplicarIdioma();
+            AplicarIdioma(); 
 
             this.Location = new System.Drawing.Point(0, 0);
 
@@ -88,24 +87,12 @@ namespace CapaPresentacion
         }
         public void CargarCboTipoMov()
         {
-            // this.ColCBOTipoMov.Items.Clear();
             CargarlistadoTipoMov();
-
-            //if (valido == "tipomov")
-            //{
-            //    for (int i = 0; i < dtTipoMov.Rows.Count; i++)
-            //    {
-            //        ColCBOTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Descrip"].ToString());
-            //    }
-            //}
-            //else
-            //{
             for (int i = 0; i < dtTipoMov.Rows.Count; i++)
             {
                 cboCodTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Codigo"].ToString());
                 cboTipoMov.Items.Add(dtTipoMov.Rows[i]["TipoMov_Descrip"].ToString());
             }
-            //}
         }
         public void CargarListadoProcesos()
         {
@@ -308,7 +295,7 @@ namespace CapaPresentacion
                     }
                 }
             }
-       
+
         }
         //
         public void ConstruccionDtMovAlmacen()
@@ -443,7 +430,7 @@ namespace CapaPresentacion
                              DtInventario.Rows[i]["Inv_Cantidad"].ToString(),
                              id,
                              " ",
-                             " " );
+                             " ");
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
                         DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
                         DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
@@ -464,8 +451,9 @@ namespace CapaPresentacion
                                         MessageBoxIcon.Information);
                         return;
                     }
-                    EMP.inicio = dtpInicio.Value;
-                    EMP.fin = dtpFinal.Value;
+                    valido = "FechasFiltradas";
+                    EMP.fec_inicio = dtpInicio.Value;
+                    EMP.fec_fin = dtpFinal.Value;
                     EMP.codigo = cboCodTipoMov.Text;
 
                     dtFechasFil = EMP.Listado_FechaFiltro(frmPrincipal.nombreBD);
@@ -493,11 +481,11 @@ namespace CapaPresentacion
                              dtFechasFil.Rows[i]["Inv_Almacen"].ToString(), "...",
                              dtFechasFil.Rows[i]["Inv_Cantidad"].ToString(),
                              id,
-                             " ", 
+                             " ",
                              " ");
                         DgvMovDeInventario.Rows[i].Cells[4].Value = tipoMov;
                         DgvMovDeInventario.Rows[i].Cells["ColCBOProceso"].Value = proc;
-              DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+                        DgvMovDeInventario.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
                     }
                     j++;
                 }
@@ -537,8 +525,6 @@ namespace CapaPresentacion
         }
         private void DgvMovDeInventario_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            // dtp.Location = new System.Drawing.Point(237, 51);
-
             filaDGV = DgvMovDeInventario.CurrentRow.Index; //recoge el valor de la fila en la que esta posicionado el cursor
             //
             if (e.ColumnIndex == 2)
@@ -561,7 +547,7 @@ namespace CapaPresentacion
                     valido = "";
                 }
             }
-            
+
             if (e.ColumnIndex == 4)
             {
                 valido = "tipomov";
@@ -572,10 +558,6 @@ namespace CapaPresentacion
                     MessageBox.Show(mensajeText, mensajeCaption,
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
-                }
-                else
-                {
-                    // CargarCboTipoMov();
                 }
             }
 
@@ -609,6 +591,7 @@ namespace CapaPresentacion
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
+              
                 filaDGV = DgvMovDeInventario.CurrentRow.Index;
             }
             if (e.ColumnIndex == 9)
@@ -631,8 +614,14 @@ namespace CapaPresentacion
         {
             public static string Articulo1;
             public static string AlmacenLote;
-            public static string CantidadLote;
-            public static DateTime FechaIngreso;
+            public static string Mov_Lote;
+            public static DateTime Mov_FechaV;
+        }
+        public void Ejecutar123(DataTable dt)
+        {
+            int a = 0;
+            this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value = dt.Rows[a]["lote"].ToString();
+            this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value = dt.Rows[a]["fechaV"].ToString();
         }
         private void DgvMovDeInventario_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
@@ -645,30 +634,38 @@ namespace CapaPresentacion
                 if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "1")
                 {
                     filaDGV = DgvMovDeInventario.CurrentRow.Index;
-                    cant = Convert.ToInt32(this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString());
-                    if (cant/1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == " ")
+                    if (valido == "si")
                     {
-                        mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
-                        mensajeCaption = StringResources.Validacióndecampos;
-                        MessageBox.Show(mensajeText, mensajeCaption,
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
-                    }
-                    else if (x != 0)
-                    {
-                        valido = "Nro-Lote";
-                        unidadValidar = 1;
-                        art = DgvMovDeInventario.Rows[filaDGV].Cells[1].Value.ToString().ToLower();
-                        CargarCodigoArticulos();
-                        ClaseCompartida.Articulo1 = Articulo;
-                        ClaseCompartida.FechaIngreso = Convert.ToDateTime(DgvMovDeInventario.Rows[filaDGV].Cells[3].Value);
-                        alm = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
-                        CargarCodigoAlmacen();
-                        ClaseCompartida.AlmacenLote = codAlm;
-                        ClaseCompartida.CantidadLote = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
-                        VentLotes = new frmLotes();
-                        VentLotes.ShowDialog();
-                        valido = "";
+                        cant = Convert.ToInt32(this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString());
+                        if (cant / 1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == " ")
+                        {
+                            mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
+                            mensajeCaption = StringResources.Validacióndecampos;
+                            MessageBox.Show(mensajeText, mensajeCaption,
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            return;
+                        }
+                        else if (x != 0)
+                        {
+                            if (this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value != null && this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value != null)
+                            {
+                                valido = "lotes-cargados";
+                                ClaseCompartida.Mov_Lote = this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value.ToString();
+                                ClaseCompartida.Mov_FechaV = Convert.ToDateTime(this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value);
+                                frmLotes VentLotes = new frmLotes();
+                                VentLotes.ShowDialog();
+                            }
+                            else
+                            {
+                                valido = "Nro-Lote";
+                                frmLotes VentLotes = new frmLotes();
+                                VentLotes.relLotes += new frmLotes.relacion(Ejecutar123);
+                                VentLotes.ShowDialog();
+                                DgvMovDeInventario.Columns[12].DefaultCellStyle.Format = "dd/MM/yyyy";
+                                valido = "";
+                            }
+
+                        }
                     }
                 }
                 if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "0")
@@ -681,22 +678,25 @@ namespace CapaPresentacion
         }
         private void DgvMovDeInventario_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
-            if(e.ColumnIndex == 7)
+            if (e.ColumnIndex == 7)
             {
                 DgvMovDeInventario.AllowUserToAddRows = false;
-               
+
                 if (!int.TryParse(Convert.ToString(e.FormattedValue), out x))
                 {
                     if (x == 0)
                     {
+                        valido = "";
                         MessageBox.Show("Solo puede ingresar valores numericos", "validacion",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
-
                     }
                 }
+                else
+                {
+                    valido = "si";
+                }
             }
-           
         }
         //----------------------------------------------------------------------------------------------------------------------------------
         private void cboTipoMov_SelectedIndexChanged(object sender, EventArgs e)
@@ -756,10 +756,9 @@ namespace CapaPresentacion
                     {
                         valido = "sin-lote";
                         VentLotes = new frmLotes();
-                       // VentLotes.ShowDialog();
                         valido = "";
                     }
-                    else if(cant / 1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "")
+                    else if (cant / 1 == 0 || this.DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString() == "")
                     {
                         mensajeText = "la cantidad no puede ser igual a 0 o estar en blanco";
                         mensajeCaption = StringResources.Validacióndecampos;
@@ -768,61 +767,40 @@ namespace CapaPresentacion
                         return;
                     }
 
-                    else if (this.DgvMovDeInventario.Rows[filaDGV].Cells["colLoteCheck"].Value.ToString() == "1")
+                    else if (this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value != null && this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value != null)
+                    {
+                        valido = "lotes-cargados";
+                        ClaseCompartida.Mov_Lote = this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value.ToString();
+                        ClaseCompartida.Mov_FechaV = Convert.ToDateTime(this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value);
+                        frmLotes VentLotes = new frmLotes();
+                        VentLotes.ShowDialog();
+                        DgvMovDeInventario.Columns[12].DefaultCellStyle.Format = "dd/MM/yyyy";
+
+                    }
+                    else
                     {
                         valido = "Nro-Lote";
-                        unidadValidar = 1;
-                        art = DgvMovDeInventario.Rows[filaDGV].Cells[1].Value.ToString().ToLower();
-                        CargarCodigoArticulos();
-                        ClaseCompartida.Articulo1 = Articulo;
-                        ClaseCompartida.FechaIngreso = Convert.ToDateTime(DgvMovDeInventario.Rows[filaDGV].Cells[3].Value);
-                        alm = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
-                        CargarCodigoAlmacen();
-                        ClaseCompartida.AlmacenLote = codAlm;
-                        ClaseCompartida.CantidadLote = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
-                        VentLotes = new frmLotes();
+                        frmLotes VentLotes = new frmLotes();
+                        VentLotes.relLotes += new frmLotes.relacion(Ejecutar123);
                         VentLotes.ShowDialog();
-                        //  CargarDatosLotes();
+                        DgvMovDeInventario.Columns[12].DefaultCellStyle.Format = "dd/MM/yyyy";
                         valido = "";
                     }
                 }
             }
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value != null && this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value != null)
+                {
+                    valido = "lotes-cargados";
+                    ClaseCompartida.Mov_Lote = this.DgvMovDeInventario.Rows[filaDGV].Cells["ColLote"].Value.ToString();
+                    ClaseCompartida.Mov_FechaV = Convert.ToDateTime(this.DgvMovDeInventario.Rows[filaDGV].Cells["ColFecVenc"].Value);
+                    frmLotes VentLotes = new frmLotes();
+                    VentLotes.ShowDialog();
+                    DgvMovDeInventario.Columns[12].DefaultCellStyle.Format = "dd/MM/yyyy";
+                }
+            }
         }
-
-        //public void CargarDatosLotes()
-        //{
-        //    ConstruirDtLotes();
-        //    j = 0;
-        //    DgvMovDeInventario.AllowUserToAddRows = false;
-        //    if (ClaseCompartidaLOTE.CodArt == art)
-        //    {
-        //        for (int i = filaDGV; i < DgvMovDeInventario.Rows.Count; i++)
-        //        {
-        //            dtLotes.Rows.Add();
-        //            dtLotes.Rows[j]["St_codAlm"] = Articulo;
-        //            dtLotes.Rows[j]["St_codArt"] = DgvMovDeInventario.Rows[filaDGV].Cells[5].Value.ToString().ToLower();
-        //            dtLotes.Rows[j]["St_nroLote"] = ClaseCompartidaLOTE.Nlote;
-        //            dtLotes.Rows[j]["St_stock"] = DgvMovDeInventario.Rows[filaDGV].Cells[7].Value.ToString().ToLower();
-        //            dtLotes.Rows[j]["St_fecha"] = DgvMovDeInventario.Rows[filaDGV].Cells[3].Value.ToString().ToLower();
-        //            dtLotes.Rows[j]["lot_fecVencimiento"] = ClaseCompartidaLOTE.FechaV;
-        //        }
-        //    }
-        //    j++;
-        //}
-
-        //public void ConstruirDtLotes()
-        //{
-        //   dtLotes.Rows.Clear();
-        //   dtLotes.Columns.Clear();
-        //    dtLotes.Columns.Add("St_codAlm", Type.GetType("System.String"));
-        //    dtLotes.Columns.Add("St_codArt", Type.GetType("System.String"));
-        //    dtLotes.Columns.Add("St_nroLote", Type.GetType("System.String"));
-        //    dtLotes.Columns.Add("St_stock", Type.GetType("System.String"));
-        //    dtLotes.Columns.Add("St_fecha", Type.GetType("System.String"));
-        //    dtLotes.Columns.Add("lot_fecVencimiento", Type.GetType("System.String"));
-
-        //}
-
         private void DTPfechaRegistro_ValueChanged(object sender, EventArgs e)
         {
             fecha = DTPfechaRegistro.Value.Date;
