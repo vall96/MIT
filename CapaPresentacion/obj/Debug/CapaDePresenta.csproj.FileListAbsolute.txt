@@ -1943,3 +1943,7 @@ C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmLotes.resources
 C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmMovDeInventario.resources
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmTbLotes.resources
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\CapaPresentacion.frmTbLotes.es.resources
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\bin\Debug\es\CapaPresentacion.resources.dll
+C:\Users\vrodriguez\Desktop\MITProduccion funcionando\CapaPresentacion\obj\Debug\es\CapaPresentacion.resources.dll

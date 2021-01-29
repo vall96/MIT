@@ -91,7 +91,7 @@ namespace CapaLogicaNegocios
         //-----------------------------------------------
         public int m_IVA { get; set; }
         public int m_LOTE { get; set; }
-        public DateTime inicio, fin;
+        public DateTime fec_inicio, fec_fin;
         public DateTime Fechas;
         string fecha;
         public string m_Almacen { get; set; }
@@ -341,20 +341,16 @@ namespace CapaLogicaNegocios
             M.CambiarBD(nombreBd);
             List<clsParametros> lst = new List<clsParametros>();
             string mensaje = "";
-
             try
             {
                 //pasamos parametros de entrada
-
                 lst.Add(new clsParametros("@codigo", m_codCategorias));
                 lst.Add(new clsParametros("@descripcion", m_DescripCategorias));
-
                 //pasamos datos de salida 
                 lst.Add(new clsParametros("@mensaje", SqlDbType.VarChar, 20));
                 M.EjecutarSP("sp_RegistrarCategoria", ref lst);
 
                 mensaje = lst[2].m_valor.ToString();
-
             }
             catch (Exception ex)
             {
@@ -991,7 +987,6 @@ namespace CapaLogicaNegocios
             }
             return mensaje;
         }
-        
         //-----------------------------FIN Valerie 16102019 ---------------------------------------------
 
         //----------------Oscar------
@@ -1516,7 +1511,7 @@ namespace CapaLogicaNegocios
             return mensaje;
 
         }
-        //-------------------2020 valerie
+        //-------------------2020 valerie -----------------------------------------------------------------
         public DataTable ListarCedulaAtrib(string nombreBd)
         {
             M.CambiarBD(nombreBd);
@@ -1732,7 +1727,6 @@ namespace CapaLogicaNegocios
         {
             M.CambiarBD(nombreBd);
             List<clsParametros> lst = new List<clsParametros>();
-
             try
             {
                 lst.Add(new clsParametros("@CodTipoMov", codigo));
@@ -1750,8 +1744,8 @@ namespace CapaLogicaNegocios
 
             try
             {
-                lst.Add(new clsParametros("@fechainicial", inicio));
-                lst.Add(new clsParametros("@fechaFinal", fin));
+                lst.Add(new clsParametros("@fechainicial", fec_inicio));
+                lst.Add(new clsParametros("@fechaFinal", fec_fin));
                 lst.Add(new clsParametros("@TipoMov", codigo ));
                 return M.Listado("SP_FiltrarFechas", lst);
             }
@@ -1848,7 +1842,7 @@ namespace CapaLogicaNegocios
                 lst.Add(new clsParametros("@St_codArt", m_cod));
                 lst.Add(new clsParametros("@St_nroLote", m_NumLot));
                 lst.Add(new clsParametros("@St_stock", m_Cantidad));
-                lst.Add(new clsParametros("@St_fecha", Fechas));
+                lst.Add(new clsParametros("@St_fecha", m_emprFechaCreacion));
 
                 lst.Add(new clsParametros("@mensaje", SqlDbType.VarChar, 20));
                 M.EjecutarSP("Sp_RegistrarStLote", ref lst);

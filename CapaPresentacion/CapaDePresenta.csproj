@@ -94,6 +94,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmTbLotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTbLotes.Designer.cs">
+      <DependentUpon>frmTbLotes.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLotes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -462,6 +468,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmTbLotes.es.resx">
+      <DependentUpon>frmTbLotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTbLotes.resx">
+      <DependentUpon>frmTbLotes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLotes.resx">
       <DependentUpon>frmLotes.cs</DependentUpon>
     </EmbeddedResource>

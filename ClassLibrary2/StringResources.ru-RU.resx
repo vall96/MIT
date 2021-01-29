@@ -1237,4 +1237,16 @@
   <data name="SeleccionarTipoMov" xml:space="preserve">
     <value>Вы должны выбрать тип движения для регистрации</value>
   </data>
+  <data name="FechaDeVencimiento" xml:space="preserve">
+    <value>срок годности</value>
+  </data>
+  <data name="LotesDeEntrada" xml:space="preserve">
+    <value>Въездные участки</value>
+  </data>
+  <data name="NumerodeLote" xml:space="preserve">
+    <value>Номер лота</value>
+  </data>
+  <data name="SinLotes" xml:space="preserve">
+    <value>этот товар не работает с партиями</value>
+  </data>
 </root>

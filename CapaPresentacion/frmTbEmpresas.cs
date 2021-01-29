@@ -16,12 +16,6 @@ namespace CapaPresentacion
 {
     public partial class frmTbEmpresas : Form
     {
-        public frmTbEmpresas()
-        {
-            InitializeComponent();
-            Cargar_listviewEmpresa();
-        }
-
         private clsEmpresa lst = new clsEmpresa();
         ListViewItem lvrow;
         DataTable dt = new DataTable();
@@ -56,19 +50,39 @@ namespace CapaPresentacion
         public delegate void pasar(string[,] dato);        //firma tipo de metodo
         public event pasar pasado;
         //------------------------------------------------------------------------------
+        public frmTbEmpresas()
+        {
+            InitializeComponent();
+            Cargar_listviewEmpresa();
+        }
+        private void frmTbEmpresas_Load(object sender, EventArgs e)
+        {
+            this.listviewEmpresas.FullRowSelect = true;
+            listviewEmpresas.OwnerDraw = true;
 
+            ventPrincipal = new frmPrincipal();
+
+            funcionInicio();
+
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
+            AplicarIdioma(); //falta por hacer 
+        }
+        //----------------------------------------------------------------------------------------------
         private void listviewEmpresas_DrawItem(object sender, DrawListViewItemEventArgs e)
         {
             e.DrawDefault = true;
         }
-
         private void listviewEmpresas_DrawColumnHeader(object sender, DrawListViewColumnHeaderEventArgs e)
         {
             e.Graphics.FillRectangle(Brushes.DarkOrange, e.Bounds);
             e.DrawText();
         }
-
-        //------------------------------------------------------------------------------
+        private void listviewEmpresas_DoubleClick(object sender, EventArgs e)
+        {
+            datosSeleccionados();
+            this.Hide();
+        }
+        //------------------------------------------------EventoKeyPress------------------------------
         private void txtCodigo_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
@@ -101,7 +115,7 @@ namespace CapaPresentacion
                 funcionbuscar();
             }
         }
-        //-----------------------------------------------------------------------------
+        //-------------------------------------------bto----------------------------------
         private void btoSalir_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -112,13 +126,6 @@ namespace CapaPresentacion
             estado = "buscar";
             funcionbuscar();
         }
-        //--------------------------------------------------------------------------
-        private void listviewEmpresas_DoubleClick(object sender, EventArgs e)
-        {
-            datosSeleccionados();
-            this.Hide();
-        }
-
         //--------------------------------------------------------------------------
         private void datosSeleccionados()
         {
@@ -372,6 +379,7 @@ namespace CapaPresentacion
             pos = a;
             return;
         }
+        //--------------------------------------------------------------------------
         private void LimpiarCajas()
         {
             txtCodigo.Text = "";
@@ -389,21 +397,6 @@ namespace CapaPresentacion
                 this.txtDireccion.Enabled = false;
                 this.btoBuscar.Enabled = false;
             }
-        }
-        //---------------------------------------------------------------------------------
-        private void frmTbEmpresas_Load(object sender, EventArgs e)
-        {
-            this.listviewEmpresas.FullRowSelect = true;
-            listviewEmpresas.OwnerDraw = true;
-            //frmEmpresas empr = new frmEmpresas();
-
-            ventPrincipal = new frmPrincipal();
-            //this.Location = new System.Drawing.Point(730, 130);
-
-            funcionInicio();
-
-            Thread.CurrentThread.CurrentCulture = new CultureInfo(tipoPais);
-            AplicarIdioma(); //falta por hacer 
         }
 
         //---------------------------------------- falta Idioma 31/07/2019 ------------------------------------------
